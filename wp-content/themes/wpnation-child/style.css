@@ -1,0 +1,21 @@
+/*
+ Theme Name:   Nation Child
+ Theme URI:    http://themeforest.net
+ Description:  Nation Child Theme
+ Author:       Ray Basil
+ Author URI:   http://themeforest.net
+ Template:     wpnation
+ Version:      1.2
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  nation
+*/
+
+@import url("../wpnation/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+#information-wrap {
+	background:none !important;
+}

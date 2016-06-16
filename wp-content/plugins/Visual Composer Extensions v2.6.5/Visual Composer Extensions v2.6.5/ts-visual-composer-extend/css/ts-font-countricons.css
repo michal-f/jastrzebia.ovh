@@ -1,0 +1,222 @@
+@font-face {
+    font-family:                		'countricons';
+    src:                        		url('../icons/countricons-icons/countricons.eot?') format('eot'), url('../icons/countricons-icons/countricons.eot?#iefix') format('embedded-opentype'), url('../icons/countricons-icons/countricons.woff') format('woff'), url('../icons/countricons-icons/countricons.ttf') format('truetype'), url('../icons/countricons-icons/countricons.svg#countricons') format('svg');
+    font-weight:                		normal;
+    font-style:                 		normal;
+}
+
+[class^="ts-countricons-"], [class*=" ts-countricons-"] {
+	font-family:						'countricons';
+	speak:								none;
+	font-style:							normal;
+	font-weight:						normal;
+	font-variant:						normal;
+	text-transform:						none;
+	line-height:						1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing:				antialiased;
+	-moz-osx-font-smoothing:			grayscale;
+}
+[class^="ts-countricons-"]:before,[class*=" ts-countricons-"]:before {
+    text-decoration:					inherit;
+    display:							inline-block;
+    speak:								none;
+}
+a [class^="ts-countricons-"],a [class*=" ts-countricons-"] {
+    display:							inline-block;
+}
+
+.ts-countricons-afghanistan:before {	content: "\e000";}
+.ts-countricons-albania:before {		content: "\e001";}
+.ts-countricons-algaria:before {		content: "\e002";}
+.ts-countricons-andorra:before {		content: "\e003";}
+.ts-countricons-angola:before {			content: "\e004";}
+.ts-countricons-antigua:before {		content: "\e005";}
+.ts-countricons-argentina:before {		content: "\e006";}
+.ts-countricons-armenia:before {		content: "\e007";}
+.ts-countricons-aruba:before {			content: "\e008";}
+.ts-countricons-australia:before {		content: "\e009";}
+.ts-countricons-austria:before {		content: "\e00a";}
+.ts-countricons-azerbaijan:before {		content: "\e00b";}
+.ts-countricons-bahamas:before {		content: "\e00c";}
+.ts-countricons-bahrain:before {		content: "\e00d";}
+.ts-countricons-bangladesh:before {		content: "\e00e";}
+.ts-countricons-barbados:before {		content: "\e00f";}
+.ts-countricons-belarus:before {		content: "\e010";}
+.ts-countricons-belgium:before {		content: "\e011";}
+.ts-countricons-belize:before {			content: "\e012";}
+.ts-countricons-benin:before {			content: "\e013";}
+.ts-countricons-bermuda:before {		content: "\e014";}
+.ts-countricons-bhutan:before {			content: "\e015";}
+.ts-countricons-bolivia:before {		content: "\e016";}
+.ts-countricons-bosnia:before {			content: "\e017";}
+.ts-countricons-botswana:before {		content: "\e018";}
+.ts-countricons-brazil:before {			content: "\e019";}
+.ts-countricons-brunei:before {			content: "\e01a";}
+.ts-countricons-bulgaria:before {		content: "\e01b";}
+.ts-countricons-burkina:before {		content: "\e01c";}
+.ts-countricons-burundi:before {		content: "\e01d";}
+.ts-countricons-cambodia:before {		content: "\e01e";}
+.ts-countricons-cameroon:before {		content: "\e01f";}
+.ts-countricons-canada:before {			content: "\e020";}
+.ts-countricons-cape:before {			content: "\e021";}
+.ts-countricons-central2:before {		content: "\e022";}
+.ts-countricons-chad:before {			content: "\e023";}
+.ts-countricons-chile:before {			content: "\e024";}
+.ts-countricons-china:before {			content: "\e025";}
+.ts-countricons-colombia:before {		content: "\e026";}
+.ts-countricons-comoros:before {		content: "\e027";}
+.ts-countricons-congo:before {			content: "\e028";}
+.ts-countricons-costa:before {			content: "\e029";}
+.ts-countricons-cote:before {			content: "\e02a";}
+.ts-countricons-croatia:before {		content: "\e02b";}
+.ts-countricons-cuba:before {			content: "\e02c";}
+.ts-countricons-cyprus:before {			content: "\e02d";}
+.ts-countricons-czech:before {			content: "\e02e";}
+.ts-countricons-democratic:before {		content: "\e02f";}
+.ts-countricons-denmark:before {		content: "\e030";}
+.ts-countricons-djibouti:before {		content: "\e031";}
+.ts-countricons-dominica:before {		content: "\e032";}
+.ts-countricons-dominican:before {		content: "\e033";}
+.ts-countricons-east2:before {			content: "\e034";}
+.ts-countricons-ecuador:before {		content: "\e035";}
+.ts-countricons-egypt:before {			content: "\e036";}
+.ts-countricons-el:before {				content: "\e037";}
+.ts-countricons-equatorial:before {		content: "\e038";}
+.ts-countricons-eritrea:before {		content: "\e039";}
+.ts-countricons-estonia:before {		content: "\e03a";}
+.ts-countricons-ethiopia:before {		content: "\e03b";}
+.ts-countricons-finland:before {		content: "\e03c";}
+.ts-countricons-france:before {			content: "\e03d";}
+.ts-countricons-gabon:before {			content: "\e03e";}
+.ts-countricons-gambia:before {			content: "\e03f";}
+.ts-countricons-georgia:before {		content: "\e040";}
+.ts-countricons-germany:before {		content: "\e041";}
+.ts-countricons-ghana:before {			content: "\e042";}
+.ts-countricons-greece:before {			content: "\e043";}
+.ts-countricons-greenland:before {		content: "\e044";}
+.ts-countricons-grenada:before {		content: "\e045";}
+.ts-countricons-guatemala:before {		content: "\e046";}
+.ts-countricons-guinea:before {			content: "\e047";}
+.ts-countricons-guinea1:before {		content: "\e048";}
+.ts-countricons-guyana:before {			content: "\e049";}
+.ts-countricons-haiti:before {			content: "\e04a";}
+.ts-countricons-honduras:before {		content: "\e04b";}
+.ts-countricons-hungary:before {		content: "\e04c";}
+.ts-countricons-iceland:before {		content: "\e04d";}
+.ts-countricons-india:before {			content: "\e04e";}
+.ts-countricons-indonesia:before {		content: "\e04f";}
+.ts-countricons-iran:before {			content: "\e050";}
+.ts-countricons-iraq:before {			content: "\e051";}
+.ts-countricons-ireland:before {		content: "\e052";}
+.ts-countricons-israel:before {			content: "\e053";}
+.ts-countricons-italy:before {			content: "\e054";}
+.ts-countricons-jamaica:before {		content: "\e055";}
+.ts-countricons-japan59:before {		content: "\e056";}
+.ts-countricons-jordan:before {			content: "\e057";}
+.ts-countricons-kazakhstan:before {		content: "\e058";}
+.ts-countricons-kenya:before {			content: "\e059";}
+.ts-countricons-kosovo:before {			content: "\e05a";}
+.ts-countricons-kuwait:before {			content: "\e05b";}
+.ts-countricons-kyrgyzstan:before {		content: "\e05c";}
+.ts-countricons-laos:before {			content: "\e05d";}
+.ts-countricons-latvia:before {			content: "\e05e";}
+.ts-countricons-lebanon:before {		content: "\e05f";}
+.ts-countricons-lesotho:before {		content: "\e060";}
+.ts-countricons-liberia:before {		content: "\e061";}
+.ts-countricons-libya:before {			content: "\e062";}
+.ts-countricons-liechstenstein:before {	content: "\e063";}
+.ts-countricons-lithuania:before {		content: "\e064";}
+.ts-countricons-luxembourg:before {		content: "\e065";}
+.ts-countricons-macedonia:before {		content: "\e066";}
+.ts-countricons-madagascar:before {		content: "\e067";}
+.ts-countricons-malawi:before {			content: "\e068";}
+.ts-countricons-malaysia:before {		content: "\e069";}
+.ts-countricons-mali:before {			content: "\e06a";}
+.ts-countricons-malta:before {			content: "\e06b";}
+.ts-countricons-martinique:before {		content: "\e06c";}
+.ts-countricons-mauritania:before {		content: "\e06d";}
+.ts-countricons-mauritius:before {		content: "\e06e";}
+.ts-countricons-mexico:before {			content: "\e06f";}
+.ts-countricons-moldova:before {		content: "\e070";}
+.ts-countricons-monaco:before {			content: "\e071";}
+.ts-countricons-mongolia:before {		content: "\e072";}
+.ts-countricons-montenegro:before {		content: "\e073";}
+.ts-countricons-montserrat:before {		content: "\e074";}
+.ts-countricons-morocco:before {		content: "\e075";}
+.ts-countricons-mozambique:before {		content: "\e076";}
+.ts-countricons-myanmar:before {		content: "\e077";}
+.ts-countricons-namibia:before {		content: "\e078";}
+.ts-countricons-nauru:before {			content: "\e079";}
+.ts-countricons-nepal:before {			content: "\e07a";}
+.ts-countricons-netherlands:before {	content: "\e07b";}
+.ts-countricons-nicaragua:before {		content: "\e07c";}
+.ts-countricons-niger:before {			content: "\e07d";}
+.ts-countricons-nigeria:before {		content: "\e07e";}
+.ts-countricons-north3:before {			content: "\e07f";}
+.ts-countricons-norway:before {			content: "\e080";}
+.ts-countricons-oman:before {			content: "\e081";}
+.ts-countricons-pakistan:before {		content: "\e082";}
+.ts-countricons-palau:before {			content: "\e083";}
+.ts-countricons-palestine:before {		content: "\e084";}
+.ts-countricons-panama:before {			content: "\e085";}
+.ts-countricons-papua:before {			content: "\e086";}
+.ts-countricons-paraguay:before {		content: "\e087";}
+.ts-countricons-peru:before {			content: "\e088";}
+.ts-countricons-philippines:before {	content: "\e089";}
+.ts-countricons-poland:before {			content: "\e08a";}
+.ts-countricons-portugal:before {		content: "\e08b";}
+.ts-countricons-puerto:before {			content: "\e08c";}
+.ts-countricons-qatar:before {			content: "\e08d";}
+.ts-countricons-romania:before {		content: "\e08e";}
+.ts-countricons-russia:before {			content: "\e08f";}
+.ts-countricons-rwanda:before {			content: "\e090";}
+.ts-countricons-saint2:before {			content: "\e091";}
+.ts-countricons-saint3:before {			content: "\e092";}
+.ts-countricons-saint4:before {			content: "\e093";}
+.ts-countricons-san1:before {			content: "\e094";}
+.ts-countricons-saudi:before {			content: "\e095";}
+.ts-countricons-senegal:before {		content: "\e096";}
+.ts-countricons-serbia:before {			content: "\e097";}
+.ts-countricons-seychelles:before {		content: "\e098";}
+.ts-countricons-sierra:before {			content: "\e099";}
+.ts-countricons-singapore:before {		content: "\e09a";}
+.ts-countricons-slovakia:before {		content: "\e09b";}
+.ts-countricons-slovenia:before {		content: "\e09c";}
+.ts-countricons-somalia:before {		content: "\e09d";}
+.ts-countricons-somaliland:before {		content: "\e09e";}
+.ts-countricons-south2:before {			content: "\e09f";}
+.ts-countricons-south3:before {			content: "\e0a0";}
+.ts-countricons-south4:before {			content: "\e0a1";}
+.ts-countricons-spain:before {			content: "\e0a2";}
+.ts-countricons-sri:before {			content: "\e0a3";}
+.ts-countricons-sudan:before {			content: "\e0a4";}
+.ts-countricons-suriname:before {		content: "\e0a5";}
+.ts-countricons-swaziland:before {		content: "\e0a6";}
+.ts-countricons-sweden1:before {		content: "\e0a7";}
+.ts-countricons-switzerland:before {	content: "\e0a8";}
+.ts-countricons-syria:before {			content: "\e0a9";}
+.ts-countricons-taiwan:before {			content: "\e0aa";}
+.ts-countricons-tajikistan:before {		content: "\e0ab";}
+.ts-countricons-tanzania:before {		content: "\e0ac";}
+.ts-countricons-thailand:before {		content: "\e0ad";}
+.ts-countricons-togo:before {			content: "\e0ae";}
+.ts-countricons-tonga:before {			content: "\e0af";}
+.ts-countricons-trinidad:before {		content: "\e0b0";}
+.ts-countricons-tunisia:before {		content: "\e0b1";}
+.ts-countricons-turkey:before {			content: "\e0b2";}
+.ts-countricons-turkmenistan:before {	content: "\e0b3";}
+.ts-countricons-uganda:before {			content: "\e0b4";}
+.ts-countricons-ukraine:before {		content: "\e0b5";}
+.ts-countricons-united:before {			content: "\e0b6";}
+.ts-countricons-united1:before {		content: "\e0b7";}
+.ts-countricons-united2:before {		content: "\e0b8";}
+.ts-countricons-uruguay:before {		content: "\e0b9";}
+.ts-countricons-uzbekistan:before {		content: "\e0ba";}
+.ts-countricons-vanuatu:before {		content: "\e0bb";}
+.ts-countricons-vatican:before {		content: "\e0bc";}
+.ts-countricons-venezuela:before {		content: "\e0bd";}
+.ts-countricons-vietnam:before {		content: "\e0be";}
+.ts-countricons-yemen:before {			content: "\e0bf";}
+.ts-countricons-zambia:before {			content: "\e0c0";}
+.ts-countricons-zimbabwe:before {		content: "\e0c1";}

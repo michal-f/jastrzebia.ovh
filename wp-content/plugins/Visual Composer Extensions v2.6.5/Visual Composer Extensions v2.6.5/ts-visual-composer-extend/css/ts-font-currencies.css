@@ -1,0 +1,118 @@
+@font-face {
+    font-family:                		'currencies';
+    src:                        		url('../icons/currencies-icons/currencies.eot?') format('eot'), url('../icons/currencies-icons/currencies.eot?#iefix') format('embedded-opentype'), url('../icons/currencies-icons/currencies.woff') format('woff'), url('../icons/currencies-icons/currencies.ttf') format('truetype'), url('../icons/currencies-icons/currencies.svg#currencies') format('svg');
+    font-weight:                		normal;
+    font-style:                 		normal;
+}
+
+[class^="ts-currencies-"], [class*=" ts-currencies-"] {
+	font-family:						'currencies';
+	speak:								none;
+	font-style:							normal;
+	font-weight:						normal;
+	font-variant:						normal;
+	text-transform:						none;
+	line-height:						1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing:				antialiased;
+	-moz-osx-font-smoothing:			grayscale;
+}
+[class^="ts-currencies-"]:before,[class*=" ts-currencies-"]:before {
+    text-decoration:					inherit;
+    display:							inline-block;
+    speak:								none;
+}
+a [class^="ts-currencies-"],a [class*=" ts-currencies-"] {
+    display:							inline-block;
+}
+
+
+.ts-currencies-afghanistan1:before {	content: "\e000";}
+.ts-currencies-albania1:before {		content: "\e001";}
+.ts-currencies-aruba1:before {			content: "\e002";}
+.ts-currencies-azerbaijan1:before {		content: "\e003";}
+.ts-currencies-belarus1:before {		content: "\e004";}
+.ts-currencies-belize1:before {			content: "\e005";}
+.ts-currencies-bolivia1:before {		content: "\e006";}
+.ts-currencies-bosnia1:before {			content: "\e007";}
+.ts-currencies-botswana1:before {		content: "\e008";}
+.ts-currencies-brazil1:before {			content: "\e009";}
+.ts-currencies-bulgaria1:before {		content: "\e00a";}
+.ts-currencies-cambodia1:before {		content: "\e00b";}
+.ts-currencies-costa1:before {			content: "\e00c";}
+.ts-currencies-croatia1:before {		content: "\e00d";}
+.ts-currencies-cuba1:before {			content: "\e00e";}
+.ts-currencies-czech1:before {			content: "\e00f";}
+.ts-currencies-denmark1:before {		content: "\e010";}
+.ts-currencies-dollar100:before {		content: "\e011";}
+.ts-currencies-dollar101:before {		content: "\e012";}
+.ts-currencies-dollar102:before {		content: "\e013";}
+.ts-currencies-dollar93:before {		content: "\e014";}
+.ts-currencies-dollar94:before {		content: "\e015";}
+.ts-currencies-dollar96:before {		content: "\e016";}
+.ts-currencies-dollar97:before {		content: "\e017";}
+.ts-currencies-dollar98:before {		content: "\e018";}
+.ts-currencies-dollar99:before {		content: "\e019";}
+.ts-currencies-dominican1:before {		content: "\e01a";}
+.ts-currencies-estonia1:before {		content: "\e01b";}
+.ts-currencies-euro30:before {			content: "\e01c";}
+.ts-currencies-ghana1:before {			content: "\e01d";}
+.ts-currencies-guatemala1:before {		content: "\e01e";}
+.ts-currencies-honduras1:before {		content: "\e01f";}
+.ts-currencies-hungary1:before {		content: "\e020";}
+.ts-currencies-iceland1:before {		content: "\e021";}
+.ts-currencies-india1:before {			content: "\e022";}
+.ts-currencies-indonesia1:before {		content: "\e023";}
+.ts-currencies-iran1:before {			content: "\e024";}
+.ts-currencies-israel1:before {			content: "\e025";}
+.ts-currencies-jamaica1:before {		content: "\e026";}
+.ts-currencies-kazakhstan1:before {		content: "\e027";}
+.ts-currencies-kyrgyzstan1:before {		content: "\e028";}
+.ts-currencies-laos1:before {			content: "\e029";}
+.ts-currencies-latvia1:before {			content: "\e02a";}
+.ts-currencies-lithuania1:before {		content: "\e02b";}
+.ts-currencies-macedonia1:before {		content: "\e02c";}
+.ts-currencies-malaysia1:before {		content: "\e02d";}
+.ts-currencies-mauritius1:before {		content: "\e02e";}
+.ts-currencies-mongolia1:before {		content: "\e02f";}
+.ts-currencies-mozambique1:before {		content: "\e030";}
+.ts-currencies-nepal1:before {			content: "\e031";}
+.ts-currencies-netherlands1:before {	content: "\e032";}
+.ts-currencies-nicaragua1:before {		content: "\e033";}
+.ts-currencies-nigeria1:before {		content: "\e034";}
+.ts-currencies-north5:before {			content: "\e035";}
+.ts-currencies-norway1:before {			content: "\e036";}
+.ts-currencies-oman1:before {			content: "\e037";}
+.ts-currencies-pakistan2:before {		content: "\e038";}
+.ts-currencies-panama1:before {			content: "\e039";}
+.ts-currencies-paraguay1:before {		content: "\e03a";}
+.ts-currencies-peru1:before {			content: "\e03b";}
+.ts-currencies-philippines1:before {	content: "\e03c";}
+.ts-currencies-poland1:before {			content: "\e03d";}
+.ts-currencies-pound12:before {			content: "\e03e";}
+.ts-currencies-qatar1:before {			content: "\e03f";}
+.ts-currencies-romania1:before {		content: "\e040";}
+.ts-currencies-rounded36:before {		content: "\e041";}
+.ts-currencies-russia1:before {			content: "\e042";}
+.ts-currencies-saudi1:before {			content: "\e043";}
+.ts-currencies-serbia1:before {			content: "\e044";}
+.ts-currencies-seychelles1:before {		content: "\e045";}
+.ts-currencies-somalia1:before {		content: "\e046";}
+.ts-currencies-south5:before {			content: "\e047";}
+.ts-currencies-south6:before {			content: "\e048";}
+.ts-currencies-sri2:before {			content: "\e049";}
+.ts-currencies-sweden2:before {			content: "\e04a";}
+.ts-currencies-switzerland1:before {	content: "\e04b";}
+.ts-currencies-taiwan1:before {			content: "\e04c";}
+.ts-currencies-thailand1:before {		content: "\e04d";}
+.ts-currencies-trinidad1:before {		content: "\e04e";}
+.ts-currencies-turkey1:before {			content: "\e04f";}
+.ts-currencies-turkey2:before {			content: "\e050";}
+.ts-currencies-ukraine1:before {		content: "\e051";}
+.ts-currencies-uruguay1:before {		content: "\e052";}
+.ts-currencies-uzbekistan1:before {		content: "\e053";}
+.ts-currencies-venezuela1:before {		content: "\e054";}
+.ts-currencies-viet:before {			content: "\e055";}
+.ts-currencies-yemen1:before {			content: "\e056";}
+.ts-currencies-yen19:before {			content: "\e057";}
+.ts-currencies-zimbabwe1:before {		content: "\e058";}

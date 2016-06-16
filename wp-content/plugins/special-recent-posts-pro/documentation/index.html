@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Special Recent Posts PRO Edition | Documentation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Luca Grandicelli">
+    
+        <!-- loading the css -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+        <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+        
+		<style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+		
+		section {padding: 60px 0 0 0;}
+        
+        .srp-social-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .srp-social-list li {
+            display: inline-block;
+            float: left;
+            line-height: 32px;
+        }
+
+        .srp-social-list li:first-child {
+            margin-right: 10px;
+        }
+
+        .srp-social-icon-facebook {
+            display: inline-block;
+            position: relative;
+            width: 32px;
+            height: 32px;
+            background:url(assets/img/icons/facebook.png) no-repeat;
+        }
+
+        .srp-social-icon-twitter {
+            display: inline-block;
+            position: relative;
+            width: 32px;
+            height: 32px;
+            background:url(assets/img/icons/twitter.png) no-repeat;
+        }
+
+        .srp-social-icon-googlep {
+            display: inline-block;
+            position: relative;
+            width: 32px;
+            height: 32px;
+            background:url(assets/img/icons/google+.png) no-repeat;
+        }
+
+        .srp-social-icon-envato {
+            display: inline-block;
+            position: relative;
+            width: 32px;
+            height: 32px;
+            background:url(assets/img/icons/envato.png) no-repeat;
+        }
+
+        .hero-unit h1 {
+            margin-bottom: 30px;
+        }
+        </style>
+        
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    
+        <!-- Various Icons (Favicon, Touch Icon,... -->
+        <link rel="icon" href="assets/img/favicon.gif" type="image/gif" />
+        
+    </head>
+    
+    
+        
+    <body data-spy="scroll" data-target=".navbar" id="top">
+    
+        <!-- ========================= NAVIGATION BAR >> START ========================= -->
+        <div class="navbar navbar-fixed-top navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+                    <a class="brand" href="#overview">SRP DOC</a><!-- TIP: Change this for the name of your file -->
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="#overview">Overview</a></li>
+                            <li><a href="#introduction">Introduction</a></li>
+                            <li><a href="#howitworks">How it works</a></li>
+                            <li><a href="#installsetup">Installation &amp; Setup</a></li>
+                            <li><a href="#requirements">Requirements</a></li>
+                            <li><a href="#styles">Layouts &amp; CSS</a></li>
+                            <li><a href="#code">Shortcodes / PHP Code</a></li>
+                            <li><a href="#support">Support &amp; F.A.Q</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ========================= NAVIGATION BAR >> END ========================= -->
+    
+    
+    
+        <!-- ========================= MAIN CONTAINER >> START ========================= -->
+        <div class="container">
+        
+            <!-- ========================= SECTION: OVERVIEW >> START ========================= -->
+            <section id="overview">
+            
+                <div class="hero-unit">
+                    <h1>Special Recent Post Documentation</h1>
+                   
+                    <p class="well well-small">Thank you for purchasing the Special Recent Posts PRO Edition plugin for Wordpress. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://www.lucagrandicelli.co.uk/contact/" target="_blank">here</a>. Thanks so much!</p>
+                    <div class="row-fluid">
+                        <div class="span3"><a href="http://specialrecentposts.ticksy.com/" class="btn btn-warning btn-large btn-block" target="_blank">PRO Edition Support</a></div>
+                    </div>
+    
+                </div>
+                
+                <hr>
+                
+                <div class="row-fluid">
+                    <div class="span4">
+                        <table width="100%">
+                            <tr>
+                                <td>Author:</td>
+                                <td>Luca Grandicelli</td>
+                            </tr>
+                            <tr>
+                                <td>Author URL:</td>
+                                <td><a href="http://www.lucagrandicelli.co.uk" target="_blank">lucagrandicelli.co.uk</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                   
+                    <div class="span4">
+                        <table width="100%">
+                            <tr>
+                                <td>Current Plugin Version:</td>
+                                <td>3.0.3</td>
+                            </tr>
+                            <tr>
+                                <td>Latest Update</td>
+                                <td>September 09, 2014</td>
+                            </tr>
+                        </table>
+                    </div>
+                   
+                    <div class="span4">
+                        <table width="100%">
+                            <tr>
+                                <td>Documentation Version:</td>
+                                <td>1.0.0</td>
+                            </tr>
+                            <tr>
+                                <td>Latest Update</td>
+                                <td>September 09, 2014</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <hr>
+                <div class="row-fluid">
+                    <div class="span12">
+                        
+                        <ul class="srp-social-list">
+                            <li>
+                                <strong>Follow Special Recent Posts on</strong>
+                            </li>
+                            <li>
+                                <a class="srp-social-icon-facebook" href="https://www.facebook.com/SpecialRecentPosts/" target="_blank"></a>
+                            </li>
+
+                            <li>
+                                <a class="srp-social-icon-twitter" href="https://twitter.com/lucagrandicelli" target="_blank"></a>
+                            </li>
+
+                            <li>
+                                <a class="srp-social-icon-googlep" href="https://google.com/+Specialrecentposts" target="_blank"></a>
+                            </li>
+
+                            <li>
+                                <a class="srp-social-icon-envato" href="http://codecanyon.net/user/lucagrandicelli" target="_blank"></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- ========================= SECTION: OVERVIEW >> END ========================= -->
+
+
+          
+            <!-- ========================= SECTION: INTRODUCTION >> START ========================= -->
+            <section id="introduction">
+                <div class="page-header">
+                    <h1>Introduction</h1>
+                </div>
+                <p>Special Recent Posts PRO Edition (SRP PRO) is one of the most advanced Wordpress plugin to manage your posts with thumbnails. With an incredible easy configuration and a wonderful look, you're just a click away from setting up your awesome layout.
+                <strong>It's the perfect solution for Web Magazines</strong> or just <strong>Simple Blogs</strong> and it comes with <strong>more than 120 Customization Options Available(*)</strong>.</p>
+                <p>
+                With an amazing &amp; elegant interface, you can easilly configure your posts, set up your thumbnail types and sizes, apply advanced filter techniques and even paginate your results to achieve a fully working Wordpress Home Page, or if you wish, just a beautiful sidebar widget to show up your preferred posts.</p>
+            </section>
+            <!-- ========================= SECTION: INTRODUCTION >> END ========================= -->
+
+            <!-- ========================= SECTION: HOW IT WORKS >> START ========================= -->
+            <section id="howitworks">
+                <div class="page-header">
+                    <h1>How it works</h1>
+                </div>
+                <p>
+                    Special Recent Posts PRO Edition uses a customized Wordpress loop to fetch your posts/pages based on each setting you set up in the widget/plugin options.
+                </p>
+
+                <ol>
+                    <li>
+                    If you choose to display the default Wordpress featured images as thumbnails, SRP will scan each post for it and return the relative layout with the chosen image dimension.
+                    </li>
+
+                    <li>
+                    If you choose to display the custom thumbnails, SRP will scan each post for its featured image; if none is found, it will try to fetch inner post content images instead. If no image is definitely found within the post content, a default "No Image" placeholder will be shown. For each image found, SRP will apply an adaptive image resize, save the result in the cache folder and render it out.
+                    </li>
+
+                    <li>
+                    If you choose to display author avatars as thumbnails, SRP will scan each post for its relative author avatar image and render it out. If no author avatar image is found, a "No Image" placeholder will be shown.
+                    </li>
+                </ol>
+
+                <div class="alert">
+                    <strong>NOTE!</strong><br />
+                    Caching is mandatory. This means that if the cache folder doesn&#39;t exist or is not writable, the <strong>"Custom Thumbnail Size"</strong> option in the PRO Edition can't work. <strong>Please make sure the cache folder is writable and has the correct permissions.</strong>
+                </div>
+
+            </section>
+            <!-- ========================= SECTION: HOW IT WORKS >> END ========================= -->
+
+            <!-- ========================= SECTION: INSTALLATION AND REQUIREMENTS >> START ========================= -->
+            <section id="installsetup">
+                <div class="page-header">
+                    <h1>Installation &amp; Setup</h1>
+                </div>
+                
+                <p>Manual installation is easy and takes fewer than five minutes.</p>
+
+                <ol>
+                    <li><a href='http://codecanyon.net/item/special-recent-posts-pro-edition/552356?ref=lucagrandicelli' target="_blank">Download the plugin from CodeCanyon</a>, unpack it and upload the <strong>[special-recent-posts-pro]</strong> folder to your <strong>wp-content/plugins/</strong> directory.</li>
+                    <li>Activate the plugin through the &#39;<strong>Plugins</strong>&#39; menu in WordPress.</li>
+                    <li>Go to your main <strong>Wordpress left menu &gt; SRP PRO &gt; General Settings</strong> to configure the basic options.</li>
+                    <li>On the widgets panel, drag the <strong>Special Recent Posts PRO Edition widget</strong> onto one of your sidebars or draggable areas and configure its specific settings.</li>
+                    <li>You&#39;re done. Enjoy.</li>
+                </ol>
+
+                <div class="alert alert-error">
+                    <strong>KNOWN ISSUE:</strong><br />
+                   If you get the Wordpress error: "Fatal error: Cannot redeclare special_recent_posts() " when activating the plugin, it means that you have an already installed version. Both FREE and PRO editions CANNOT EXISTS. So please deactivate the previously installed SRP version first. </strong>
+                </div>
+            </section>
+            <!-- ========================= SECTION: INSTALLATION AND REQUIREMENTS >> END ========================= -->
+
+            <!-- ========================= SECTION: REQUIREMENTS >> START ========================= -->
+            <section id="requirements">
+                <div class="page-header">
+                    <h1>Requirements</h1>
+                </div>
+
+                <p>In order for the Special Recent Posts PRO Edition plugin to work, these settings are required:</p>
+                <ul>
+                    <li>
+                        Wordpress release 3.0+</li>
+                    <li>
+                        PHP version 5.3+</li>
+                    <li>
+                        GD libraries installed and enabled on your server.</li>
+                    <li>
+                        Correct permissions (0775 or 0777) on the cache folder under [SRP FOLDER]/cache</li>
+                </ul>
+            </section>
+            <!-- ========================= SECTION: REQUIREMENTS >> END ========================= -->
+
+            <!-- ========================= SECTION: STYLES >> START ========================= -->
+            <section id="styles">
+                <div class="page-header">
+                    <h1>Layouts &amp; CSS <small>Styles customization and highlights</small></h1>
+                </div>
+            
+                <div class="alert alert-info"> <b>Heads up!</b><br />Two CSS files are being used in this plugin.<br /><strong>DO NOT WRITE YOUR OWN CODE IN THESE. USE THE CUSTOM CSS EDITOR INSTEAD OR APPLY YOUR RULES IN YOUR THEME CSS TO AVOID FILES TO BE OVERWRITTEN WHEN UPDATING THE PLUGIN.</strong></div>
+            
+                <div class="row">
+                    <div class="span3">
+                        <h3>Stylesheets</h3>
+                        <p>Here's the list of the stylesheets used. Both are located in the [PLUGIN FOLDER]/CSS directory.</p>
+                    </div>
+                    <div class="span9">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>File Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>admin.css</code></td>
+                                    <td>This is the stylesheet used to style all the admin parts of the Special Recent Posts PRO Edition.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>layout.css</code></td>
+                                    <td>Here you can find all the CSS rules that apply throughout the entire SRP front-end layouts. <strong></strong></td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <hr />
+                
+                <div class="row">
+                    <div class="span12">
+                        <h3>How SRP renders your posts</h3>
+                        <p>
+                            By default, Special Recent Posts PRO Edition uses the wonderful CSS FlexBox Module to render responsively all the different layouts with proper alignments.<br />
+                            There are tons of options to modify quite everything about your posts layout, but if you need something more, you have to apply some CSS code.<br />
+                            <strong>Follow the instructions below to know how</strong>. (And if you feel brave enough to mess around with CSS, here's a <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">complete guide to Flexbox</a>.)
+                        </p>
+                    </div>
+
+                    <div class="span12">
+
+                        <h3>The Default Post Layout</h3>
+                        <p>By default, SRP lets you change quite everything about the post layout like <strong>positioning the post title above the thumbnail</strong>, or even the <strong>thubnail above everythig else</strong>.<br />
+                        <strong>Everything has just an option in the relative widget panel.</strong></p>
+
+                        <p>But if you wish more customization, then you have to write some CSS code.<br />Here below you can find the list of the needed CSS classes to target when customizing your own layout.</p>
+
+                        <h3>The CSS Classes List</h3>
+                        <div class="row">
+                            <div class="span12">
+                                <pre class="pre-scrollable prettyprint linenums">/**
+ * --------------------------------
+ * THE WIDGET TITLE
+ * This is the class that holds the title of the widget.
+ * Usually you don't have to edit this element because is already done by Wordpress.
+ * --------------------------------
+*/
+.srp-widget-title {}
+
+/**
+ * --------------------------------
+ * THE WIDGET CONTAINER
+ * This is the class that holds the entire widget container.
+ * --------------------------------
+*/
+.srp-widget-container {}
+
+
+/**
+ * --------------------------------
+ * THE SINGLE POST
+ * This is the class that holds the entire single post container.
+ * Use this class to apply margins or padding between each post entry.
+ * --------------------------------
+*/
+.srp-widget-singlepost {}
+
+/**
+ * --------------------------------
+ * THE THUMBNAIL BOX
+ * --------------------------------
+*/
+
+// This is the box that contains the thumbnail.
+.srp-thumbnail-box {}
+
+// This is the thumbnail link.
+.srp-post-thumbnail-link {}
+
+// This is just the thumbnail image.
+.srp-thumbnail-box img {}
+
+/**
+ * --------------------------------
+ * THE POST META BOXES
+ * --------------------------------
+*/
+
+// The post title.
+.srp-post-title {}
+
+// The post title link.
+.srp-post-title-link {}
+
+// The post author text.
+.srp-post-author {}
+
+// The post author URL Link.
+.srp-post-author-url {}
+
+// The post date text.
+.srp-post-date {}
+
+// The post category text.
+.srp-post-category {}
+
+// The post comments text.
+.srp-post-comments {}
+
+// The post comments link.
+.srp-post-comments-link {}
+
+// The post content text.
+.srp-post-content {}
+
+// The post tags.
+.srp-post-tags {}
+
+/**
+ * --------------------------------
+ * THE POST TITLE
+ * --------------------------------
+*/
+.srp-post-title {}
+
+// The post title link.
+.srp-post-title-link {}
+
+/**
+ * --------------------------------
+ * THE POST CONTENT
+ * --------------------------------
+*/
+
+// The post stringbreak link.
+.srp-post-stringbreak-link {}
+
+// The post stringbreak image.
+.srp-post-stringbreak-image {}
+
+// The post stringbreak image link.
+srp-post-stringbreak-link-image {}
+</pre>
+
+<p>So for example, if we want to reset the amount of space between the <strong>Post Title</strong> and the list of <strong>Post Meta</strong> we'll write as follows:
+<pre class="pre-scrollable prettyprint linenums">.srp-post-title {
+    margin: 0;
+}</pre>
+
+<p>Another example: change the post title <strong>font size</strong>, its <strong>colour</strong> and add a <strong>little extra amount of space</strong> below:</p>
+
+<pre class="pre-scrollable prettyprint linenums">.srp-post-title {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 10px;
+}</pre>
+
+<p>Wanna remove that <strong>gray line</strong> between each post?</p>
+
+<pre class="pre-scrollable prettyprint linenums">.srp-widget-singlepost {
+   border-bottom: none;
+}</pre>
+
+  <div class="alert alert-info">
+    <strong>NOTE!</strong><br />
+    These are only simple examples of how to style your posts with SRP PRO. For more complex rules however, a good knowledge of HTML and CSS is recommended to know what you're doing.
+  </div>
+
+                            </div>
+                    </div>
+
+                </div>
+                
+            </section>
+            <!-- ========================= SECTION: STYLES >> END ========================= -->
+
+            <!-- ========================= SECTION: SHORTCODES USAGE >> START ========================= -->
+            <section id="code">
+                <div class="page-header">
+                    <h1>Shortcodes Usage / PHP Code</h1>
+                </div>
+                <p>
+                Special Recent Posts PRO Edition comes with great feature that lets users to insert the widget in all non-widget handled parts of their Wordpress theme.
+                </p>
+
+                <p>
+                Now you don't have to care anymore about manually building your own shortcode or PHP code, because everything is processed and generated by the “CODE GENERATOR” section in the widget panel. Just copy &amp; paste the generated code into one of your Wordpress pages or PHP templates.
+                </p>
+
+                <img src="assets/img/code-generator-screenshot.png" alt="The Code Generator Section">
+                <figcaption>The Code Generator area in the widget settings.</figcaption>
+
+               
+            </section>
+            <!-- ========================= SECTION: SHORTCODES USAGE >> END ========================= -->
+
+            <!-- ========================= SECTION: SUPPORT & F.A.Q >> START ========================= -->
+            <section id="support">
+                <div class="page-header">
+                    <h1>Support &amp; F.A.Q</h1>
+                </div>
+
+                <p>A special Ticket System is available to all those customers who purchased the Special Recent Posts PRO Edition.</p>
+                <p>
+                    <strong>Help Desk Support</strong><br />
+                    <a href="http://specialrecentposts.ticksy.com/" target="_blank">http://specialrecentposts.ticksy.com/</a>
+                </p>
+
+                <p>
+                    <strong>F.A.Q are available at:</strong><br />
+                    <a href="http://specialrecentposts.ticksy.com/faqs/" target="_blank">http://specialrecentposts.ticksy.com/faqs/</a>
+                </p>
+
+            </section>
+            <!-- ========================= SECTION: SUPPORT & F.A.Q >> END ========================= -->
+
+            <hr />
+    
+            <div class="goodbye">
+                <p>Once again, thank you so much for purchasing the Special Recent Post PRO Edition. As I said at the beginning, I'd be glad to help you if you have any questions relating to this plugin. No guarantees, but I'll do my best to assist. If you have a more general question relating to the plugins on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+            </div>
+        
+            <hr />
+        
+            <footer>
+                <p>&copy; Luca Grandicelli 2014</p>
+                <small>If you're interested in translating this document, drop a few lines using <a href="http://www.lucagrandicelli.co.uk/contact/" target="_blank">this contact form</a>. Thank You.
+            </footer>
+            
+        </div>
+        <!-- ========================= MAIN CONTAINER >> END ========================= -->
+
+        <!-- loading javascripts -->
+		<script src="assets/js/jquery.js"></script> 
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/google-code-prettify/prettify.js"></script>
+        
+        <!-- init javascripts -->
+        <script src="assets/js/init.js"></script>
+         
+    </body>
+    
+</html>

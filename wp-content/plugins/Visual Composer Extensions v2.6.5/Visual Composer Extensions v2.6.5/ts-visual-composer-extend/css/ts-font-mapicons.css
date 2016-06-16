@@ -1,0 +1,203 @@
+@font-face {
+    font-family:                		'mapicons';
+    src:                        		url('../icons/mapicons-icons/mapicons.eot?') format('eot'), url('../icons/mapicons-icons/mapicons.eot?#iefix') format('embedded-opentype'), url('../icons/mapicons-icons/mapicons.woff') format('woff'), url('../icons/mapicons-icons/mapicons.ttf') format('truetype'), url('../icons/mapicons-icons/mapicons.svg#mapicons') format('svg');
+    font-weight:                		normal;
+    font-style:                 		normal;
+}
+
+[class^="ts-mapicons-"], [class*=" ts-mapicons-"] {
+	font-family:						'mapicons';
+	speak:								none;
+	font-style:							normal;
+	font-weight:						normal;
+	font-variant:						normal;
+	text-transform:						none;
+	line-height:						1;
+	-webkit-font-smoothing:				antialiased;
+	-moz-osx-font-smoothing:			grayscale;
+}
+[class^="ts-mapicons-"]:before,[class*=" ts-mapicons-"]:before {
+    text-decoration:					inherit;
+    display:							inline-block;
+    speak:								none;
+}
+a [class^="ts-mapicons-"],a [class*=" ts-mapicons-"] {
+    display:							inline-block;
+}
+
+.ts-mapicons-map-pin:before{content:"\e000"}
+.ts-mapicons-expand:before{content:"\e001"}
+.ts-mapicons-fullscreen:before{content:"\e002"}
+.ts-mapicons-square-pin:before{content:"\e003"}
+.ts-mapicons-route-pin:before{content:"\e004"}
+.ts-mapicons-sheild:before{content:"\e005"}
+.ts-mapicons-liquor-store:before{content:"\e006"}
+.ts-mapicons-bicycle-store:before{content:"\e007"}
+.ts-mapicons-hardware-store:before{content:"\e008"}
+.ts-mapicons-insurance-agency:before{content:"\e009"}
+.ts-mapicons-lawyer:before{content:"\e00a"}
+.ts-mapicons-real-estate-agency:before{content:"\e00b"}
+.ts-mapicons-art-gallery:before{content:"\e00c"}
+.ts-mapicons-campground:before{content:"\e00d"}
+.ts-mapicons-bakery:before{content:"\e00e"}
+.ts-mapicons-bar:before{content:"\e00f"}
+.ts-mapicons-amusement-park:before{content:"\e010"}
+.ts-mapicons-aquarium:before{content:"\e011"}
+.ts-mapicons-airport:before{content:"\e012"}
+.ts-mapicons-bank:before{content:"\e013"}
+.ts-mapicons-car-rental:before{content:"\e016"}
+.ts-mapicons-car-dealer:before{content:"\e017"}
+.ts-mapicons-hospital:before{content:"\e018"}
+.ts-mapicons-hair-care:before{content:"\e019"}
+.ts-mapicons-gym:before{content:"\e01a"}
+.ts-mapicons-grocery-or-supermarket:before{content:"\e01b"}
+.ts-mapicons-general-contractor:before{content:"\e01c"}
+.ts-mapicons-pharmacy:before{content:"\e01d"}
+.ts-mapicons-point-of-interest:before{content:"\e01e"}
+.ts-mapicons-political:before{content:"\e01f"}
+.ts-mapicons-post-box:before{content:"\e020"}
+.ts-mapicons-health:before{content:"\e021"}
+.ts-mapicons-post-office:before{content:"\e022"}
+.ts-mapicons-real-estate-agencycopy:before{content:"\e023"}
+.ts-mapicons-hindu-temple:before{content:"\e024"}
+.ts-mapicons-restaurant:before{content:"\e025"}
+.ts-mapicons-female:before{content:"\e026"}
+.ts-mapicons-male:before{content:"\e027"}
+.ts-mapicons-zoo:before{content:"\e028"}
+.ts-mapicons-veterinary-care:before{content:"\e029"}
+.ts-mapicons-car-repair:before{content:"\e02a"}
+.ts-mapicons-university:before{content:"\e02b"}
+.ts-mapicons-travel-agency:before{content:"\e02c"}
+.ts-mapicons-transit-station:before{content:"\e02d"}
+.ts-mapicons-beauty-salon:before{content:"\e02e"}
+.ts-mapicons-electronics-store:before{content:"\e02f"}
+.ts-mapicons-search:before{content:"\e030"}
+.ts-mapicons-zoom-out-alt:before{content:"\e031"}
+.ts-mapicons-movie-rental:before{content:"\e032"}
+.ts-mapicons-atm:before{content:"\e033"}
+.ts-mapicons-jewelry-store:before{content:"\e034"}
+.ts-mapicons-car-wash:before{content:"\e035"}
+.ts-mapicons-unisex:before{content:"\e036"}
+.ts-mapicons-rv-park:before{content:"\e037"}
+.ts-mapicons-school:before{content:"\e038"}
+.ts-mapicons-clothing-store:before{content:"\e039"}
+.ts-mapicons-laundry:before{content:"\e03a"}
+.ts-mapicons-casino:before{content:"\e03b"}
+.ts-mapicons-place-of-worship:before{content:"\e03c"}
+.ts-mapicons-furniture-store:before{content:"\e03d"}
+.ts-mapicons-zoom-in-alt:before{content:"\e03e"}
+.ts-mapicons-zoom-in:before{content:"\e03f"}
+.ts-mapicons-department-store:before{content:"\e040"}
+.ts-mapicons-fire-station:before{content:"\e041"}
+.ts-mapicons-church:before{content:"\e042"}
+.ts-mapicons-library:before{content:"\e043"}
+.ts-mapicons-shopping-mall:before{content:"\e044"}
+.ts-mapicons-local-government:before{content:"\e045"}
+.ts-mapicons-spa:before{content:"\e046"}
+.ts-mapicons-convenience-store:before{content:"\e047"}
+.ts-mapicons-police:before{content:"\e048"}
+.ts-mapicons-route:before{content:"\e049"}
+.ts-mapicons-zoom-out:before{content:"\e04a"}
+.ts-mapicons-location-arrow:before{content:"\e04b"}
+.ts-mapicons-postal-code:before{content:"\e04c"}
+.ts-mapicons-locksmith:before{content:"\e04d"}
+.ts-mapicons-doctor:before{content:"\e04e"}
+.ts-mapicons-mosque:before{content:"\e04f"}
+.ts-mapicons-stadium:before{content:"\e050"}
+.ts-mapicons-storage:before{content:"\e051"}
+.ts-mapicons-movie-theater:before{content:"\e052"}
+.ts-mapicons-electrician:before{content:"\e053"}
+.ts-mapicons-moving-company:before{content:"\e054"}
+.ts-mapicons-postal-code-prefix:before{content:"\e055"}
+.ts-mapicons-crosshairs:before{content:"\e056"}
+.ts-mapicons-compass:before{content:"\e057"}
+.ts-mapicons-dentist:before{content:"\e058"}
+.ts-mapicons-plumber:before{content:"\e059"}
+.ts-mapicons-museum:before{content:"\e05b"}
+.ts-mapicons-finance:before{content:"\e05a"}
+.ts-mapicons-parking:before{content:"\e05c"}
+.ts-mapicons-courthouse:before{content:"\e05d"}
+.ts-mapicons-accounting:before{content:"\e05e"}
+.ts-mapicons-store:before{content:"\e05f"}
+.ts-mapicons-subway-station:before{content:"\e060"}
+.ts-mapicons-natural-feature:before{content:"\e061"}
+.ts-mapicons-florist:before{content:"\e062"}
+.ts-mapicons-food:before{content:"\e063"}
+.ts-mapicons-night-club:before{content:"\e064"}
+.ts-mapicons-synagogue:before{content:"\e065"}
+.ts-mapicons-taxi-stand:before{content:"\e066"}
+.ts-mapicons-painter:before{content:"\e067"}
+.ts-mapicons-train-station:before{content:"\e068"}
+.ts-mapicons-pet-store:before{content:"\e069"}
+.ts-mapicons-gas-station:before{content:"\e06a"}
+.ts-mapicons-funeral-home:before{content:"\e06b"}
+.ts-mapicons-cemetery:before{content:"\e06c"}
+.ts-mapicons-bowling-alley:before{content:"\e06d"}
+.ts-mapicons-roofing-contractor:before{content:"\e06e"}
+.ts-mapicons-physiotherapist:before{content:"\e06f"}
+.ts-mapicons-embassy:before{content:"\e070"}
+.ts-mapicons-city-hall:before{content:"\e071"}
+.ts-mapicons-bus-station:before{content:"\e072"}
+.ts-mapicons-park:before{content:"\e073"}
+.ts-mapicons-lodging:before{content:"\e074"}
+.ts-mapicons-toilet:before{content:"\e075"}
+.ts-mapicons-circle:before{content:"\e076"}
+.ts-mapicons-square-rounded:before{content:"\e077"}
+.ts-mapicons-square:before{content:"\e078"}
+.ts-mapicons-book-store:before{content:"\e014"}
+.ts-mapicons-cafe:before{content:"\e015"}
+.ts-mapicons-wheelchair:before{content:"\e079"}
+.ts-mapicons-volume-control-telephone:before{content:"\e07a"}
+.ts-mapicons-sign-language:before{content:"\e07b"}
+.ts-mapicons-low-vision-access:before{content:"\e07c"}
+.ts-mapicons-open-captioning:before{content:"\e07d"}
+.ts-mapicons-closed-captioning:before{content:"\e07e"}
+.ts-mapicons-braille:before{content:"\e07f"}
+.ts-mapicons-audio-description:before{content:"\e080"}
+.ts-mapicons-assistive-listening-system:before{content:"\e081"}
+.ts-mapicons-abseiling:before{content:"\e082"}
+.ts-mapicons-tennis:before{content:"\e083"}
+.ts-mapicons-skateboarding:before{content:"\e084"}
+.ts-mapicons-playground:before{content:"\e085"}
+.ts-mapicons-inline-skating:before{content:"\e086"}
+.ts-mapicons-hang-gliding:before{content:"\e087"}
+.ts-mapicons-climbing:before{content:"\e088"}
+.ts-mapicons-baseball:before{content:"\e089"}
+.ts-mapicons-archery:before{content:"\e08a"}
+.ts-mapicons-wind-surfing:before{content:"\e08b"}
+.ts-mapicons-scuba-diving:before{content:"\e08c"}
+.ts-mapicons-sailing:before{content:"\e08d"}
+.ts-mapicons-marina:before{content:"\e08e"}
+.ts-mapicons-canoe:before{content:"\e08f"}
+.ts-mapicons-boat-tour:before{content:"\e090"}
+.ts-mapicons-boat-ramp:before{content:"\e091"}
+.ts-mapicons-swimming:before{content:"\e092"}
+.ts-mapicons-whale-watching:before{content:"\e093"}
+.ts-mapicons-waterskiing:before{content:"\e094"}
+.ts-mapicons-surfing:before{content:"\e095"}
+.ts-mapicons-rafting:before{content:"\e096"}
+.ts-mapicons-kayaking:before{content:"\e097"}
+.ts-mapicons-jet-skiing:before{content:"\e099"}
+.ts-mapicons-fishing-pier:before{content:"\e09a"}
+.ts-mapicons-fish-cleaning:before{content:"\e09b"}
+.ts-mapicons-diving:before{content:"\e09c"}
+.ts-mapicons-boating:before{content:"\e09d"}
+.ts-mapicons-fishing:before{content:"\e098"}
+.ts-mapicons-cross-country-skiing:before{content:"\e09e"}
+.ts-mapicons-skiing:before{content:"\e09f"}
+.ts-mapicons-snowmobile:before{content:"\e0a0"}
+.ts-mapicons-snowboarding:before{content:"\e0a1"}
+.ts-mapicons-snow:before{content:"\e0a2"}
+.ts-mapicons-snow-shoeing:before{content:"\e0a3"}
+.ts-mapicons-sledding:before{content:"\e0a4"}
+.ts-mapicons-ski-jumping:before{content:"\e0a5"}
+.ts-mapicons-ice-skating:before{content:"\e0a6"}
+.ts-mapicons-ice-fishing:before{content:"\e0a7"}
+.ts-mapicons-chairlift:before{content:"\e0a8"}
+.ts-mapicons-golf:before{content:"\e0a9"}
+.ts-mapicons-horse-riding:before{content:"\e0aa"}
+.ts-mapicons-motobike-trail:before{content:"\e0ab"}
+.ts-mapicons-trail-walking:before{content:"\e0ac"}
+.ts-mapicons-viewing:before{content:"\e0ad"}
+.ts-mapicons-walking:before{content:"\e0ae"}
+.ts-mapicons-bicycling:before{content:"\e0af"}

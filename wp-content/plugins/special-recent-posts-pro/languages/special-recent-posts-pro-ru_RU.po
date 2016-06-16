@@ -1,0 +1,2301 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Special Recent Posts PRO Edition v3.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-09 05:39:36+0000\n"
+"Last-Translator: admin <contact@1245.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: classes/class-main.php:493
+#: classes/class-main.php:501
+#@ special-recent-posts-pro
+msgid "No thumbnail available"
+msgstr "Изображение недоступно"
+
+#: classes/class-widgets.php:38
+#@ special-recent-posts-pro
+msgid "The Special Recent Posts PRO Edition widget. Drag to configure."
+msgstr "Этот виджет показывает последние записи или страницы с картинками. Гибко настраивается!"
+
+#: classes/class-widgets.php:497
+#@ special-recent-posts-pro
+msgid "Basic Options"
+msgstr "Основное"
+
+#: classes/class-widgets.php:540
+#@ special-recent-posts-pro
+msgid "If you want to link the widget title to a custom URL, please type it here. Leave blank for no linking."
+msgstr "Если Вы хотите, чтобы при нажатии на название этого блока открывалась какая-либо страница, укажите ссылку на эту страницу."
+
+#: classes/class-widgets.php:570
+#@ special-recent-posts-pro
+msgid "Posts"
+msgstr "Записи"
+
+#: classes/class-widgets.php:574
+#@ special-recent-posts-pro
+msgid "Pages"
+msgstr "Страницы"
+
+#: classes/class-widgets.php:612
+#@ special-recent-posts-pro
+msgid "Enter the maximum number of posts/pages to display."
+msgstr "Введите максимальное количество публикаций для отображения:"
+
+#: classes/class-widgets.php:677
+#@ special-recent-posts-pro
+msgid "Visualization filter"
+msgstr "Где показывать виджет?"
+
+#: classes/class-widgets.php:683
+#@ special-recent-posts-pro
+msgid "Choose where this widget should appear:"
+msgstr "Выберите, на каких страницах нужно показывать этот виджет:"
+
+#: classes/class-widgets.php:693
+#@ special-recent-posts-pro
+msgid "Everywhere"
+msgstr "Везде"
+
+#: classes/class-widgets.php:712
+#@ special-recent-posts-pro
+msgid "All posts"
+msgstr "В записях"
+
+#: classes/class-widgets.php:721
+#@ special-recent-posts-pro
+msgid "All pages"
+msgstr "На страницах"
+
+#: classes/class-widgets.php:730
+#@ special-recent-posts-pro
+msgid "All categories"
+msgstr "В рубриках"
+
+#: classes/class-widgets.php:739
+#@ special-recent-posts-pro
+msgid "All archives"
+msgstr "В архивах"
+
+#: classes/class-widgets.php:781
+#: classes/class-widgets.php:782
+#@ special-recent-posts-pro
+msgid "Thumbnails Options"
+msgstr "Картинки"
+
+#: classes/class-widgets.php:812
+#: functions.php:415
+#: functions.php:491
+#@ special-recent-posts-pro
+msgid "Yes"
+msgstr "Да"
+
+#: classes/class-widgets.php:816
+#: functions.php:419
+#: functions.php:494
+#@ special-recent-posts-pro
+msgid "No"
+msgstr "Нет"
+
+#: classes/class-widgets.php:836
+#@ special-recent-posts-pro
+msgid "Select which kind of thumbnail should be displayed:"
+msgstr "Какие картинки показывать:"
+
+#: classes/class-widgets.php:998
+#@ special-recent-posts-pro
+msgid "Check this box if you want to link the thumbnail to the related post/page."
+msgstr "Поставьте галочку, если Вы хотите, чтобы картинка была ссылкой на соответствующую страницу или запись."
+
+#: classes/class-widgets.php:1104
+#@ special-recent-posts-pro
+msgid "Or enter a specific index number. (This will override the previous settings - Leave blank for no specific indexing)."
+msgstr "Или введите порядковый номер картинки:"
+
+#: classes/class-widgets.php:1170
+#: classes/class-widgets.php:1242
+#@ special-recent-posts-pro
+msgid "Words"
+msgstr "Слов"
+
+#: classes/class-widgets.php:1174
+#: classes/class-widgets.php:1246
+#@ special-recent-posts-pro
+msgid "Characters"
+msgstr "Символов"
+
+#: classes/class-widgets.php:1198
+#@ special-recent-posts-pro
+msgid "Select if you wish to display the normal post content or the post excerpt:"
+msgstr "Показывать контент/содержимое или цитату:"
+
+#: classes/class-widgets.php:1369
+#@ special-recent-posts-pro
+msgid "Check this box if you want to unlink the post titles from the related post/page."
+msgstr "Поставьте галочку, если Вы хотите, чтобы заголовок не был ссылкой на соответствующую страницу или запись."
+
+#: classes/class-widgets.php:1391
+#@ special-recent-posts-pro
+msgid "Check this box if you want to randomize the posts order."
+msgstr "Поставьте галочку, чтобы показывать записи/страницы в случайном порядке."
+
+#: classes/class-widgets.php:1435
+#@ special-recent-posts-pro
+msgid "Check this box if you want to link the entire post content to the related post/page."
+msgstr "Поставьте галочку, если Вы хотите, чтобы содержимое было ссылкой на соответствующую запись или страницу."
+
+#: classes/class-widgets.php:3112
+#@ special-recent-posts-pro
+msgid "Select the content type that should appear on each post:"
+msgstr "Выберите, какие элементы нужно показывать:"
+
+#: classes/class-widgets.php:3124
+#@ special-recent-posts-pro
+msgid "Title + Thumbnail"
+msgstr "Заголовок + картинка"
+
+#: classes/class-widgets.php:1583
+#@ special-recent-posts-pro
+msgid "Enter the number of post/pages to skip from the beginning:"
+msgstr "Укажите, сколько записей/страниц нужно пропустить перед началом отображения:"
+
+#: classes/class-widgets.php:1605
+#@ special-recent-posts-pro
+msgid "Enter the text to be displayed as string break just after the end of the post/page title:"
+msgstr "Введите текст, который будет отображаться после заголовка публикации:"
+
+#: classes/class-widgets.php:1627
+#@ special-recent-posts-pro
+msgid "Enter the text to be displayed as string break just after the end of the post/page content:"
+msgstr "Введите текст, который будет отображаться после содержимого публикации:"
+
+#: classes/class-widgets.php:1675
+#@ special-recent-posts-pro
+msgid "Check this box if you want to link the string/image break to the related post/page."
+msgstr "Поставьте галочку, чтобы сделать текст или картинку после содержимого ссылкой на запись/страницу."
+
+#: classes/class-widgets.php:1744
+#@ special-recent-posts-pro
+msgid "Check this box if you want to use the 'rel=nofollow' attribute on every post/page link."
+msgstr "Поставьте галочку, чтобы добавить ссылкам атрибут \"rel=nofollow\"."
+
+#: classes/class-widgets.php:1746
+#@ special-recent-posts-pro
+msgid "Learn more"
+msgstr "Подробнее"
+
+#: classes/class-widgets.php:1791
+#@ special-recent-posts-pro
+msgid "Display post author"
+msgstr "Показывать автора"
+
+#: classes/class-widgets.php:1801
+#@ special-recent-posts-pro
+msgid "Display post category"
+msgstr "Показывать рубрики"
+
+#: classes/class-widgets.php:1811
+#@ special-recent-posts-pro
+msgid "Display post date"
+msgstr "Показывать дату публикации"
+
+#: classes/class-widgets.php:1821
+#@ special-recent-posts-pro
+msgid "Display post tags"
+msgstr "Показывать метки"
+
+#: classes/class-widgets.php:1863
+#@ special-recent-posts-pro
+msgid "Enable post author URL link"
+msgstr "Показывать ссылку с автора"
+
+#: classes/class-widgets.php:1883
+#@ special-recent-posts-pro
+msgid "Enable post category link"
+msgstr "Показывать ссылку с рубрики"
+
+#: classes/class-widgets.php:2071
+#@ special-recent-posts-pro
+msgid "*(F = Month name | j = Day of the month | S = ordinal suffix for the day of the month | Y = Year)"
+msgstr "* (F = месяц, j = день, Y = год)"
+
+#: classes/class-widgets.php:2076
+#@ special-recent-posts-pro
+msgid "Learn more about date formatting"
+msgstr "Подробнее о форматах дат"
+
+#: classes/class-widgets.php:2085
+#@ special-recent-posts-pro
+msgid "Use the 'Time Ago' mode"
+msgstr "Использовать режим \"Прошло времени с момента публикации\""
+
+#: classes/class-widgets.php:2100
+#: classes/class-widgets.php:2101
+#@ special-recent-posts-pro
+msgid "Filtering Options 1"
+msgstr "Фильтрация: часть 1"
+
+#: classes/class-widgets.php:2207
+#@ special-recent-posts-pro
+msgid "Select how to filter displayed posts/pages based on their status:"
+msgstr "Выберите, публикации с каким статусом нужно показывать:"
+
+#: classes/class-widgets.php:2215
+#@ special-recent-posts-pro
+msgid "Published (default)"
+msgstr "Опубликована (по умолчанию)"
+
+#: classes/class-widgets.php:2219
+#@ special-recent-posts-pro
+msgid "Private"
+msgstr "Личная"
+
+#: classes/class-widgets.php:2223
+#@ special-recent-posts-pro
+msgid "Inherit"
+msgstr "Ревизия"
+
+#: classes/class-widgets.php:2227
+#@ special-recent-posts-pro
+msgid "Pending"
+msgstr "На утверждении"
+
+#: classes/class-widgets.php:2231
+#@ special-recent-posts-pro
+msgid "Future"
+msgstr "Запланирована"
+
+#: classes/class-widgets.php:2235
+#@ special-recent-posts-pro
+msgid "Draft"
+msgstr "Черновик"
+
+#: classes/class-widgets.php:2243
+#@ special-recent-posts-pro
+msgid "Trash"
+msgstr "В корзине"
+
+#: classes/class-widgets.php:2311
+#@ special-recent-posts-pro
+msgid "Enter a comma separated list of numeric categories IDs to exclude. Leave blank for no specific exclusion."
+msgstr "Введите ID <a href=\"/wp-admin/edit-tags.php?taxonomy=category\" target=\"_blank\">рубрик</a> (через запятую), записи из которых нужно исключить."
+
+#: classes/class-widgets.php:2401
+#: classes/class-widgets.php:2402
+#@ special-recent-posts-pro
+msgid "Filtering Options 2"
+msgstr "Фильтрация: часть 2"
+
+#: classes/class-widgets.php:2490
+#@ special-recent-posts-pro
+msgid "Enter a comma separated list of numeric posts/pages IDs to exclude. Leave blank for no exclusion."
+msgstr "Введите список ID <a href=\"/wp-admin/edit.php\" target=\"_blank\">записей</a> или <a href=\"/wp-admin/edit.php?post_type=page\" target=\"_blank\">страниц</a>, которые не нужно показывать:"
+
+#: classes/class-widgets.php:2564
+#@ special-recent-posts-pro
+msgid "Meta Key"
+msgstr "Имя"
+
+#: classes/class-widgets.php:2572
+#@ special-recent-posts-pro
+msgid "Meta Value"
+msgstr "Значение"
+
+#: classes/class-widgets.php:2946
+#@ special-recent-posts-pro
+msgid "Select the type of HTML header to be used to enclose the widget title:"
+msgstr "Выберите, какой HTML тег использовать для заголовка этого блока:"
+
+#: classes/class-widgets.php:3050
+#@ special-recent-posts-pro
+msgid "Check this box if you want to hide the widget title."
+msgstr "Поставьте галочку, чтобы не показывать заголовок блока."
+
+#: classes/class-widgets.php:3072
+#@ special-recent-posts-pro
+msgid "Check this box if you want to display the post title on top of the thumbnail."
+msgstr "Поставьте галочку, чтобы показывать название публикации над картинкой."
+
+#: classes/class-widgets.php:3173
+#@ special-recent-posts-pro
+msgid "Choose between three different layout styles. Additional CSS rules might be needed to suite your needs."
+msgstr "Выберите один из трёх вариантов отображения элементов:"
+
+#: classes/class-widgets.php:3179
+#@ special-recent-posts-pro
+msgid "Single Row"
+msgstr "Один ряд"
+
+#: classes/class-widgets.php:3180
+#@ special-recent-posts-pro
+msgid "Multiple Columns"
+msgstr "Несколько колонок"
+
+#: classes/class-widgets.php:3202
+#@ special-recent-posts-pro
+msgid "Cols"
+msgstr "колонки"
+
+#: classes/class-widgets.php:3487
+#: classes/class-widgets.php:3488
+#@ special-recent-posts-pro
+msgid "Code Generator"
+msgstr "Добавить на страницу или в запись"
+
+#: classes/class-widgets.php:3550
+#: classes/class-widgets.php:3551
+#@ special-recent-posts-pro
+msgid "Credits"
+msgstr "Ссылки"
+
+#: classes/class-widgets.php:36
+#@ special-recent-posts-pro
+msgid "Special Recent Posts PRO"
+msgstr "Новое на сайте"
+
+#: functions.php:261
+#@ special-recent-posts-pro
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У Вас нет прав для доступа к этой странице."
+
+#: functions.php:127
+#: functions.php:130
+#: functions.php:312
+#: functions.php:313
+#@ special-recent-posts-pro
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: functions.php:328
+#: functions.php:329
+#@ special-recent-posts-pro
+msgid "Cache Settings"
+msgstr "Настройки кеширования"
+
+#: functions.php:433
+#@ special-recent-posts-pro
+msgid "No-Posts Image Placeholder"
+msgstr "Картинка, которая отображается в том случае, если у публикации нет своей картинки"
+
+#: functions.php:507
+#@ special-recent-posts-pro
+msgid "Save Options"
+msgstr "Сохранить настройки"
+
+#: functions.php:575
+#: functions.php:587
+#@ special-recent-posts-pro
+msgid "Empty Cache Folder"
+msgstr "Очистить кэш"
+
+#: functions.php:767
+#@ special-recent-posts-pro
+msgid "Settings Saved"
+msgstr "Настройки сохранены"
+
+#: functions.php:794
+#@ special-recent-posts-pro
+msgid "Cache Folder Cleaned"
+msgstr "Кэш очищен"
+
+#: special-recent-posts.php:161
+#@ special-recent-posts-pro
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/class-widgets.php:1522
+#@ special-recent-posts-pro
+msgid "No posts available"
+msgstr "Нет доступных публикаций"
+
+#: classes/class-main.php:399
+#, php-format
+#@ special-recent-posts-pro
+msgid "Problem detected on post ID: %d on file %s"
+msgstr "Обнаружена проблема с ID записи: %d в файле %s"
+
+#: classes/class-main.php:456
+#@ special-recent-posts-pro
+msgid "Problem detected on file:"
+msgstr "Обнаружена проблема в файле:"
+
+#: classes/class-main.php:1438
+#, php-format
+#@ special-recent-posts-pro
+msgid "View all %s&#8217;s posts"
+msgstr "Посмотреть все записи автора %s"
+
+#: classes/class-main.php:1443
+#, php-format
+#@ special-recent-posts-pro
+msgid "Visit %s&#8217;s website"
+msgstr "Посетить сайт автора"
+
+#: classes/class-main.php:1547
+#@ special-recent-posts-pro
+msgid "Show Post Comments"
+msgstr "Показывать комментарии"
+
+#: classes/class-main.php:2771
+#@ special-recent-posts-pro
+msgid "date undefined"
+msgstr "дата не определена"
+
+#: classes/class-main.php:2789
+#, php-format
+#@ special-recent-posts-pro
+msgctxt "The form used for the Time Ago option. Example: post published 2 years ago."
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s год"
+msgstr[1] "%s года"
+msgstr[2] "%s лет"
+
+#: classes/class-main.php:2790
+#, php-format
+#@ special-recent-posts-pro
+msgctxt "The form used for the Time Ago option. Example: post published 2 months ago."
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s месяц"
+msgstr[1] "%s месяца"
+msgstr[2] "%s месяцев"
+
+#: classes/class-main.php:2791
+#, php-format
+#@ special-recent-posts-pro
+msgctxt "The form used for the Time Ago option. Example: post published 2 weeks ago."
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s неделю"
+msgstr[1] "%s недели"
+msgstr[2] "%s недель"
+
+#: classes/class-main.php:2792
+#, php-format
+#@ special-recent-posts-pro
+msgctxt "The form used for the Time Ago option. Example: post published 2 days ago."
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s день"
+msgstr[1] "%s дня"
+msgstr[2] "%s дней"
+
+#: classes/class-main.php:2793
+#, php-format
+#@ special-recent-posts-pro
+msgctxt "The form used for the Time Ago option. Example: post published 2 hours ago."
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s час"
+msgstr[1] "%s часа"
+msgstr[2] "%s часов"
+
+#: classes/class-main.php:2794
+#, php-format
+#@ special-recent-posts-pro
+msgctxt "The form used for the Time Ago option. Example: post published 2 minutes ago."
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s минуту"
+msgstr[1] "%s минуты"
+msgstr[2] "%s минут"
+
+#: classes/class-main.php:2795
+#, php-format
+#@ special-recent-posts-pro
+msgctxt "The form used for the Time Ago option. Example: post published 2 seconds ago."
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s секунду"
+msgstr[1] "%s секунды"
+msgstr[2] "%s секунд"
+
+#: classes/class-main.php:2802
+#@ special-recent-posts-pro
+msgctxt "The plural form for zero seconds."
+msgid "seconds"
+msgstr "секунд"
+
+#: classes/class-main.php:2805
+#@ special-recent-posts-pro
+msgctxt "The suffix for the form: 'Sometime ago'"
+msgid " ago"
+msgstr " назад"
+
+#: classes/class-widgets.php:485
+#: functions.php:286
+#@ special-recent-posts-pro
+msgid "The Special Recent Posts PRO logo"
+msgstr "Логотип Special Recent Posts PRO"
+
+#: classes/class-widgets.php:489
+#@ special-recent-posts-pro
+msgid "Widget Settings"
+msgstr "Настройки виджета"
+
+#: classes/class-widgets.php:512
+#@ special-recent-posts-pro
+msgid "Widget Title"
+msgstr "Заголовок виджета"
+
+#: classes/class-widgets.php:518
+#@ special-recent-posts-pro
+msgid "Type in the widget title text."
+msgstr "Напечатайте заголовок виджета:"
+
+#: classes/class-widgets.php:523
+#@ default
+msgid "widget_title"
+msgstr "widget_title"
+
+#: classes/class-widgets.php:534
+#@ special-recent-posts-pro
+msgid "Widget Title URL Link"
+msgstr "Ссылка с заголовка виджета"
+
+#: classes/class-widgets.php:545
+#@ default
+msgid "widget_title_link"
+msgstr "widget_title_link"
+
+#: classes/class-widgets.php:545
+#@ special-recent-posts-pro
+msgid "Example: http://www.yoursite.com"
+msgstr "Например: http://www.yoursite.ru"
+
+#: classes/class-widgets.php:556
+#@ special-recent-posts-pro
+msgid "Post Type"
+msgstr "Тип контента"
+
+#: classes/class-widgets.php:562
+#@ special-recent-posts-pro
+msgid "Select what kind of post type to display."
+msgstr "Выберите, какой тип контента показывать:"
+
+#: classes/class-widgets.php:578
+#@ special-recent-posts-pro
+msgid "Custom Post Type"
+msgstr "Пользовательский тип контента"
+
+#: classes/class-widgets.php:582
+#@ special-recent-posts-pro
+msgid "Revision"
+msgstr "Черновики"
+
+#: classes/class-widgets.php:586
+#@ special-recent-posts-pro
+msgid "Any Type"
+msgstr "Все типы"
+
+#: classes/class-widgets.php:594
+#@ special-recent-posts-pro
+msgid "NOTE: If you choose 'Custom Post Type', you need to select which one to show in the 'Custom Post Types & Taxonomy' panel."
+msgstr "Заметка: при выборе варианта \"Пользовательский тип контента\" необходимо выбрать, какой именно тип контента показывать (в разделе \"Пользовательские типы контента и таксономии\")."
+
+#: classes/class-widgets.php:606
+#@ special-recent-posts-pro
+msgid "Post Limit"
+msgstr "Количество публикаций"
+
+#: classes/class-widgets.php:632
+#@ special-recent-posts-pro
+msgid "Show All Posts/Pages"
+msgstr "Показывать все публикации"
+
+#: classes/class-widgets.php:638
+#@ special-recent-posts-pro
+msgid "Check this box if you want to show all of your blog's posts and pages. This option will override the 'Post Limit' option above."
+msgstr "Поставьте галочку, чтобы показывать все страницы и записи Вашего сайта."
+
+#: classes/class-widgets.php:644
+#@ special-recent-posts-pro
+msgid "NOTE: no pagination will be applied and if you have many entries, your website could be very slow."
+msgstr "Заметка: все публикации буду показаны на одной странице. Если у Вас их много, то время загрузки сайта может значительно увеличиться."
+
+#: classes/class-widgets.php:660
+#@ special-recent-posts-pro
+msgid "Show Sticky Posts?"
+msgstr "Показывать прикреплённые записи?"
+
+#: classes/class-widgets.php:665
+#@ special-recent-posts-pro
+msgid "Check this box if you want to show sticky posts."
+msgstr "Поставьте галочку, чтобы показывать прикреплённые записи."
+
+#: classes/class-widgets.php:702
+#@ special-recent-posts-pro
+msgid "Home Page"
+msgstr "На главной странице"
+
+#: classes/class-widgets.php:754
+#@ special-recent-posts-pro
+msgid "Disable Visualization Filter"
+msgstr "Выключить фильтр визуализации"
+
+#: classes/class-widgets.php:760
+#@ special-recent-posts-pro
+msgid "Check this box if you want to disable the Visualization Filter."
+msgstr "Поставьте галочку, чтобы отключить фильтр визуализации."
+
+#: classes/class-widgets.php:766
+#@ special-recent-posts-pro
+msgid "NOTE: If you're experiencing issues with other plugins which manage the appereance and position of your widgets, you might want to turn on this option."
+msgstr "Заметка: используйте эту настройку, если Вы используете плагины, изменяющие положение и внешний вид виджетов."
+
+#: classes/class-widgets.php:798
+#@ special-recent-posts-pro
+msgid "Display Thumbnails?"
+msgstr "Показывать картинки-миниатюры?"
+
+#: classes/class-widgets.php:804
+#@ special-recent-posts-pro
+msgid "Choose whether thumbnails should be displayed or not."
+msgstr "Выберите, показывать или нет картинку для каждой публикации:"
+
+#: classes/class-widgets.php:830
+#@ special-recent-posts-pro
+msgid "Thumbnail Type"
+msgstr "Тип картинок-миниатюр"
+
+#: classes/class-widgets.php:844
+#@ special-recent-posts-pro
+msgid "Custom Thumbnail Size (default)"
+msgstr "Миниатюры заданного размера"
+
+#: classes/class-widgets.php:848
+#@ special-recent-posts-pro
+msgid "Wordpress Featured Image"
+msgstr "Стандартные миниатюры"
+
+#: classes/class-widgets.php:852
+#@ special-recent-posts-pro
+msgid "Author Avatar"
+msgstr "Аватар автора"
+
+#: classes/class-widgets.php:865
+#@ special-recent-posts-pro
+msgid "Select Wordpress WP Thumbnail Size"
+msgstr "Размер стандартных миниатюр"
+
+#: classes/class-widgets.php:871
+#@ special-recent-posts-pro
+msgid "These are the registered thumbnail sizes for the current active Wordpress theme. Select which size you'd like to show:"
+msgstr "Эти размеры миниатюр (в пикселях) поддерживает Ваша текущая тема оформления:"
+
+#: classes/class-widgets.php:879
+#@ special-recent-posts-pro
+msgid "Choose available size:"
+msgstr "Выберите размер:"
+
+#: classes/class-widgets.php:899
+#@ special-recent-posts-pro
+msgid "NOTE: This option only works when the 'Thumbnail Type' option is set as 'Wordpress Featured Image'."
+msgstr "Заметка: эта настройка работает только в случае, если выбраны стандартные миниатюры."
+
+#: classes/class-widgets.php:915
+#@ special-recent-posts-pro
+msgid "Link Author Avatar To The Author Post Archive?"
+msgstr "Сделать аватар автора ссылкой на все его публикации?"
+
+#: classes/class-widgets.php:920
+#@ special-recent-posts-pro
+msgid "If you chosen to display author avatars as thumbnails, check this box to link the author avatar image to the relative author post archive."
+msgstr "Поставьте галочку, чтобы при клике на аватар автора открывались все его публикации."
+
+#: classes/class-widgets.php:932
+#@ special-recent-posts-pro
+msgid "Custom Thumbnail Width"
+msgstr "Ширина пользовательских миниатюр"
+
+#: classes/class-widgets.php:938
+#@ special-recent-posts-pro
+msgid "Enter the custom thumbnail width in pixel:"
+msgstr "Напечатайте ширину миниатюр (в пикселях):"
+
+#: classes/class-widgets.php:948
+#: classes/class-widgets.php:976
+#@ special-recent-posts-pro
+msgid "NOTE: This option only works when the 'Thumbnail Type' option is set as 'Custom Thumbnail Size' or 'Author Avatar'."
+msgstr "Заметка: эта настройка работает только в случае, если выбраны миниатюры заданного размера или аватар автора."
+
+#: classes/class-widgets.php:960
+#@ special-recent-posts-pro
+msgid "Custom Thumbnail Height"
+msgstr "Высота пользовательских миниатюр"
+
+#: classes/class-widgets.php:966
+#@ special-recent-posts-pro
+msgid "Enter the custom thumbnail height in pixel:"
+msgstr "Напечатайте высоту миниатюр (в пикселях):"
+
+#: classes/class-widgets.php:992
+#@ special-recent-posts-pro
+msgid "Link Thumbnail To Post"
+msgstr "Сделать картинку ссылкой на публикацию"
+
+#: classes/class-widgets.php:1010
+#@ special-recent-posts-pro
+msgid "Thumbnail Custom Field"
+msgstr "Произвольное поле для миниатюры"
+
+#: classes/class-widgets.php:1016
+#@ special-recent-posts-pro
+msgid "If you're using a custom field to specify the thumbnail image source, put its key name here."
+msgstr "Если Вы используете произвольные поля для добавления миниатюр, введите ключ произвольного поля."
+
+#: classes/class-widgets.php:1021
+#@ default
+msgid "thumbnail_custom_field"
+msgstr "thumbnail_custom_field"
+
+#: classes/class-widgets.php:1021
+#@ special-recent-posts-pro
+msgid "Example: my-thumb-custom-field"
+msgstr "Например: my-thumb-custom-field"
+
+#: classes/class-widgets.php:1026
+#@ special-recent-posts-pro
+msgid "NOTE: Provide an already resized image, because SRP won't process the image at all."
+msgstr "Заметка: используйте уже готовую картинку, так как SRP не будет производить с ней никаких изменений."
+
+#: classes/class-widgets.php:1038
+#@ special-recent-posts-pro
+msgid "Thumbnail Rotation"
+msgstr "Поворот картинки"
+
+#: classes/class-widgets.php:1044
+#@ special-recent-posts-pro
+msgid "Select the thumbnail rotation mode:"
+msgstr "Выберите режим поворота картинки:"
+
+#: classes/class-widgets.php:1052
+#@ special-recent-posts-pro
+msgid "No Rotation (default)"
+msgstr "Не поворачивать"
+
+#: classes/class-widgets.php:1056
+#@ special-recent-posts-pro
+msgctxt "CW stands for 'Clockwise'."
+msgid "Rotate CW"
+msgstr "По часовой стрелке"
+
+#: classes/class-widgets.php:1060
+#@ special-recent-posts-pro
+msgctxt "CCW stands for 'Counterclockwise'."
+msgid "Rotate CCW"
+msgstr "Против часовой стрелки"
+
+#: classes/class-widgets.php:1074
+#@ special-recent-posts-pro
+msgid "Select Thumbnail Index"
+msgstr "Номер картинки"
+
+#: classes/class-widgets.php:1080
+#@ special-recent-posts-pro
+msgid "Select the image index that should be picked up within the post content when no featured image is available."
+msgstr "Выберите, какую по счёту картинку из публикации использовать, если миниатюра не задана:"
+
+#: classes/class-widgets.php:1088
+#@ special-recent-posts-pro
+msgid "First Image (default)"
+msgstr "Первую"
+
+#: classes/class-widgets.php:1092
+#@ special-recent-posts-pro
+msgid "Last Image"
+msgstr "Последнюю"
+
+#: classes/class-widgets.php:1096
+#@ special-recent-posts-pro
+msgid "Random Image"
+msgstr "Любую"
+
+#: classes/class-widgets.php:1109
+#@ default
+msgid "post_thumbnail_index_adv"
+msgstr "post_thumbnail_index_adv"
+
+#: classes/class-widgets.php:1109
+#@ special-recent-posts-pro
+msgid "Eg: 3"
+msgstr "3"
+
+#: classes/class-widgets.php:1114
+#@ special-recent-posts-pro
+msgid "Example: type 3 to fetch the third image in the post content."
+msgstr "Пример: напечатайте 3, чтобы использовать третью картинку из публикации."
+
+#: classes/class-widgets.php:1120
+#@ special-recent-posts-pro
+msgid "NOTE: This option only works when the 'Thumbnail Type' option is set as 'Custom Thumbnail Size'."
+msgstr "Заметка: эта настройка работает только в случае, если выбраны миниатюры заданного размера."
+
+#: classes/class-widgets.php:1135
+#: classes/class-widgets.php:1136
+#@ special-recent-posts-pro
+msgid "Post Options"
+msgstr "Настройки публикаций"
+
+#: classes/class-widgets.php:1152
+#@ special-recent-posts-pro
+msgid "Post Title Length"
+msgstr "Длина названия публикации"
+
+#: classes/class-widgets.php:1158
+#@ special-recent-posts-pro
+msgid "Select how many characters or words every post title should be cut after:"
+msgstr "Выберите, через сколько символов или слов нужно обрезать названия публикаций, если они слишком длинные:"
+
+#: classes/class-widgets.php:1163
+#@ default
+msgid "post_title_length"
+msgstr "post_title_length"
+
+#: classes/class-widgets.php:1178
+#@ special-recent-posts-pro
+msgid "Use Full Length (no cut)"
+msgstr "Не обрезать"
+
+#: classes/class-widgets.php:1192
+#@ special-recent-posts-pro
+msgid "Post Content Type"
+msgstr "Содержимое публикации"
+
+#: classes/class-widgets.php:1206
+#@ special-recent-posts-pro
+msgid "Post Content"
+msgstr "Показывать полностью"
+
+#: classes/class-widgets.php:1210
+#@ special-recent-posts-pro
+msgid "Post Excerpt"
+msgstr "Показывать только цитату"
+
+#: classes/class-widgets.php:1224
+#@ special-recent-posts-pro
+msgid "Post Content Length"
+msgstr "Длина содержимого публикации"
+
+#: classes/class-widgets.php:1230
+#@ special-recent-posts-pro
+msgid "Select how many characters or words every post content should be cut after:"
+msgstr "Выберите, через сколько символов или слов нужно обрезать содержимое публикаций:"
+
+#: classes/class-widgets.php:1235
+#@ default
+msgid "post_content_length"
+msgstr "post_content_length"
+
+#: classes/class-widgets.php:1250
+#@ special-recent-posts-pro
+msgid "Use full length (no cut)"
+msgstr "Не обрезать"
+
+#: classes/class-widgets.php:1264
+#@ special-recent-posts-pro
+msgid "Posts/Pages Order"
+msgstr "Направление сортировки"
+
+#: classes/class-widgets.php:1270
+#@ special-recent-posts-pro
+msgid "Select the ascending or descending order of the 'Order By' parameter:"
+msgstr "Выберите, в каком порядке показывать записи (по возрастанию или по убыванию):"
+
+#: classes/class-widgets.php:1278
+#@ special-recent-posts-pro
+msgctxt "DESC stands for 'Descending Order'"
+msgid "DESC (default)"
+msgstr "По убыванию"
+
+#: classes/class-widgets.php:1282
+#@ special-recent-posts-pro
+msgctxt "ASC stands for 'Ascending Order'"
+msgid "ASC"
+msgstr "По возрастанию"
+
+#: classes/class-widgets.php:1291
+#@ special-recent-posts-pro
+msgid "ASC: ascending order from lowest to highest values (1, 2, 3; a, b, c)."
+msgstr "По возрастанию: от меньших значений к большим (1,2,3 или а,б,в)."
+
+#: classes/class-widgets.php:1293
+#@ special-recent-posts-pro
+msgid "DESC: descending order from highest to lowest values (3, 2, 1; c, b, a)."
+msgstr "По убыванию: от больших значений к меньшим (3,2,1 или в,б,а)."
+
+#: classes/class-widgets.php:1304
+#@ special-recent-posts-pro
+msgid "Posts/Pages Order By:"
+msgstr "Сортировка публикаций"
+
+#: classes/class-widgets.php:1310
+#@ special-recent-posts-pro
+msgid "Sort retrieved posts by parameter. Defaults to 'date'."
+msgstr "Выберите, по какому параметру сортировать публикации:"
+
+#: classes/class-widgets.php:1318
+#@ special-recent-posts-pro
+msgid "Sort Posts by Date (default)"
+msgstr "По дате публикации"
+
+#: classes/class-widgets.php:1322
+#@ special-recent-posts-pro
+msgid "Sort Posts by Title"
+msgstr "По заголовку"
+
+#: classes/class-widgets.php:1326
+#@ special-recent-posts-pro
+msgid "Sort Posts by Last Update"
+msgstr "По дате обновления"
+
+#: classes/class-widgets.php:1330
+#@ special-recent-posts-pro
+msgid "Sort Posts by Comment Count"
+msgstr "По количеству комментариев"
+
+#: classes/class-widgets.php:1334
+#@ special-recent-posts-pro
+msgid "Sort Posts by Author"
+msgstr "По автору"
+
+#: classes/class-widgets.php:1338
+#@ special-recent-posts-pro
+msgid "Sort Posts by Parent Post/Page ID"
+msgstr "По родительской публикации"
+
+#: classes/class-widgets.php:1342
+#@ special-recent-posts-pro
+msgid "Sort Posts by ID"
+msgstr "По ID"
+
+#: classes/class-widgets.php:1346
+#@ special-recent-posts-pro
+msgid "No Sorting"
+msgstr "Не сортировать"
+
+#: classes/class-widgets.php:1363
+#@ special-recent-posts-pro
+msgid "Disable Post Title Link"
+msgstr "Отключить ссылку с заголовка публикации"
+
+#: classes/class-widgets.php:1385
+#@ special-recent-posts-pro
+msgid "Enable Random Mode"
+msgstr "Случайный порядок"
+
+#: classes/class-widgets.php:1407
+#@ special-recent-posts-pro
+msgid "Skip Posts Without Featured Image"
+msgstr "Не показывать публикации без миниатюр"
+
+#: classes/class-widgets.php:1413
+#@ special-recent-posts-pro
+msgid "Check this box if you want to skip the posts with no assigned featured image."
+msgstr "Поставьте галочку, чтобы не показывать те публикации, у которых нет картинок-миниатюр."
+
+#: classes/class-widgets.php:1429
+#@ special-recent-posts-pro
+msgid "Post Content Link"
+msgstr "Ссылка с содержимого"
+
+#: classes/class-widgets.php:1451
+#@ special-recent-posts-pro
+msgid "Enable External Shortcodes Compatibility"
+msgstr "Выполнять короткие коды"
+
+#: classes/class-widgets.php:1457
+#@ special-recent-posts-pro
+msgid "Check this box if you want SRP to let other plugins shortcodes to work within the post content."
+msgstr "Поставьте галочку, чтобы в содержимом записей работали короткие коды других плагинов."
+
+#: classes/class-widgets.php:1473
+#@ special-recent-posts-pro
+msgid "Enable Wordpress Filters"
+msgstr "Использовать фильтры"
+
+#: classes/class-widgets.php:1479
+#@ special-recent-posts-pro
+msgid "Check this box if you want SRP to apply WP filters before outputting the post content."
+msgstr "Поставьте галочку, чтобы использовать фильтры системы управления при показе содержимого публикаций."
+
+#: classes/class-widgets.php:1494
+#: classes/class-widgets.php:1495
+#@ special-recent-posts-pro
+msgid "Advanced Post Options 1"
+msgstr "Расширенные настройки 1"
+
+#: classes/class-widgets.php:1511
+#@ special-recent-posts-pro
+msgid "No Posts Default Text"
+msgstr "Если нет публикаций"
+
+#: classes/class-widgets.php:1517
+#@ special-recent-posts-pro
+msgid "Type in the default text to display when there are no posts available:"
+msgstr "Напечатайте текст, который будет показан, если нет доступных для показа публикаций:"
+
+#: classes/class-widgets.php:1533
+#@ special-recent-posts-pro
+msgid "No Posts Text Link"
+msgstr "Ссылка с текста"
+
+#: classes/class-widgets.php:1539
+#@ special-recent-posts-pro
+msgid "Type in the URL you'd like to link the 'No posts available' text to:"
+msgstr "Куда должна вести ссылка с текста о том, что нет доступных для показа публикаций:"
+
+#: classes/class-widgets.php:1544
+#@ special-recent-posts-pro
+msgid "Example: http://www.mynopostspage.com"
+msgstr "Например: http://www.mynopostspage.ru"
+
+#: classes/class-widgets.php:1559
+#@ special-recent-posts-pro
+msgid "Hide Current Viewed Post"
+msgstr "Не показывать текущую публикацию"
+
+#: classes/class-widgets.php:1565
+#@ special-recent-posts-pro
+msgid "Check this box if you want to hide the current viewed post/page. Useful when SRP is on a sidebar and you're on a single post page."
+msgstr "Поставьте галочку, чтобы не показывать ту публикацию, на странице которой сейчас находится пользователь."
+
+#: classes/class-widgets.php:1577
+#@ special-recent-posts-pro
+msgid "Post Offset"
+msgstr "Начать с"
+
+#: classes/class-widgets.php:1599
+#@ special-recent-posts-pro
+msgid "Title String Break"
+msgstr "Текст после заголовка"
+
+#: classes/class-widgets.php:1621
+#@ special-recent-posts-pro
+msgid "Post String Break"
+msgstr "Текст после содержимого"
+
+#: classes/class-widgets.php:1643
+#@ special-recent-posts-pro
+msgid "Image String Break"
+msgstr "Картинка после содержимого"
+
+#: classes/class-widgets.php:1649
+#@ special-recent-posts-pro
+msgid "Enter the absolute URL of a custom image to use as a string break:"
+msgstr "Введите ссылку на картинку, которая будет отображаться после содержимого публикации:"
+
+#: classes/class-widgets.php:1654
+#@ special-recent-posts-pro
+msgid "Example: http://www.test.com/myabsoluteimage.jpg"
+msgstr "Например: http://www.test.ru/myabsoluteimage.jpg"
+
+#: classes/class-widgets.php:1669
+#@ special-recent-posts-pro
+msgid "Link String/Image Break To Post?"
+msgstr "Сделать текст или картинку после содержимого ссылкой на публикацию?"
+
+#: classes/class-widgets.php:1687
+#@ special-recent-posts-pro
+msgid "Post Allowed Tags"
+msgstr "Форматирование содержимого"
+
+#: classes/class-widgets.php:1693
+#@ special-recent-posts-pro
+msgid "Enter a list of allowed HTML tags to be rendered in the post content. Leave blank for clean text without any markup."
+msgstr "Введите HTML-теги, которые можно использовать в содержимом записей/страниц. Оставьте это поле пустым, чтобы показывать сплошной текст без форматирования."
+
+#: classes/class-widgets.php:1703
+#@ special-recent-posts-pro
+msgid "NOTE: When using this option, type in your tags in the following form: <a><span><p>"
+msgstr "Заметка: напечатайте теги в это поле. Например: <a><span><p>"
+
+#: classes/class-widgets.php:1718
+#: classes/class-widgets.php:1719
+#@ special-recent-posts-pro
+msgid "Advanced Post Options 2"
+msgstr "Расширенные настройки 2"
+
+#: classes/class-widgets.php:1739
+#@ special-recent-posts-pro
+msgid "Add 'rel=nofollow' Attribute On Links?"
+msgstr "Использовать nofollow?"
+
+#: classes/class-widgets.php:1763
+#@ special-recent-posts-pro
+msgid "Open Widget Links In A New Window?"
+msgstr "Открывать ссылки в новом окне?"
+
+#: classes/class-widgets.php:1769
+#@ special-recent-posts-pro
+msgid "Check this box if you want all links to be opened in a new browser window."
+msgstr "Поставьте галочку, чтобы открывать ссылки на записи/страницы в новом окне или вкладке."
+
+#: classes/class-widgets.php:1781
+#@ special-recent-posts-pro
+msgid "Post Meta"
+msgstr "Информация о публикациях"
+
+#: classes/class-widgets.php:1831
+#@ special-recent-posts-pro
+msgid "Display post comments"
+msgstr "Показывать комментарии к публикации"
+
+#: classes/class-widgets.php:1841
+#@ special-recent-posts-pro
+msgid "Display post comments number"
+msgstr "Показывать кол-во комментариев"
+
+#: classes/class-widgets.php:1853
+#@ special-recent-posts-pro
+msgid "Post Meta Advanced Options"
+msgstr "Расширенная информация"
+
+#: classes/class-widgets.php:1873
+#@ special-recent-posts-pro
+msgid " Enable post author archive link. (overrides the post author URL link)"
+msgstr "Показывать ссылку с автора"
+
+#: classes/class-widgets.php:1892
+#@ special-recent-posts-pro
+msgid "Post date prefix:"
+msgstr "Текст перед датой публикации:"
+
+#: classes/class-widgets.php:1908
+#@ special-recent-posts-pro
+msgid "Post author prefix:"
+msgstr "Текст перед автором публикации:"
+
+#: classes/class-widgets.php:1913
+#@ special-recent-posts-pro
+msgid "Published by:"
+msgstr "Опубликовано автором:"
+
+#: classes/class-widgets.php:1924
+#@ special-recent-posts-pro
+msgid "Post category prefix:"
+msgstr "Текст перед рубрикой публикации:"
+
+#: classes/class-widgets.php:1929
+#@ special-recent-posts-pro
+msgid "Category:"
+msgstr "Рубрика:"
+
+#: classes/class-widgets.php:1940
+#@ special-recent-posts-pro
+msgid "Post tags prefix:"
+msgstr "Текст перед метками публикации:"
+
+#: classes/class-widgets.php:1945
+#@ special-recent-posts-pro
+msgid "Tags:"
+msgstr "Метки:"
+
+#: classes/class-widgets.php:1956
+#@ special-recent-posts-pro
+msgid " Category names separator:"
+msgstr "Разделитель для рубрик:"
+
+#: classes/class-widgets.php:1972
+#@ special-recent-posts-pro
+msgid " Tags names separator:"
+msgstr "Разделитель для меток:"
+
+#: classes/class-widgets.php:1988
+#@ special-recent-posts-pro
+msgid "Default text for comments link:"
+msgstr "Текст ссылки на комментарии:"
+
+#: classes/class-widgets.php:1993
+#: classes/class-widgets.php:2041
+#@ special-recent-posts-pro
+msgid "Comments"
+msgstr "Комментарии"
+
+#: classes/class-widgets.php:2004
+#@ special-recent-posts-pro
+msgid " Text for no comments:"
+msgstr "Текст, если нет комментариев:"
+
+#: classes/class-widgets.php:2009
+#@ special-recent-posts-pro
+msgid "No Comments"
+msgstr "Комментариев нет"
+
+#: classes/class-widgets.php:2020
+#@ special-recent-posts-pro
+msgid "Text for 1 comment: (in numeric mode)"
+msgstr "Текст, если комментарий всего один:"
+
+#: classes/class-widgets.php:2025
+#@ special-recent-posts-pro
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: classes/class-widgets.php:2036
+#@ special-recent-posts-pro
+msgid "Text for multiple comments: (in numeric mode)"
+msgstr "Текст, если комментариев несколько:"
+
+#: classes/class-widgets.php:2055
+#@ special-recent-posts-pro
+msgid "Post Date Format (*)"
+msgstr "Формат даты*"
+
+#: classes/class-widgets.php:2061
+#@ special-recent-posts-pro
+msgid "Type in the coded format of post dates:"
+msgstr "Введите формат отображения даты публикации:"
+
+#: classes/class-widgets.php:2087
+#@ special-recent-posts-pro
+msgid "Check this box if you want to display the post date like in the following form: 'This post was published 2 days ago'."
+msgstr "Например: опубликовано 2 дня назад."
+
+#: classes/class-widgets.php:2121
+#@ special-recent-posts-pro
+msgid "Enable Auto Category Filtering"
+msgstr "Автоматическая фильтрация по рубрике"
+
+#: classes/class-widgets.php:2127
+#@ special-recent-posts-pro
+msgid "Check this box if you want to automatically change the displayed posts according to the current viewed category archive."
+msgstr "Поставьте галочку, если Вы хотите автоматически выводить последние публикации в зависимости от текущей рубрики."
+
+#: classes/class-widgets.php:2133
+#: classes/class-widgets.php:2161
+#: classes/class-widgets.php:2189
+#@ special-recent-posts-pro
+msgid "NOTE: This option will override any previously applied category filter."
+msgstr "Заметка: эта настройка будет использоваться вместо всех ранее установленных фильтров по рубрикам."
+
+#: classes/class-widgets.php:2149
+#@ special-recent-posts-pro
+msgid "Enable Auto Category Filtering On Single Posts/Pages"
+msgstr "Включить автоматическую фильтрацию по рубрике на страницах и в записях?"
+
+#: classes/class-widgets.php:2155
+#@ special-recent-posts-pro
+msgid "Check this box if you want to automatically change the displayed posts according to the category of the current viewed post."
+msgstr "Поставьте галочку, если Вы хотите автоматически выводить последние публикации в зависимости от текущей рубрики."
+
+#: classes/class-widgets.php:2177
+#@ special-recent-posts-pro
+msgid "Enable Auto Author Filtering?"
+msgstr "Автоматическая фильтрация по автору"
+
+#: classes/class-widgets.php:2183
+#@ special-recent-posts-pro
+msgid "Check this box if you want to automatically change the displayed posts according to the author of the current viewed post."
+msgstr "Поставьте галочку, если Вы хотите автоматически выводить последние публикации в зависимости от автора текущей публикации."
+
+#: classes/class-widgets.php:2201
+#@ special-recent-posts-pro
+msgid "Post Status Filter"
+msgstr "Показывать публикации со следующим статусом:"
+
+#: classes/class-widgets.php:2239
+#@ special-recent-posts-pro
+msgid "Auto Draft"
+msgstr "Авточерновик"
+
+#: classes/class-widgets.php:2247
+#@ special-recent-posts-pro
+msgid "Any Status"
+msgstr "Все статусы"
+
+#: classes/class-widgets.php:2261
+#@ special-recent-posts-pro
+msgid "Category Filter"
+msgstr "Показывать публикации из определённых рубрик"
+
+#: classes/class-widgets.php:2267
+#@ special-recent-posts-pro
+msgid "Enter a comma separated list of numeric categories IDs to filter posts by. Leave blank for no specific filtering."
+msgstr "Введите список ID <a href=\"/wp-admin/edit-tags.php?taxonomy=category\" target=\"_blank\">рубрик</a> (через запятую), публикации из которых будут показаны. Если это поле пустое, то будут показаны публикации из всех рубрик."
+
+#: classes/class-widgets.php:2272
+#@ default
+msgid "category_include"
+msgstr "category_include"
+
+#: classes/class-widgets.php:2272
+#@ special-recent-posts-pro
+msgid "Example: 2, 7, 23"
+msgstr "Например: 2, 7, 23"
+
+#: classes/class-widgets.php:2287
+#@ special-recent-posts-pro
+msgid "Exclusive Category Filter"
+msgstr "Исключить рубрики"
+
+#: classes/class-widgets.php:2293
+#@ special-recent-posts-pro
+msgid "Check this box if you want to display posts that belong exclusively to all the categories they're filtered by (two or more)."
+msgstr "Поставьте галочку, если Вы хотите исключить публикации из каких-либо рубрик (двух или больше)."
+
+#: classes/class-widgets.php:2305
+#@ special-recent-posts-pro
+msgid "Exclude Categories by IDs"
+msgstr "Рубрики для исключения"
+
+#: classes/class-widgets.php:2316
+#@ default
+msgid "category_exclude"
+msgstr "category_exclude"
+
+#: classes/class-widgets.php:2316
+#@ special-recent-posts-pro
+msgid "Example: 3, 5, 32"
+msgstr "Например: 3, 5, 32"
+
+#: classes/class-widgets.php:2330
+#@ special-recent-posts-pro
+msgid "Use Category Name As Widget Title?"
+msgstr "Названия рубрик как заголовок"
+
+#: classes/class-widgets.php:2336
+#@ special-recent-posts-pro
+msgid "Check this box if you want to use the category name as the widget title when a category filter is on."
+msgstr "Поставьте галочку, чтобы использовать названия рубрик в качестве заголовка этого виджета (если используется фильтрация по рубрикам)."
+
+#: classes/class-widgets.php:2342
+#@ special-recent-posts-pro
+msgid "In case of multiple categories, SRP will pull out the first category ID title in the list above."
+msgstr "Если выбрано несколько рубрик, то в качестве названия виджета будет использовать первая."
+
+#: classes/class-widgets.php:2354
+#@ special-recent-posts-pro
+msgid "Search Text Filter"
+msgstr "Публикации, содержащие определённый текст"
+
+#: classes/class-widgets.php:2360
+#@ special-recent-posts-pro
+msgid "Enter a text string to filter posts by (without quotes)."
+msgstr "Будут показаны только те публикации, которые содержат следующий текст:"
+
+#: classes/class-widgets.php:2365
+#@ default
+msgid "post_search_filter"
+msgstr "post_search_filter"
+
+#: classes/class-widgets.php:2365
+#@ special-recent-posts-pro
+msgid "Example: My Search Text"
+msgstr "Например: новости"
+
+#: classes/class-widgets.php:2380
+#@ special-recent-posts-pro
+msgid "Show Sticky Posts Only?"
+msgstr "Показывать только прикреплённые записи?"
+
+#: classes/class-widgets.php:2386
+#@ special-recent-posts-pro
+msgid "Check this box if you want to display sticky posts only."
+msgstr "Поставьте галочку, чтобы показывать только прикреплённые записи."
+
+#: classes/class-widgets.php:2418
+#@ special-recent-posts-pro
+msgid "Posts/Page ID Filter"
+msgstr "Показывать только определённые публикации"
+
+#: classes/class-widgets.php:2424
+#@ special-recent-posts-pro
+msgid "Enter a comma separated list of numeric posts/pages IDs to filter by. Leave blank for no specific filtering."
+msgstr "Введите список ID <a href=\"/wp-admin/edit.php\" target=\"_blank\">записей</a> или <a href=\"/wp-admin/edit.php?post_type=page\" target=\"_blank\">страниц</a>, которые нужно показывать на сайте:"
+
+#: classes/class-widgets.php:2429
+#@ default
+msgid "post_include"
+msgstr "post_include"
+
+#: classes/class-widgets.php:2429
+#@ special-recent-posts-pro
+msgid "Example: 5, 7, 23"
+msgstr "Например: 5, 7, 23"
+
+#: classes/class-widgets.php:2444
+#@ special-recent-posts-pro
+msgid "Preserve Posts/Page ID Filter Order?"
+msgstr "Сортировка по ID"
+
+#: classes/class-widgets.php:2450
+#@ special-recent-posts-pro
+msgid "Check this box if you want to display posts in the order they're filtered by in the Posts/Page ID Filter."
+msgstr "Поставьте галочку, если Вы хотите показывать публикации в том порядке, в котором они написаны в поле \"Показывать только определённые публикации\"."
+
+#: classes/class-widgets.php:2466
+#@ special-recent-posts-pro
+msgid "Include Subpages"
+msgstr "Показывать дочерние страницы?"
+
+#: classes/class-widgets.php:2472
+#@ special-recent-posts-pro
+msgid "Check this box if you want to include available subpages/subposts when filtering by the Posts/Page ID Filter."
+msgstr "Показывать дочерние страницы тех публикаций, ID которых указаны выше?"
+
+#: classes/class-widgets.php:2484
+#@ special-recent-posts-pro
+msgid "Exclude Posts/Pages By IDs"
+msgstr "Исключить публикации"
+
+#: classes/class-widgets.php:2495
+#@ default
+msgid "post_exclude"
+msgstr "post_exclude"
+
+#: classes/class-widgets.php:2495
+#@ special-recent-posts-pro
+msgid "Example: 6, 14, 45"
+msgstr "Например: 6, 14, 45"
+
+#: classes/class-widgets.php:2506
+#@ special-recent-posts-pro
+msgid "Author Filter"
+msgstr "Публикации определённого автора"
+
+#: classes/class-widgets.php:2512
+#@ special-recent-posts-pro
+msgid "Enter a comma separated list of author IDs to filter posts by. To exclude posts by author, just prefix a -(minus) sign before the author ID. Example: 2,3,-5 | Leave blank for no filtering."
+msgstr "Введите список ID авторов (через запятую), публикации которых нужно показывать. Чтобы исключить публикации определённых авторов, поставьте минус перед их ID. Пример: 2,3,-5."
+
+#: classes/class-widgets.php:2517
+#@ default
+msgid "author_include"
+msgstr "author_include"
+
+#: classes/class-widgets.php:2517
+#@ special-recent-posts-pro
+msgid "Example: 8, -15, 35"
+msgstr "Например: 8, -15, 35"
+
+#: classes/class-widgets.php:2522
+#@ special-recent-posts-pro
+msgid "NOTE: This will override the 'Enable Auto Author Filtering' option."
+msgstr "Заметка: эта настройка изменит настройки фильтрации по авторам."
+
+#: classes/class-widgets.php:2534
+#@ special-recent-posts-pro
+msgid "Tag Filter"
+msgstr "Показывать записи с определёнными метками"
+
+#: classes/class-widgets.php:2540
+#@ special-recent-posts-pro
+msgid "Enter a comma separated list of tag slugs to filter posts by. Leave blank for no filtering."
+msgstr "Введите список <a href=\"/wp-admin/edit-tags.php?taxonomy=category\" target=\"_blank\">меток</a>. Будут показаны только записи с этими метками."
+
+#: classes/class-widgets.php:2545
+#@ default
+msgid "tags_include"
+msgstr "tags_include"
+
+#: classes/class-widgets.php:2545
+#@ special-recent-posts-pro
+msgid "Example: tag1, tag2, tag3"
+msgstr "Например: метка1, метка2, метка3"
+
+#: classes/class-widgets.php:2556
+#@ special-recent-posts-pro
+msgid "Custom Field Filter"
+msgstr "Фильтрация по произвольному полю"
+
+#: classes/class-widgets.php:2562
+#@ special-recent-posts-pro
+msgid "Type in the meta key or meta value you wish to filter posts by."
+msgstr "Введите имя (или значение) произвольного поля. Будут показаны только те публикации, у которых есть это поле (или оно имеет определённое значение)."
+
+#: classes/class-widgets.php:2568
+#@ special-recent-posts-pro
+msgid "Example: My Meta Key"
+msgstr "Например: My Meta Key"
+
+#: classes/class-widgets.php:2576
+#@ special-recent-posts-pro
+msgid "Example: My Meta Value"
+msgstr "Например: My Meta Value"
+
+#: classes/class-widgets.php:2591
+#@ special-recent-posts-pro
+msgid "Date Filter"
+msgstr "Публикации за определённый период"
+
+#: classes/class-widgets.php:2597
+#@ special-recent-posts-pro
+msgid "Check this box if you want to display only posts from a specific date on. Select the date in the field here below:"
+msgstr "Поставьте галочку, чтобы показывать публикации за определённый период времени. Укажите период ниже:"
+
+#: classes/class-widgets.php:2603
+#@ special-recent-posts-pro
+msgid "Show Posts In The Last:"
+msgstr "Показывать публикации за последние:"
+
+#: classes/class-widgets.php:2608
+#@ default
+msgid "date_filter_number"
+msgstr "date_filter_number"
+
+#: classes/class-widgets.php:2608
+#@ special-recent-posts-pro
+msgid "Eg: 2"
+msgstr "2"
+
+#: classes/class-widgets.php:2615
+#@ special-recent-posts-pro
+msgid "Hour/s"
+msgstr "часа"
+
+#: classes/class-widgets.php:2619
+#@ special-recent-posts-pro
+msgid "Day/s"
+msgstr "дня"
+
+#: classes/class-widgets.php:2623
+#@ special-recent-posts-pro
+msgid "Week/s"
+msgstr "недели"
+
+#: classes/class-widgets.php:2627
+#@ special-recent-posts-pro
+msgid "Month/s"
+msgstr "месяца"
+
+#: classes/class-widgets.php:2631
+#@ special-recent-posts-pro
+msgid "Year/s"
+msgstr "года"
+
+#: classes/class-widgets.php:2648
+#: classes/class-widgets.php:2649
+#@ special-recent-posts-pro
+msgid "Custom Post Types & Taxonomies"
+msgstr "Пользовательские типы контента и таксономии"
+
+#: classes/class-widgets.php:2665
+#@ special-recent-posts-pro
+msgid "Custom Post Type Filter"
+msgstr "Пользовательский тип контента"
+
+#: classes/class-widgets.php:2677
+#@ special-recent-posts-pro
+msgid "Sorry, there are no Custom Post Types available."
+msgstr "Сейчас у Вас нет пользовательских типов контента."
+
+#: classes/class-widgets.php:2693
+#@ special-recent-posts-pro
+msgid "Select a custom post type you wish to filter posts by:"
+msgstr "Выберите пользовательский тип контента, публикации из которого нужно показывать:"
+
+#: classes/class-widgets.php:2701
+#@ special-recent-posts-pro
+msgid "Select a Custom Post Type"
+msgstr "Пользовательский тип контента"
+
+#: classes/class-widgets.php:2727
+#@ special-recent-posts-pro
+msgid "Custom Taxonomies Logical Switcher"
+msgstr "Логический оператор для пользовательских таксономий"
+
+#: classes/class-widgets.php:2733
+#@ special-recent-posts-pro
+msgid "Select which logical operator should taxonomies be grouped by."
+msgstr "Выберите, с помощью какого логического оператора группировать таксономии:"
+
+#: classes/class-widgets.php:2741
+#@ special-recent-posts-pro
+msgid "AND (default)"
+msgstr "и"
+
+#: classes/class-widgets.php:2745
+#@ special-recent-posts-pro
+msgid "OR"
+msgstr "или"
+
+#: classes/class-widgets.php:2759
+#@ special-recent-posts-pro
+msgid "Custom Taxonomy Filter"
+msgstr "Пользовательские таксономии"
+
+#: classes/class-widgets.php:2777
+#@ special-recent-posts-pro
+msgid "Select one or more custom taxonomies you wish to filter custom post types posts by:"
+msgstr "Выберите пользовательские таксономии, публикации из которых нужно показывать:"
+
+#: classes/class-widgets.php:2794
+#@ special-recent-posts-pro
+msgid "No custom taxonomies available."
+msgstr "Сейчас у Вас нет пользовательских таксономий."
+
+#: classes/class-widgets.php:2834
+#@ special-recent-posts-pro
+msgid "NOTE: Remember to choose 'Custom Post Type' in the 'Post Type' options before using this section."
+msgstr "Заметка: чтобы эти настройки работали, не забудьте выбрать вариант \"Пользовательский тип контента\" в блоке \"Основные настройки\"."
+
+#: classes/class-widgets.php:2850
+#: classes/class-widgets.php:2851
+#@ special-recent-posts-pro
+msgid "Layout Options 1"
+msgstr "Внешний вид 1"
+
+#: classes/class-widgets.php:2867
+#@ special-recent-posts-pro
+msgid "Widget Container CSS ID"
+msgstr "CSS id  виджета"
+
+#: classes/class-widgets.php:2873
+#@ special-recent-posts-pro
+msgid "Type in a unique CSS ID selector for this widget instance."
+msgstr "Введите id виджета для CSS:"
+
+#: classes/class-widgets.php:2878
+#@ special-recent-posts-pro
+msgid "Example: my-srp-instance"
+msgstr "Например: my-srp-instance"
+
+#: classes/class-widgets.php:2889
+#@ special-recent-posts-pro
+msgid "Additional Widget Container CSS Classes"
+msgstr "Дополнительные CSS классы"
+
+#: classes/class-widgets.php:2895
+#@ special-recent-posts-pro
+msgid "Enter a space separated list of additional CSS classes for this widget instance."
+msgstr "Введите список дополнительных CSS классов (через пробел):"
+
+#: classes/class-widgets.php:2900
+#: classes/class-widgets.php:3009
+#@ special-recent-posts-pro
+msgid "Example: myclass1 myclass2"
+msgstr "Например: myclass1 myclass2"
+
+#: classes/class-widgets.php:2915
+#@ special-recent-posts-pro
+msgid "Use Default Wordpress HTML Layout for Widget Title"
+msgstr "Использовать стандартный шаблон для заголовка виджета"
+
+#: classes/class-widgets.php:2921
+#@ special-recent-posts-pro
+msgid "Check this box if you want to show the widget title HTML layout as Wordpress would normally render it."
+msgstr "Поставьте галочку, чтобы использовать стандартный шаблон для заголовка виджета."
+
+#: classes/class-widgets.php:2928
+#@ special-recent-posts-pro
+msgid "If you're experiencing issues with widget titles compatibility, you might want to turn this option on."
+msgstr "Если у Вас возникли проблемы с отображением заголовка виджета, попробуйте использовать эту опцию."
+
+#: classes/class-widgets.php:2940
+#@ special-recent-posts-pro
+msgid "Widget Title HTML Header"
+msgstr "Заголовок виджета"
+
+#: classes/class-widgets.php:2954
+#: classes/class-widgets.php:2984
+#@ special-recent-posts-pro
+msgid "(default)"
+msgstr "(по умолчанию)"
+
+#: classes/class-widgets.php:2969
+#@ special-recent-posts-pro
+msgid "Post Title HTML Header"
+msgstr "Заголовок публикации"
+
+#: classes/class-widgets.php:2975
+#@ special-recent-posts-pro
+msgid "Select the type of HTML header to be used to enclose the post title:"
+msgstr "Выберите, какой HTML тег использовать для заголовков публикаций:"
+
+#: classes/class-widgets.php:2998
+#@ special-recent-posts-pro
+msgid "Additional Widget Title CSS Classes"
+msgstr "Дополнительные классы заголовка виджета"
+
+#: classes/class-widgets.php:3004
+#@ special-recent-posts-pro
+msgid "Enter a space separated list of additional CSS classes for the custom widget title:"
+msgstr "Введите список дополнительных CSS классов (через пробел):"
+
+#: classes/class-widgets.php:3023
+#: classes/class-widgets.php:3024
+#@ special-recent-posts-pro
+msgid "Layout Options 2"
+msgstr "Внешний вид 2"
+
+#: classes/class-widgets.php:3044
+#@ special-recent-posts-pro
+msgid "Hide Widget Title"
+msgstr "Не показывать заголовок"
+
+#: classes/class-widgets.php:3066
+#@ special-recent-posts-pro
+msgid "Post Title Above Thumbnail"
+msgstr "Название публикации над картинкой"
+
+#: classes/class-widgets.php:3088
+#@ special-recent-posts-pro
+msgid "Post Thumbnail Above Content?"
+msgstr "Картинка над содержимом"
+
+#: classes/class-widgets.php:3094
+#@ special-recent-posts-pro
+msgid "Check this box if you want to display the post thumbnail above all."
+msgstr "Поставьте галочку, чтобы показывать картинку-миниатюру вверху."
+
+#: classes/class-widgets.php:3106
+#@ special-recent-posts-pro
+msgid "Post Content Display Mode"
+msgstr "Вид"
+
+#: classes/class-widgets.php:3120
+#@ special-recent-posts-pro
+msgid "Thumbnail Only"
+msgstr "Только картинка"
+
+#: classes/class-widgets.php:3128
+#@ special-recent-posts-pro
+msgid "Title + Thumbnail + Post Content"
+msgstr "Заголовок + картинка + текст"
+
+#: classes/class-widgets.php:3142
+#@ special-recent-posts-pro
+msgid "Selective Post Content Expansion"
+msgstr "Полный текст публикации"
+
+#: classes/class-widgets.php:3148
+#@ special-recent-posts-pro
+msgid "If you wish to display one or more posts with their content fully expanded, please type in here how many posts from the beginning should be affected by this option. Leave blank for no expansion."
+msgstr "Вы можете показать содержимое нескольких первых публикаций полностью, а остальных - частично. Для этого укажите, текст скольких записей показывать полностью:"
+
+#: classes/class-widgets.php:3153
+#@ special-recent-posts-pro
+msgid "Eg: 1"
+msgstr "1"
+
+#: classes/class-widgets.php:3155
+#@ special-recent-posts-pro
+msgid "post/s"
+msgstr "публикаций"
+
+#: classes/class-widgets.php:3167
+#@ special-recent-posts-pro
+msgid "Layout Mode"
+msgstr "Режим отображения"
+
+#: classes/class-widgets.php:3178
+#@ special-recent-posts-pro
+msgid "Single Column (default)"
+msgstr "Одна колонка"
+
+#: classes/class-widgets.php:3191
+#@ special-recent-posts-pro
+msgid "Multi Columns Options"
+msgstr "Отображение в несколько колонок"
+
+#: classes/class-widgets.php:3197
+#@ special-recent-posts-pro
+msgid "In order for the multi columns layout mode to work, you must provide a total number of columns to display."
+msgstr "Чтобы публикации показывались в несколько колонок, укажите кол-во колонок:"
+
+#: classes/class-widgets.php:3202
+#@ default
+msgid "layout_num_cols"
+msgstr "layout_num_cols"
+
+#: classes/class-widgets.php:3216
+#: classes/class-widgets.php:3217
+#@ special-recent-posts-pro
+msgid "Styles & Colours"
+msgstr "Стиль и цвет"
+
+#: classes/class-widgets.php:3233
+#@ special-recent-posts-pro
+msgid "Widget Title Font Size & Colour"
+msgstr "Размер и цвет заголовка виджета"
+
+#: classes/class-widgets.php:3239
+#@ special-recent-posts-pro
+msgid "Type in the widget title font size and/or choose a colour for it."
+msgstr "Укажите размер шрифта и цвет заголовка виджета:"
+
+#: classes/class-widgets.php:3267
+#@ special-recent-posts-pro
+msgid "Post Title Font Size & Colour"
+msgstr "Размер и цвет заголовков публикаций"
+
+#: classes/class-widgets.php:3273
+#@ special-recent-posts-pro
+msgid "Type in the post title font size and/or choose a colour for it."
+msgstr "Укажите размер шрифта и цвет заголовков публикаций:"
+
+#: classes/class-widgets.php:3304
+#: classes/class-widgets.php:3305
+#@ special-recent-posts-pro
+msgid "Pagination Options"
+msgstr "Разбивка на страницы"
+
+#: classes/class-widgets.php:3325
+#@ special-recent-posts-pro
+msgid "Enable Pagination"
+msgstr "Включить разбивку на страницы"
+
+#: classes/class-widgets.php:3331
+#@ special-recent-posts-pro
+msgid "Check this box if you want to enable pagination links."
+msgstr "Поставьте галочку, чтобы включить разбивку на страницы."
+
+#: classes/class-widgets.php:3343
+#@ special-recent-posts-pro
+msgid "Pagination Type"
+msgstr "Тип навигации"
+
+#: classes/class-widgets.php:3349
+#@ special-recent-posts-pro
+msgid "Select the type of pagination layout to use:"
+msgstr "Выберите, какой тип навигации использовать:"
+
+#: classes/class-widgets.php:3357
+#@ special-recent-posts-pro
+msgid "Default WP Prev/Next Links"
+msgstr "Ссылки назад/вперёд"
+
+#: classes/class-widgets.php:3361
+#@ special-recent-posts-pro
+msgid "Numeric Pages"
+msgstr "Номера страниц"
+
+#: classes/class-widgets.php:3374
+#@ special-recent-posts-pro
+msgid "Previous Link Text"
+msgstr "Текст ссылки \"Назад\""
+
+#: classes/class-widgets.php:3380
+#@ special-recent-posts-pro
+msgid "Type in the previous link's text"
+msgstr "Текст ссылки, ведущей на предыдущие публикации:"
+
+#: classes/class-widgets.php:3385
+#@ special-recent-posts-pro
+msgid "Previous Posts"
+msgstr "Назад"
+
+#: classes/class-widgets.php:3396
+#@ special-recent-posts-pro
+msgid "Next Link Text"
+msgstr "Текст ссылки \"Вперёд\""
+
+#: classes/class-widgets.php:3402
+#@ special-recent-posts-pro
+msgid "Type in the next link's text"
+msgstr "Текст ссылки, ведущей на следующие публикации:"
+
+#: classes/class-widgets.php:3407
+#@ special-recent-posts-pro
+msgid "Next Posts"
+msgstr "Вперёд"
+
+#: classes/class-widgets.php:3422
+#@ special-recent-posts-pro
+msgid "Hide Prev/Next Links?"
+msgstr "Не показывать ссылки назад/вперёд?"
+
+#: classes/class-widgets.php:3428
+#@ special-recent-posts-pro
+msgid "Check this box if you want to hide the prev/next links from the 'Numeric Pages' pagination type."
+msgstr "Поставьте галочку, чтобы не показывать ссылки назад/вперёд, если выбран тип навигации \"номера страниц\"."
+
+#: classes/class-widgets.php:3444
+#@ special-recent-posts-pro
+msgid "Show All Page Numbers?"
+msgstr "Показывать кол-во страниц?"
+
+#: classes/class-widgets.php:3450
+#@ special-recent-posts-pro
+msgid "Check this box if you want to show all page numbers. (Numeric pagination type)"
+msgstr "Поставьте галочку, чтобы показывать номера всех страниц (для типа навигации \"номера страниц\")."
+
+#: classes/class-widgets.php:3462
+#@ special-recent-posts-pro
+msgid "Pagination Mid Size"
+msgstr "Отображаемое кол-во страниц"
+
+#: classes/class-widgets.php:3468
+#@ special-recent-posts-pro
+msgid "Type in how many numbers to either side of current page, but not including current page. (default 2, numeric pagination type)"
+msgstr "Укажите, сколько страниц показывать по обе стороны от текущей страницы (не считая её саму). Для типа навигации \"номера страниц\"."
+
+#: classes/class-widgets.php:3504
+#@ special-recent-posts-pro
+msgid "Generated Shortcode"
+msgstr "Короткий код"
+
+#: classes/class-widgets.php:3510
+#@ special-recent-posts-pro
+msgid "This is the shortcode generated from all the saved options of this widget instance. Copy it and paste it inside a post/page."
+msgstr "Скопируйте этот короткий код и вставьте его в <a href=\"/wp-admin/edit.php\" target=\"_blank\">запись</a> или <a href=\"/wp-admin/edit.php?post_type=page\" target=\"_blank\">страницу</a>, чтобы показать там этот блок. Перед генерацией кода сохраните настройки этого виджета!"
+
+#: classes/class-widgets.php:3525
+#@ special-recent-posts-pro
+msgid "Generated PHP Code"
+msgstr "PHP код"
+
+#: classes/class-widgets.php:3531
+#@ special-recent-posts-pro
+msgid "This is the PHP code generated from all the saved options of this widget instance. Copy it and paste it inside a post/page."
+msgstr "Скопируйте этот PHP код и вставьте его в шаблон, чтобы показать там этот блок. Перед генерацией кода сохраните настройки этого виджета!"
+
+#: classes/class-widgets.php:3566
+#: functions.php:691
+#, php-format
+#@ special-recent-posts-pro
+msgid "The Special Recent Posts plugin is created, developed and supported by %1$sLuca Grandicelli%2$s"
+msgstr "Плагин Special Recent Posts создал и поддерживает %1$sLuca Grandicelli%2$s"
+
+#: classes/class-widgets.php:3572
+#: functions.php:616
+#@ special-recent-posts-pro
+msgid "Plugin Version:"
+msgstr "Версия плагина:"
+
+#: classes/class-widgets.php:3578
+#: functions.php:625
+#@ special-recent-posts-pro
+msgid "Latest update:"
+msgstr "Последнее обновление:"
+
+#: classes/class-widgets.php:3584
+#: functions.php:634
+#@ special-recent-posts-pro
+msgid "Website:"
+msgstr "Сайт:"
+
+#: classes/class-widgets.php:3586
+#: functions.php:637
+#@ special-recent-posts-pro
+msgid "The Special Recent Posts Official Website."
+msgstr "Официальный сайт плагина Special Recent Posts."
+
+#: classes/class-widgets.php:3590
+#: functions.php:643
+#@ special-recent-posts-pro
+msgid "Customer Support &amp; F.A.Q:"
+msgstr "Поддержка пользователей &amp; F.A.Q:"
+
+#: classes/class-widgets.php:3592
+#: functions.php:646
+#: special-recent-posts.php:164
+#@ special-recent-posts-pro
+msgid "Visit the online Help Desk to get instant support."
+msgstr "Воспользуйтесь онлайн справкой, чтобы получить помощь."
+
+#: classes/class-widgets.php:3596
+#: functions.php:652
+#@ special-recent-posts-pro
+msgid "Online Documentation:"
+msgstr "Онлайн документация:"
+
+#: classes/class-widgets.php:3598
+#: functions.php:655
+#: special-recent-posts.php:167
+#@ special-recent-posts-pro
+msgid "Learn how to use SRP. View the online documentation."
+msgstr "Узнайте, как использовать SRP. Посмотрите онлайн документацию."
+
+#: classes/class-widgets.php:3602
+#: functions.php:661
+#@ special-recent-posts-pro
+msgid "Follow Special Recent Posts on:"
+msgstr "Присоединиться в соц. сетях:"
+
+#: classes/class-widgets.php:3608
+#: functions.php:667
+#@ special-recent-posts-pro
+msgid "Follow SRP on Facebook"
+msgstr "SRP в Facebook"
+
+#: classes/class-widgets.php:3612
+#: functions.php:671
+#@ special-recent-posts-pro
+msgid "Follow Luca Grandicelli on Twitter"
+msgstr "Luca Grandicelli в Twitter"
+
+#: classes/class-widgets.php:3616
+#: functions.php:675
+#@ special-recent-posts-pro
+msgid "Follow SRP on Google+"
+msgstr "SRP в Google+"
+
+#: classes/class-widgets.php:3620
+#: functions.php:679
+#@ special-recent-posts-pro
+msgid "Follow Luca Grandicelli on Envato"
+msgstr "Luca Grandicelli на Envato"
+
+#: functions.php:33
+#, php-format
+#@ special-recent-posts-pro
+msgid "%1$sSpecial Recent Posts Error!%2$s%3$s You're running an old version of PHP. In order for this plugin to work, you must enable your server with PHP support version 5.0.0+. Please contact your hosting/housing company support, and check how to enable it."
+msgstr "%1$sОшибка Special Recent Posts!%2$s%3$s Вы используете устаревшую версию PHP. Чтобы этот плагин работал, Ваш сервер должен поддерживать PHP 5.0.0+. Пожалуйста, свяжитесь с администратором Вашего сервера."
+
+#: functions.php:34
+#, php-format
+#@ special-recent-posts-pro
+msgid "%1$sSpecial Recent Posts Error!%2$s%3$s GD libraries are not supported by your server. Please contact your hosting/housing company support, and check how to enable it. Without these libraries, thumbnails can't be properly resized and displayed."
+msgstr "%1$sОшибка Special Recent Posts PRO!%2$s%3$s Ваш сервер не поддерживает библиотеку GD. Без этой библиотеки нельзя корректно изменять размер и отображение картинок. Пожалуйста, свяжитесь с администратором Вашего сервера."
+
+#: functions.php:35
+#, php-format
+#@ special-recent-posts-pro
+msgid "%1$sSpecial Recent Posts Warning!%2$s%3$s Your theme doesn't support post thumbnail. The plugin will keep on working with first post images only. To enable post thumbnail support, please check the Wordpress documentation"
+msgstr "%1$sПредупреждение от плагинаSpecial Recent Posts!%2$s%3$s Ваша тема не поддерживает миниатюры. Вместо них будут использованы первые картинки из страниц и записей."
+
+#: functions.php:36
+#, php-format
+#@ special-recent-posts-pro
+msgid "%1$sSpecial Recent Posts Warning!%2$s%3$s The Cache folder does not exist!. In order to use caching functionality you have to manually create a folder named 'cache' under the special-recent-posts/ directory."
+msgstr "%1$sПредупреждение от плагина Special Recent Posts!%2$s%3$s Папка для кэша не существует. Чтобы использовать кэш, необходимо создать папку \"cache\" в директории special-recent-posts/."
+
+#: functions.php:37
+#, php-format
+#@ special-recent-posts-pro
+msgid "%1$sSpecial Recent Posts Warning!%2$s%3$s The Cache folder is not writable. In order to use caching functionality you have to set the correct writing permissions on special-recent-posts/cache/ folder. E.G: 0755 or 0775"
+msgstr "%1$sПредупреждение от плагина Special Recent Posts!%2$s%3$s Папка для кэща недоступна для записи. Чтобы использовать кэш, установите соответствующие права на папку special-recent-posts/cache/. Например: 0755 или 0775."
+
+#: functions.php:291
+#@ special-recent-posts-pro
+msgid "Special Recent Posts PRO - General Settings"
+msgstr "Special Recent Posts PRO - основные настройки"
+
+#: functions.php:300
+#, php-format
+#@ special-recent-posts-pro
+msgid "%1$sWelcome to the SRP PRO General Settings Page.%2$s%3$sIn this area you can configure all the main settings for the Special Recent Posts PRO plugin. Please keep in mind that these are basic options; further special customization options apply for each widget instance, shortcode or PHP code to ensure an high level of customization. Go to your Wordpress widgets page and drag the Special Recent Posts PRO widget onto one of your draggable areas to see all the additional options available."
+msgstr "%1$sДобро пожаловать на страницу настроек плагина SRP PRO!%2$s%3$sНа этой странице Вы можете управлять основными настройками плагина. Остальные настройки доступны в <a href=\"/wp-admin/widgets.php\" target=\"_blank\">виджете</a> плагина."
+
+#: functions.php:320
+#: functions.php:523
+#@ special-recent-posts-pro
+msgid "Custom CSS Editor"
+msgstr "Редактор CSS"
+
+#: functions.php:321
+#@ special-recent-posts-pro
+msgid "Custom Css Editor"
+msgstr "Редактор пользовательских стилей"
+
+#: functions.php:336
+#: functions.php:337
+#@ special-recent-posts-pro
+msgid "Plugin Notes"
+msgstr "Заметки"
+
+#: functions.php:369
+#@ special-recent-posts-pro
+msgid "Compatibility Mode"
+msgstr "Режим совместимости"
+
+#: functions.php:375
+#@ special-recent-posts-pro
+msgid "This option enables some compatibility features in order to work seamlessly with other plugins. If you are experiencing conflict problems, you might want to disable this option switching it to no."
+msgstr "та настройка включает режим совместимости, который изменяет работу плагина таким образом, чтобы он был лучше совместим с другими плагинами. Если у Вас возникли какие-либо проблемы с использованием плагинов, попробуйте деактивировать эту настройку."
+
+#: functions.php:383
+#@ special-recent-posts-pro
+msgid "Enabled"
+msgstr "Вкл"
+
+#: functions.php:387
+#@ special-recent-posts-pro
+msgid "Disabled"
+msgstr "Выкл"
+
+#: functions.php:401
+#@ special-recent-posts-pro
+msgid "Log Errors On Screen"
+msgstr "Показывать ошибки на экране"
+
+#: functions.php:407
+#@ special-recent-posts-pro
+msgid "This option enables the SRP error logging system. Switch this to yes if you want to log potential errors or warnings on screen."
+msgstr "Эта настройка включает систему отображения ошибок в SRP. Включите её, чтобы показывать ошибки или предупреждения."
+
+#: functions.php:439
+#@ special-recent-posts-pro
+msgid "This is the default image that appears when no other images are available inside a post. You can use the one you prefer by simply typing in the full URL of the image. If you leave this field empty, the default no-image placeholder will be loaded instead."
+msgstr "Введите ссылку на картинку, которая будет использоваться в том случае, если у публикации нет своей картинки."
+
+#: functions.php:445
+#@ special-recent-posts-pro
+msgid "Default size: 200px x 200px."
+msgstr "Размер по умолчанию: 200 на 200 пикселей."
+
+#: functions.php:456
+#@ special-recent-posts-pro
+msgid "JPEG Image Quality Ratio"
+msgstr "Качество JPEG:"
+
+#: functions.php:462
+#@ special-recent-posts-pro
+msgid "This options sets the JPEG quaility ratio when the 'Custom Thumbnails Option' is enabled. Numerical values are accepted only. 100 is the maximum quality, but 80 is an acceptable compromise between file size and image quality. Range: 0 to 100."
+msgstr "Эта настройка задаёт качество изображений в формате JPEG (когда используются миниатюры заданного размера). Используйте цифры от 0 до 100. 100 - максимальное качество, 80 - компромисс между хорошим качеством и весом картинки."
+
+#: functions.php:478
+#@ special-recent-posts-pro
+msgid "Disable Plugin CSS"
+msgstr "Не использовать стиль плагина"
+
+#: functions.php:484
+#@ special-recent-posts-pro
+msgid "This option enables/disables the built-in widget stylesheet. Set this option to 'yes' if you wish to use your own CSS."
+msgstr "Эта настройка выключает стандартные стили плагина. Выберите \"Да\", если Вы хотите использовать собственные стили."
+
+#: functions.php:542
+#@ special-recent-posts-pro
+msgid "Welcome to the Special Recent Posts Custom CSS editor!"
+msgstr "Добро пожаловать в редактор стилей плагина Special Recent Posts!"
+
+#: functions.php:542
+#@ special-recent-posts-pro
+msgid "Please add all your custom CSS here and avoid modifying the core plugin files, since that'll make upgrading the plugin problematic. Your custom CSS will be loaded in your <head> section of your wordpress theme, which means that your rules will take precedence. Just add your CSS here for what you want to change, you don't need to copy all the plugin's stylesheet content."
+msgstr "Если Вы хотите использовать собственный CSS, то воспользуйтесь этим инструментом, а не изменяйте исходный код плагина, так как в последнем случае могут возникнуть проблемы при обновлении плагина. Ваш CSS будет загружаться в <head> Вашей темы и иметь преимущество. Измените свойства только для тех элементов, которые Вы хотите изменить, копировать весь CSS плагина нет необходимости."
+
+#: functions.php:548
+#@ special-recent-posts-pro
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: functions.php:581
+#@ special-recent-posts-pro
+msgid "Click this button to empty the custom thumbnails cache folder."
+msgstr "Нажмите на эту кнопку, чтобы обновить сохранённые изображения."
+
+#. translators: plugin header field 'Name'
+#: functions.php:607
+#: special-recent-posts.php:0
+#@ special-recent-posts-pro
+msgid "Special Recent Posts PRO Edition"
+msgstr "Special Recent Posts PRO Edition"
+
+#. translators: plugin header field 'PluginURI'
+#: special-recent-posts.php:0
+#@ special-recent-posts-pro
+msgid "http://www.specialrecentposts.com/?ref=uri_pd"
+msgstr "http://www.specialrecentposts.com/?ref=uri_pd"
+
+#. translators: plugin header field 'Description'
+#: special-recent-posts.php:0
+#@ special-recent-posts-pro
+msgid "<strong>The most beautiful and powerful way to display your Wordpress posts with thumbnails.</strong> <strong>Instructions to get started: 1)</strong>  Click the 'Activate' link to the left of this description. <strong>2)</strong> Once activated, a new link named <strong>'SRP PRO'</strong> will appear on the main Wordpress left menu. Click it, or go to its submenu and click the 'General Settings' link to configure the global plugin options. <strong>3)</strong> Go to your widgets page and drag the 'Special Recent Posts PRO' widget onto your sidebar and configure its settings. <strong>4)</strong> If you wish to use PHP code or shortcodes for your pages, simply copy and paste the code provided under the panel 'Code Generator' in the widget options. <strong>5)</strong> You're done. Enjoy!"
+msgstr "<strong>Самый удобный и многофункциональный способ отображения последних публикаций на Вашем сайте.</strong> <strong>Инструкции для начинающих: 1)</strong>  Нажмите \"Активировать\" слева от этого описания. <strong>2)</strong> После активации в левом администраторском меню появится пункт <strong>'SRP PRO'</strong>. Нажмите на него и перейдите в \"Основные настройки\". <strong>3)</strong> Перейдите на страницу виджетов и перетащите виджет \"Special Recent Posts PRO\" в боковую колонку сайта и настройте его. <strong>4)</strong> Если Вы хотите использовать PHP код или шорткод для вставки плагина в страницу или запись - просто скопируйте сгенерированный в виджете код. <strong>5)</strong> Готово!"
+
+#. translators: plugin header field 'Author'
+#: special-recent-posts.php:0
+#@ special-recent-posts-pro
+msgid "Luca Grandicelli"
+msgstr "Luca Grandicelli"
+
+#. translators: plugin header field 'AuthorURI'
+#: special-recent-posts.php:0
+#@ special-recent-posts-pro
+msgid "http://www.lucagrandicelli.co.uk/?ref=author_pd"
+msgstr "http://www.lucagrandicelli.co.uk/?ref=author_pd"
+
+#: special-recent-posts.php:161
+#@ special-recent-posts-pro
+msgid "Configure the SRP general settings."
+msgstr "Произведите основную настройку плагина SRP."
+
+#: special-recent-posts.php:164
+#@ special-recent-posts-pro
+msgid "Customer Support"
+msgstr "Поддержка пользователей"
+
+#: special-recent-posts.php:167
+#@ special-recent-posts-pro
+msgid "Online Docs"
+msgstr "Онлайн документация"
+
+#: update-notifier.php:69
+#: update-notifier.php:104
+#@ special-recent-posts-pro
+msgid "New Updates"
+msgstr "Новые обновления"
+
+#: update-notifier.php:138
+#@ special-recent-posts-pro
+msgid "Plugin Updates"
+msgstr "Обновления плагина"
+
+#: update-notifier.php:142
+#, php-format
+#@ special-recent-posts-pro
+msgid "%1$sThere is a new version of %3$s available.%2$s You have version %4$s installed. %5$sUpdate to version %7$s%6$s"
+msgstr "%1$sДоступна новая версия %3$s. %2$s Сейчас Вы используете версию %4$s. %5$sОбновитесь до версии %7$s%6$s"
+
+#: update-notifier.php:148
+#@ special-recent-posts-pro
+msgid "Update Download and Instructions"
+msgstr "Обновить плагин и инструкции"
+
+#: update-notifier.php:151
+#, php-format
+#@ special-recent-posts-pro
+msgid "%1$sPlease note:%2$s make a %1$sbackup%2$s of the Plugin inside your WordPress installation folder %1$s/wp-content/plugins/%3$s/%2$s"
+msgstr "%1$sЗаметка:%2$s сделайте %1$sбекап%2$s плагина в Вашей папке для плагинов %1$s/wp-content/plugins/%3$s/%2$s"
+
+#: update-notifier.php:153
+#@ special-recent-posts-pro
+msgid "To update the Plugin, follow these steps:"
+msgstr "Чтобы обновить плагин, сделайте следующее:"
+
+#: update-notifier.php:157
+#, php-format
+#@ special-recent-posts-pro
+msgid "Login to %1$sCodeCanyon%2$s, head over to your %3$sdownloads%4$s section and re-download the plugin like you did when you bought it."
+msgstr "Авторизуйтесь на сайте %1$sCodeCanyon%2$s, перейдите в раздел %3$sзагрузки%4$s и скачайте плагин, как Вы делали это, когда купили его."
+
+#: update-notifier.php:160
+#, php-format
+#@ special-recent-posts-pro
+msgid "Extract the zip's contents, look for the extracted plugin folder, and after you have all the new files upload them using FTP to the %1$s/wp-content/plugins/%3$s/%2$s folder overwriting the old ones (this is why it's important to backup any changes you've made to the plugin files)."
+msgstr "Разархивируйте архив и замените старые файла плагина, находящиеся в директории %1$s/wp-content/plugins/%3$s/%2$s на новые (поэтому важно сделать бэкап всех изменений, которые Вы сделали в файлах плагина)."
+
+#: update-notifier.php:164
+#@ special-recent-posts-pro
+msgid "If you didn't make any changes to the plugin files, you are free to overwrite them with the new ones without the risk of losing any plugins settings, and backwards compatibility is guaranteed."
+msgstr "Если Вы производили никаких изменений в файлах плагина, Вы можете не опасаться. что потеряете какие-либо настройки."
+
+#: update-notifier.php:167
+#@ special-recent-posts-pro
+msgid "Changelog"
+msgstr "Журнал изменений"
+
+#: classes/class-widgets.php:2767
+#@ special-recent-posts-pro
+msgid "Please Select a Custom Post Type first."
+msgstr "Пожалуйста, выберите тип записи в первую очередь."
+
+#. translators: plugin header field 'Version'
+#: special-recent-posts.php:0
+#@ special-recent-posts-pro
+msgid "3.0.3"
+msgstr "3.0.3"
+
+#: classes/class-widgets.php:3580
+#: functions.php:628
+#@ special-recent-posts-pro
+msgid "September 09, 2014"
+msgstr "9 сентября 2014"
+

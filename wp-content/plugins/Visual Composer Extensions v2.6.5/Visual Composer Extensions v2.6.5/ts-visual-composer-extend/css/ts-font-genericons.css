@@ -1,0 +1,160 @@
+@font-face {
+    font-family:                		'genericons';
+    src:                        		url('../icons/genericons-icons/genericons.eot?') format('eot'), url('../icons/genericons-icons/genericons.eot?#iefix') format('embedded-opentype'), url('../icons/genericons-icons/genericons.woff') format('woff'), url('../icons/genericons-icons/genericons.ttf') format('truetype'), url('../icons/genericons-icons/genericons.svg#tekanewa') format('svg');
+    font-weight:                		normal;
+    font-style:                 		normal;
+}
+
+[class^="ts-genericons-"],[class*=" ts-genericons-"] {
+	display: 							inline-block;
+	font-family: 						'genericons';
+	font-style: 						normal;
+	font-weight: 						normal;
+	line-height: 						1;
+	-webkit-font-smoothing: 			antialiased;
+	-moz-osx-font-smoothing: 			grayscale;
+    width:								1em;
+    height:								1em;
+    text-align:							center;
+    vertical-align:						middle;
+}
+[class^="ts-genericons-"]:before,[class*=" ts-genericons-"]:before {
+    text-decoration:					inherit;
+    display:							inline-block;
+    speak:								none;
+}
+a [class^="ts-genericons-"],a [class*=" ts-genericons-"] {
+    display:							inline-block;
+}
+
+/* Post formats */
+.ts-genericons-standard:before {        content: '\f100'; }
+.ts-genericons-aside:before {           content: '\f101'; }
+.ts-genericons-image:before {           content: '\f102'; }
+.ts-genericons-gallery:before {         content: '\f103'; }
+.ts-genericons-video:before {           content: '\f104'; }
+.ts-genericons-status:before {          content: '\f105'; }
+.ts-genericons-quote:before {           content: '\f106'; }
+.ts-genericons-link:before {            content: '\f107'; }
+.ts-genericons-chat:before {            content: '\f108'; }
+.ts-genericons-audio:before {           content: '\f109'; }
+
+/* Social icons */
+.ts-genericons-github:before {          content: '\f200'; }
+.ts-genericons-dribbble:before {        content: '\f201'; }
+.ts-genericons-twitter:before {         content: '\f202'; }
+.ts-genericons-facebook:before {        content: '\f203'; }
+.ts-genericons-facebook-alt:before {    content: '\f204'; }
+.ts-genericons-wordpress:before {       content: '\f205'; }
+.ts-genericons-googleplus:before {      content: '\f206'; }
+.ts-genericons-linkedin:before {        content: '\f207'; }
+.ts-genericons-linkedin-alt:before {    content: '\f208'; }
+.ts-genericons-pinterest:before {       content: '\f209'; }
+.ts-genericons-pinterest-alt:before {   content: '\f210'; }
+.ts-genericons-flickr:before {          content: '\f211'; }
+.ts-genericons-vimeo:before {           content: '\f212'; }
+.ts-genericons-youtube:before {         content: '\f213'; }
+.ts-genericons-tumblr:before {          content: '\f214'; }
+.ts-genericons-instagram:before {       content: '\f215'; }
+.ts-genericons-codepen:before {         content: '\f216'; }
+.ts-genericons-polldaddy:before {       content: '\f217'; }
+.ts-genericons-googleplus-alt:before {  content: '\f218'; }
+.ts-genericons-path:before {            content: '\f219'; }
+.ts-genericons-skype:before {           content: '\f220'; }
+.ts-genericons-digg:before {            content: '\f221'; }
+.ts-genericons-reddit:before {          content: '\f222'; }
+.ts-genericons-stumbleupon:before {     content: '\f223'; }
+.ts-genericons-pocket:before {          content: '\f224'; }
+
+/* Meta icons */
+.ts-genericons-comment:before {         content: '\f300'; }
+.ts-genericons-category:before {        content: '\f301'; }
+.ts-genericons-tag:before {             content: '\f302'; }
+.ts-genericons-time:before {            content: '\f303'; }
+.ts-genericons-user:before {            content: '\f304'; }
+.ts-genericons-day:before {             content: '\f305'; }
+.ts-genericons-week:before {            content: '\f306'; }
+.ts-genericons-month:before {           content: '\f307'; }
+.ts-genericons-pinned:before {          content: '\f308'; }
+
+/* Other icons */
+.ts-genericons-search:before {          content: '\f400'; }
+.ts-genericons-unzoom:before {          content: '\f401'; }
+.ts-genericons-zoom:before {            content: '\f402'; }
+.ts-genericons-show:before {            content: '\f403'; }
+.ts-genericons-hide:before {            content: '\f404'; }
+.ts-genericons-close:before {           content: '\f405'; }
+.ts-genericons-close-alt:before {       content: '\f406'; }
+.ts-genericons-trash:before {           content: '\f407'; }
+.ts-genericons-star:before {            content: '\f408'; }
+.ts-genericons-home:before {            content: '\f409'; }
+.ts-genericons-mail:before {            content: '\f410'; }
+.ts-genericons-edit:before {            content: '\f411'; }
+.ts-genericons-reply:before {           content: '\f412'; }
+.ts-genericons-feed:before {            content: '\f413'; }
+.ts-genericons-warning:before {         content: '\f414'; }
+.ts-genericons-share:before {           content: '\f415'; }
+.ts-genericons-attachment:before {      content: '\f416'; }
+.ts-genericons-location:before {        content: '\f417'; }
+.ts-genericons-checkmark:before {       content: '\f418'; }
+.ts-genericons-menu:before {            content: '\f419'; }
+.ts-genericons-refresh:before {         content: '\f420'; }
+.ts-genericons-minimize:before {        content: '\f421'; }
+.ts-genericons-maximize:before {        content: '\f422'; }
+.ts-genericons-404:before {             content: '\f423'; }
+.ts-genericons-spam:before {            content: '\f424'; }
+.ts-genericons-summary:before {         content: '\f425'; }
+.ts-genericons-cloud:before {           content: '\f426'; }
+.ts-genericons-key:before {             content: '\f427'; }
+.ts-genericons-dot:before {             content: '\f428'; }
+.ts-genericons-next:before {            content: '\f429'; }
+.ts-genericons-previous:before {        content: '\f430'; }
+.ts-genericons-expand:before {          content: '\f431'; }
+.ts-genericons-collapse:before {        content: '\f432'; }
+.ts-genericons-dropdown:before {        content: '\f433'; }
+.ts-genericons-dropdown-left:before {   content: '\f434'; }
+.ts-genericons-top:before {             content: '\f435'; }
+.ts-genericons-draggable:before {       content: '\f436'; }
+.ts-genericons-phone:before {           content: '\f437'; }
+.ts-genericons-send-to-phone:before {   content: '\f438'; }
+.ts-genericons-plugin:before {          content: '\f439'; }
+.ts-genericons-cloud-download:before {  content: '\f440'; }
+.ts-genericons-cloud-upload:before {    content: '\f441'; }
+.ts-genericons-external:before {        content: '\f442'; }
+.ts-genericons-document:before {        content: '\f443'; }
+.ts-genericons-book:before {            content: '\f444'; }
+.ts-genericons-cog:before {             content: '\f445'; }
+.ts-genericons-unapprove:before {       content: '\f446'; }
+.ts-genericons-cart:before {            content: '\f447'; }
+.ts-genericons-pause:before {           content: '\f448'; }
+.ts-genericons-stop:before {            content: '\f449'; }
+.ts-genericons-skip-back:before {       content: '\f450'; }
+.ts-genericons-skip-ahead:before {      content: '\f451'; }
+.ts-genericons-play:before {            content: '\f452'; }
+.ts-genericons-tablet:before {          content: '\f453'; }
+.ts-genericons-send-to-tablet:before {  content: '\f454'; }
+.ts-genericons-info:before {            content: '\f455'; }
+.ts-genericons-notice:before {          content: '\f456'; }
+.ts-genericons-help:before {            content: '\f457'; }
+.ts-genericons-fastforward:before {     content: '\f458'; }
+.ts-genericons-rewind:before {          content: '\f459'; }
+.ts-genericons-portfolio:before {       content: '\f460'; }
+.ts-genericons-heart:before {           content: '\f461'; }
+.ts-genericons-code:before {            content: '\f462'; }
+.ts-genericons-subscribe:before {       content: '\f463'; }
+.ts-genericons-unsubscribe:before {     content: '\f464'; }
+.ts-genericons-subscribed:before {      content: '\f465'; }
+.ts-genericons-reply-alt:before {       content: '\f466'; }
+.ts-genericons-reply-single:before {    content: '\f467'; }
+.ts-genericons-flag:before {            content: '\f468'; }
+.ts-genericons-print:before {           content: '\f469'; }
+.ts-genericons-lock:before {            content: '\f470'; }
+.ts-genericons-bold:before {            content: '\f471'; }
+.ts-genericons-italic:before {          content: '\f472'; }
+.ts-genericons-picture:before {         content: '\f473'; }
+
+/* Generic shapes */
+.ts-genericons-uparrow:before {         content: '\f500'; }
+.ts-genericons-rightarrow:before {      content: '\f501'; }
+.ts-genericons-downarrow:before {       content: '\f502'; }
+.ts-genericons-leftarrow:before {       content: '\f503'; }

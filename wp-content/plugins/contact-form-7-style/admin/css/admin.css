@@ -1,0 +1,157 @@
+/* After update admin css */
+.menu-icon-cf7_style .dashicons-twitter {
+	position: relative;
+}
+.post-type-cf7_style .wp-list-table td {
+	position: relative;
+	overflow: visible;
+}
+.post-type-cf7_style #preview-style {
+	width: 200px;
+}
+#cf7_style_meta_box_image img {
+	max-width: 100%;
+}
+.post-type-cf7_style .preview-style {
+	text-align: center;
+}
+.post-type-cf7_style .thumb-preview {
+	width: 50px;
+	display: inline-block;
+}
+.post-type-cf7_style .thumb-preview:hover .previewed-img {
+	opacity: 1;
+	visibility: visible;
+}
+.post-type-cf7_style .thumb-preview img {
+	width: 100%;
+	border: 1px solid #e1e1e1;
+	padding: 5px;
+}
+.type-cf7_style .taxonomy-style_category {
+	text-transform: capitalize;
+}
+.post-type-cf7_style .previewed-img {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	z-index: 100;
+	top: -70px;
+	left: 0;
+	width: 202px;
+	height: auto;
+	border: 1px solid #e1e1e1;
+	padding: 5px;
+	background-color: #fff;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+.post-type-cf7_style .previewed-img img {
+	padding: 0;
+	border: none;
+}
+.post-type-cf7_style select[ name='cf7_style_font_selector' ] {
+	float: left;
+	margin-right: 10px;
+	width: 25%;
+	margin-bottom: 15px;
+}
+.cf7-style.preview-zone {
+	border: 1px solid #e5e5e5;
+	padding: 8px 4px;
+	width: 70%;
+	float: left;
+}
+.cf7-style.preview-zone h4 {
+	margin: 5px 0 10px;
+}
+.cf7-style.preview-zone p {
+	font-size: 14px;
+}
+.menu-icon-cf7_style .dashicons-twitter:after {
+	color: #000;
+	content: ".";
+	font-size: 10px;
+	left: 20px;
+	position: absolute;
+	top: 0;
+}
+.wp-admin .widefat .different-style input {
+	margin: 0 10px 0 0;
+	height: 21px;
+}
+.general-settings {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+	margin-bottom: 10px;
+}
+.general-settings.full-width {
+	margin-right: 0;
+	width: 99%;
+	border: 1px solid #ddd;
+	padding: 5px;
+	-moz-border-size: border-box;
+	-webkit-border-size: border-box;
+	border-size: border-box;
+}
+
+.general-settings:nth-of-type(2n+3) {
+	margin-right: 0;
+}
+.general-settings h3 {
+	text-transform: uppercase;
+}
+.general-settings:after {
+	clear: both;
+}
+.general-settings label {
+	line-height: 26px;
+}
+.general-settings label strong {
+	display: block;
+	margin-right: 10px;
+}
+.general-settings label input {
+	margin-right: 5px;
+}
+.general-settings small {
+	display: block;
+	color: #999;
+	margin-top: 5px;
+	line-height: 12px;
+}
+.general-settings .element {
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.general-settings .element table {
+	width: 100%;
+}
+.general-settings .element td {
+	width: 50%;
+}
+.CodeMirror {
+	background:#f8f8ff;
+}
+@media screen and ( max-width:  1332px ){
+	.general-settings {
+		width: 47%;
+	}
+	.general-settings.full-width {
+		width: 99%;
+		margin-right: 0;
+	}
+}
+@media screen and ( max-width:  1100px ){
+	.general-settings {
+		width: 99%;
+		margin-right: 0;
+	}
+}

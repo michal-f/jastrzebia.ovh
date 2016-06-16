@@ -1,0 +1,102 @@
+.ppsocialbar {
+    position: absolute;
+    right: 0;
+    bottom: 14%;
+    width: 90px;
+    height: 50%;
+    padding: 0;
+}
+
+.ppsocialbar.inactive {
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    -webkit-transition: opacity 1.0s linear;
+    -moz-transition: opacity 1.0s linear;
+    -o-transition: opacity 1.0s linear;
+    transition: opacity 1.0s linear;      
+}
+
+.ppsocialbar.active {
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;  
+}
+
+
+.ppsocialbutton, .ppsocialbutton:hover {
+    cursor: pointer;
+    overflow: hidden;
+    height: 16px; 
+    width: 80px;
+    padding: 5px;    
+    margin: 15px 0;
+    text-align: center;
+    font-size: 14px;    
+    background-color: #191B10;
+    color: #fdfdfd;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    line-height: 14px;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+.ppsocialbutton:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.ppsocialpopup {
+    position: absolute;
+    margin-right: -122px;
+    margin-top: -140px;	
+    right: 50%;
+    top: 50%;
+    width: 185px;
+    height: 225px;
+    text-align: center;
+    padding: 10px 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background: rgb(34, 34, 34);
+    background: rgba(34, 34, 34, 0.8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222)";
+    color: #fefefe;
+}
+
+.ppsocialpopup.inactive {
+    display: none;
+}
+
+.ppsocialpopup textarea {
+    width: 185px;
+    height: 65px;
+    border: 1px solid #ccc;
+    outline: 0 none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: block;    
+}
+
+.ppsocialpopup a {
+    display: block;
+    width: 100%;
+    text-decoration: underline;
+    margin: 5px auto;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.ppsocialpopup a:hover {
+    text-decoration: none;
+}

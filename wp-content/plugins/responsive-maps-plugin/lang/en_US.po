@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Responsive Styled Google Maps 2.19\n"
+"POT-Creation-Date: 2014-08-01 00:19+0200\n"
+"PO-Revision-Date: 2014-08-01 00:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: responsive-styled-google-maps-admin.php:35
+msgid "Responsive Styled Google Maps - Helper "
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:41
+msgid "Address"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:44
+msgid ""
+"For multiple markers use: address1 | address2 | address3  OR lat1,long1 | "
+"lat2,long2 | lat3,long3"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:49
+msgid "REFRESH THE MAP"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:50
+msgid "GOOGLE MAPS HOMEPAGE"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:51
+msgid "LATITUDE / LONGITUDE FINDER TOOL"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:52
+msgid "COPY-PASTE IN YOUR POST / PAGE /WIDGET THIS SHORTCODE:"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:60
+msgid "Description"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:63
+msgid ""
+"For multiple markers use: description1 | description2 | description3 and "
+"{br} for a new line"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:69
+msgid "Icon"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:91
+msgid ""
+"For multiple markers use: http://yava.ro/icons/car.png | http://yava.ro/"
+"icons/sailboat.png"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:97
+msgid "Directions text"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:100
+msgid "Optional, the text to put as directions text in the popup."
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:106
+msgid "Center map to"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:109
+msgid "Optional: latitude, longitude i.e. 38.980288, 22.145996"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:115
+msgid "Controls"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:117
+msgid "Pan control"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:119
+#: responsive-styled-google-maps-admin.php:124
+#: responsive-styled-google-maps-admin.php:129
+#: responsive-styled-google-maps-admin.php:134
+#: responsive-styled-google-maps-admin.php:295
+msgid "no"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:120
+#: responsive-styled-google-maps-admin.php:125
+#: responsive-styled-google-maps-admin.php:130
+#: responsive-styled-google-maps-admin.php:135
+#: responsive-styled-google-maps-admin.php:296
+msgid "yes"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:144
+msgid "Zoom level"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:166
+msgid "Zoom control"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:171
+msgid "Scroll wheel"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:176
+msgid "Draggable map"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:186
+msgid "Map style"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:189
+msgid "select color"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:233
+msgid "Choose from 40 custom styles or a specific color."
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:240
+msgid "Map width"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:247
+#, php-format
+msgid "100% for a responsive map (the map preview has fixed width and height)."
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:253
+msgid "Map height"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:260
+msgid "In px or % (the map preview has fixed width and height)."
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:266
+msgid "Map type"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:269
+msgid "roadmap"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:270
+msgid "satellite"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:271
+msgid "terrain"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:272
+msgid "hybrid"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:274
+msgid "Possible values: roadmap, satellite, terrain or hybrid"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:280
+msgid "Popup"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:283
+msgid "hidden"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:284
+msgid "visible"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:286
+msgid "The popup window which appears when a marker is clicked."
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:292
+msgid "Refresh map"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:298
+msgid ""
+"Select \"yes\" if the map should be refreshed (re-centered) when the window "
+"is scaled. "
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:304
+msgid "Adsense publisher id"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:307
+msgid "A Google Adsense publisher id."
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:314
+msgid "Adsense ad background color"
+msgstr ""
+
+#: responsive-styled-google-maps-admin.php:317
+msgid "A hex color code for ad background."
+msgstr ""
+
+#: responsive-styled-google-maps.php:28
+msgid "Responsive Styled Google Maps Helper"
+msgstr ""
+
+#: responsive-styled-google-maps.php:37
+msgid "Settings"
+msgstr ""
+
+#: responsive-styled-google-maps.php:51
+msgid "View documentation"
+msgstr ""
+
+#: responsive-styled-google-maps.php:51
+msgid "Documentation"
+msgstr ""
+
+#: responsive-styled-google-maps.php:52
+msgid "Contact plugin author"
+msgstr ""
+
+#: responsive-styled-google-maps.php:52
+msgid "Support"
+msgstr ""

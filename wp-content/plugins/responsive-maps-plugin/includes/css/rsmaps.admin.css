@@ -1,0 +1,134 @@
+/* The labels and controls settings */
+#rsmaps {
+    table-layout: fixed;
+}
+#rsmaps, input[type="text"], textarea, select {
+    font: 13px "Open Sans", sans-serif !important;
+    color: #333333;
+}
+input[type="text"], textarea, select {
+    color: #333333;
+}
+h2 {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+pre {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    background-color: #2F343A;
+    color: #eeeeee;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 10px;
+    cursor: text;
+    width: 580px;
+}
+.preheader {
+    background-color: #2F343A;
+    color: #eeeeee;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 14px;
+    margin-top: 15px;
+    width: 580px;
+    text-align: left;
+}
+select#style {
+    font-weight: bold !important;
+    width: 120px; 
+    background-color: #eeeeee;
+    border: 1px solid #0074A2;
+}
+select#type, select#popup, select#refresh {
+    width: 120px;	
+}
+.info {
+    font-style: italic;
+    color: #666666;
+    font-size: 12px;
+}
+label img {
+    margin-left: 1px !important;
+    padding-left: 1px !important;
+}
+img#logo {
+    padding: 1px;
+}
+#shortcode {
+    line-height: 1.5em; 
+}
+/* Marker settings */
+.gm-style-iw {
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    color: #000 !important;
+    white-space: nowrap !important;
+    line-height: normal !important;
+    padding-bottom: 5px;
+}
+.gm-style a:link, 
+.gm-style a:visited, 
+.gm-style a:hover, 
+.gm-style a:active {
+    text-decoration: underline !important;
+    color: #000 !important;
+}
+.gm-style img {
+    border: 0;
+    max-width: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+/* Color picker */
+div.colorPicker-picker {
+    height: 23px !important;
+    width: 118px !important;
+    padding: 5px 0 0 5px  !important;
+    border: 1px solid #ccc;
+    background: url(../img/arrow.gif) no-repeat bottom right;
+    cursor: pointer;
+    font-weight:bold;
+    text-align: left;
+    position: absolute;
+    display: inline;
+}
+div.colorPicker-palette {
+    width: 128px;
+    position: absolute;
+    border: 1px solid #2F343A;
+    background-color: #EFEFEF;
+    padding: 2px;
+    z-index: 9999;
+}
+div.colorPicker_hexWrap {
+    width: 100%; 
+    float:left; 
+}
+div.colorPicker_hexWrap label {
+    font-size: 95%; 
+    color: #2F2F2F; 
+    margin: 5px 2px; 
+    width: 25%;
+}
+div.colorPicker_hexWrap input {
+    margin: 5px 2px; 
+    padding: 0; 
+    font-size: 95%; 
+    border: 1px solid #000; 
+    width: 65%; 
+}
+div.colorPicker-swatch {
+    height: 12px;
+    width: 12px;
+    border: 1px solid #000;
+    margin: 2px;
+    float: left;
+    cursor: pointer;
+    line-height: 12px;
+}

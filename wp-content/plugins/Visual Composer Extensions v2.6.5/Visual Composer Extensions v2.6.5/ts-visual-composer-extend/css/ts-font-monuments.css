@@ -1,0 +1,284 @@
+@font-face {
+    font-family:                			'monuments';
+    src:                        			url('../icons/monuments-icons/monuments.eot?') format('eot'), url('../icons/monuments-icons/monuments.eot?#iefix') format('embedded-opentype'), url('../icons/monuments-icons/monuments.woff') format('woff'), url('../icons/monuments-icons/monuments.ttf') format('truetype'), url('../icons/monuments-icons/monuments.svg#monuments') format('svg');
+    font-weight:                			normal;
+    font-style:                 			normal;
+}
+
+[class^="ts-monuments-"], [class*=" ts-monuments-"] {
+	font-family:							'monuments';
+	speak:									none;
+	font-style:								normal;
+	font-weight:							normal;
+	font-variant:							normal;
+	text-transform:							none;
+	line-height:							1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing:					antialiased;
+	-moz-osx-font-smoothing:				grayscale;
+}
+[class^="ts-monuments-"]:before,[class*=" ts-monuments-"]:before {
+    text-decoration:						inherit;
+    display:								inline-block;
+    speak:									none;
+}
+a [class^="ts-monuments-"],a [class*=" ts-monuments-"] {
+    display:								inline-block;
+}
+
+
+.ts-monuments-abu:before {					content: "\e000";}
+.ts-monuments-acropolis:before {			content: "\e001";}
+.ts-monuments-afrikaans:before {			content: "\e002";}
+.ts-monuments-albert:before {				content: "\e003";}
+.ts-monuments-alcala:before {				content: "\e004";}
+.ts-monuments-alhambra:before {				content: "\e005";}
+.ts-monuments-alshaheed:before {			content: "\e006";}
+.ts-monuments-angel1:before {				content: "\e007";}
+.ts-monuments-angel4:before {				content: "\e008";}
+.ts-monuments-angkor1:before {				content: "\e009";}
+.ts-monuments-antioquia:before {			content: "\e00a";}
+.ts-monuments-arc:before {					content: "\e00b";}
+.ts-monuments-archer1:before {				content: "\e00c";}
+.ts-monuments-armenian:before {				content: "\e00d";}
+.ts-monuments-asia1:before {				content: "\e00e";}
+.ts-monuments-atlas1:before {				content: "\e00f";}
+.ts-monuments-atonium:before {				content: "\e010";}
+.ts-monuments-auspicious1:before {			content: "\e011";}
+.ts-monuments-australian:before {			content: "\e012";}
+.ts-monuments-avila:before {				content: "\e013";}
+.ts-monuments-ayers1:before {				content: "\e014";}
+.ts-monuments-azadi1:before {				content: "\e015";}
+.ts-monuments-badshahi:before {				content: "\e016";}
+.ts-monuments-bangkok:before {				content: "\e017";}
+.ts-monuments-basilica:before {				content: "\e018";}
+.ts-monuments-bavaria:before {				content: "\e019";}
+.ts-monuments-bell14:before {				content: "\e01a";}
+.ts-monuments-big7:before {					content: "\e01b";}
+.ts-monuments-blue:before {					content: "\e01c";}
+.ts-monuments-blue1:before {				content: "\e01d";}
+.ts-monuments-borobudur:before {			content: "\e01e";}
+.ts-monuments-brandenburg:before {			content: "\e01f";}
+.ts-monuments-british1:before {				content: "\e020";}
+.ts-monuments-bronze:before {				content: "\e021";}
+.ts-monuments-brooklyn:before {				content: "\e022";}
+.ts-monuments-buenos:before {				content: "\e023";}
+.ts-monuments-burj1:before {				content: "\e024";}
+.ts-monuments-cabrillo1:before {			content: "\e025";}
+.ts-monuments-canadian:before {				content: "\e026";}
+.ts-monuments-castillo1:before {			content: "\e027";}
+.ts-monuments-castle:before {				content: "\e028";}
+.ts-monuments-castle3:before {				content: "\e029";}
+.ts-monuments-cathedral:before {			content: "\e02a";}
+.ts-monuments-cathedral1:before {			content: "\e02b";}
+.ts-monuments-cctv:before {					content: "\e02c";}
+.ts-monuments-centre:before {				content: "\e02d";}
+.ts-monuments-chartres:before {				content: "\e02e";}
+.ts-monuments-chiang1:before {				content: "\e02f";}
+.ts-monuments-chichen:before {				content: "\e030";}
+.ts-monuments-chichen2:before {				content: "\e031";}
+.ts-monuments-chinese1:before {				content: "\e032";}
+.ts-monuments-choeung:before {				content: "\e033";}
+.ts-monuments-christ:before {				content: "\e034";}
+.ts-monuments-chrysler:before {				content: "\e035";}
+.ts-monuments-civic:before {				content: "\e036";}
+.ts-monuments-cn1:before {					content: "\e037";}
+.ts-monuments-cn2:before {					content: "\e038";}
+.ts-monuments-colosseum1:before {			content: "\e039";}
+.ts-monuments-constantine:before {			content: "\e03a";}
+.ts-monuments-constantine2:before {			content: "\e03b";}
+.ts-monuments-digital11:before {			content: "\e03c";}
+.ts-monuments-discobulus:before {			content: "\e03d";}
+.ts-monuments-disneyland:before {			content: "\e03e";}
+.ts-monuments-djenne1:before {				content: "\e03f";}
+.ts-monuments-dois:before {					content: "\e040";}
+.ts-monuments-dome1:before {				content: "\e041";}
+.ts-monuments-dpr:before {					content: "\e042";}
+.ts-monuments-dubrovnik:before {			content: "\e043";}
+.ts-monuments-egyptian:before {				content: "\e044";}
+.ts-monuments-eiffel:before {				content: "\e045";}
+.ts-monuments-ejer:before {					content: "\e046";}
+.ts-monuments-empire:before {				content: "\e047";}
+.ts-monuments-erasmusbrug1:before {			content: "\e048";}
+.ts-monuments-everland:before {				content: "\e049";}
+.ts-monuments-faraglioni:before {			content: "\e04a";}
+.ts-monuments-flags4:before {				content: "\e04b";}
+.ts-monuments-fort:before {					content: "\e04c";}
+.ts-monuments-founders:before {				content: "\e04d";}
+.ts-monuments-four4:before {				content: "\e04e";}
+.ts-monuments-galata:before {				content: "\e04f";}
+.ts-monuments-gateway:before {				content: "\e050";}
+.ts-monuments-gateway1:before {				content: "\e051";}
+.ts-monuments-genghis:before {				content: "\e052";}
+.ts-monuments-golden:before {				content: "\e053";}
+.ts-monuments-grand:before {				content: "\e054";}
+.ts-monuments-great2:before {				content: "\e055";}
+.ts-monuments-great3:before {				content: "\e056";}
+.ts-monuments-great4:before {				content: "\e057";}
+.ts-monuments-great5:before {				content: "\e058";}
+.ts-monuments-greek1:before {				content: "\e059";}
+.ts-monuments-greek2:before {				content: "\e05a";}
+.ts-monuments-ground1:before {				content: "\e05b";}
+.ts-monuments-guggenheim:before {			content: "\e05c";}
+.ts-monuments-guillaume1:before {			content: "\e05d";}
+.ts-monuments-hachiko:before {				content: "\e05e";}
+.ts-monuments-hall:before {					content: "\e05f";}
+.ts-monuments-hallgrmskirkja1:before {		content: "\e060";}
+.ts-monuments-halong:before {				content: "\e061";}
+.ts-monuments-hands:before {				content: "\e062";}
+.ts-monuments-hassan1:before {				content: "\e063";}
+.ts-monuments-hiroshima:before {			content: "\e064";}
+.ts-monuments-hollywood1:before {			content: "\e065";}
+.ts-monuments-holsten1:before {				content: "\e066";}
+.ts-monuments-hong:before {					content: "\e067";}
+.ts-monuments-independence:before {			content: "\e068";}
+.ts-monuments-iwo:before {					content: "\e069";}
+.ts-monuments-julie:before {				content: "\e06a";}
+.ts-monuments-juscelino:before {			content: "\e06b";}
+.ts-monuments-kabah:before {				content: "\e06c";}
+.ts-monuments-kiyomizudera1:before {		content: "\e06d";}
+.ts-monuments-kociuszko:before {			content: "\e06e";}
+.ts-monuments-kosmaj:before {				content: "\e06f";}
+.ts-monuments-la:before {					content: "\e070";}
+.ts-monuments-la1:before {					content: "\e071";}
+.ts-monuments-lalibela:before {				content: "\e072";}
+.ts-monuments-liberty1:before {				content: "\e073";}
+.ts-monuments-lincoln:before {				content: "\e074";}
+.ts-monuments-lions1:before {				content: "\e075";}
+.ts-monuments-little1:before {				content: "\e076";}
+.ts-monuments-london:before {				content: "\e077";}
+.ts-monuments-london4:before {				content: "\e078";}
+.ts-monuments-longa:before {				content: "\e079";}
+.ts-monuments-lord:before {					content: "\e07a";}
+.ts-monuments-lotus2:before {				content: "\e07b";}
+.ts-monuments-louvre:before {				content: "\e07c";}
+.ts-monuments-machu:before {				content: "\e07d";}
+.ts-monuments-man139:before {				content: "\e07e";}
+.ts-monuments-maqam1:before {				content: "\e07f";}
+.ts-monuments-memorial:before {				content: "\e080";}
+.ts-monuments-merida:before {				content: "\e081";}
+.ts-monuments-michael:before {				content: "\e082";}
+.ts-monuments-milan1:before {				content: "\e083";}
+.ts-monuments-millau1:before {				content: "\e084";}
+.ts-monuments-minar:before {				content: "\e085";}
+.ts-monuments-ming1:before {				content: "\e086";}
+.ts-monuments-moai1:before {				content: "\e087";}
+.ts-monuments-mole1:before {				content: "\e088";}
+.ts-monuments-monas:before {				content: "\e089";}
+.ts-monuments-monte1:before {				content: "\e08a";}
+.ts-monuments-monument:before {				content: "\e08b";}
+.ts-monuments-monument1:before {			content: "\e08c";}
+.ts-monuments-monument5:before {			content: "\e08d";}
+.ts-monuments-monument6:before {			content: "\e08e";}
+.ts-monuments-morelia:before {				content: "\e08f";}
+.ts-monuments-mosque:before {				content: "\e090";}
+.ts-monuments-mosque3:before {				content: "\e091";}
+.ts-monuments-mother2:before {				content: "\e092";}
+.ts-monuments-mount1:before {				content: "\e093";}
+.ts-monuments-museum:before {				content: "\e094";}
+.ts-monuments-national:before {				content: "\e095";}
+.ts-monuments-national1:before {			content: "\e096";}
+.ts-monuments-national3:before {			content: "\e097";}
+.ts-monuments-national4:before {			content: "\e098";}
+.ts-monuments-national5:before {			content: "\e099";}
+.ts-monuments-natzweilerstruthof:before {	content: "\e09a";}
+.ts-monuments-niagara:before {				content: "\e09b";}
+.ts-monuments-nickel:before {				content: "\e09c";}
+.ts-monuments-niteroi:before {				content: "\e09d";}
+.ts-monuments-notre:before {				content: "\e09e";}
+.ts-monuments-oboda1:before {				content: "\e09f";}
+.ts-monuments-olmec1:before {				content: "\e0a0";}
+.ts-monuments-padrao:before {				content: "\e0a1";}
+.ts-monuments-pakistan1:before {			content: "\e0a2";}
+.ts-monuments-palm8:before {				content: "\e0a3";}
+.ts-monuments-paris:before {				content: "\e0a4";}
+.ts-monuments-parthenon1:before {			content: "\e0a5";}
+.ts-monuments-pearl1:before {				content: "\e0a6";}
+.ts-monuments-petronas:before {				content: "\e0a7";}
+.ts-monuments-phra:before {					content: "\e0a8";}
+.ts-monuments-pompidou1:before {			content: "\e0a9";}
+.ts-monuments-ponte:before {				content: "\e0aa";}
+.ts-monuments-potala1:before {				content: "\e0ab";}
+.ts-monuments-pucara:before {				content: "\e0ac";}
+.ts-monuments-pula:before {					content: "\e0ad";}
+.ts-monuments-pyongyang1:before {			content: "\e0ae";}
+.ts-monuments-pyramid:before {				content: "\e0af";}
+.ts-monuments-pyramid1:before {				content: "\e0b0";}
+.ts-monuments-quezon1:before {				content: "\e0b1";}
+.ts-monuments-quinta:before {				content: "\e0b2";}
+.ts-monuments-rabochiy:before {				content: "\e0b3";}
+.ts-monuments-retiro:before {				content: "\e0b4";}
+.ts-monuments-reunification:before {		content: "\e0b5";}
+.ts-monuments-saddam1:before {				content: "\e0b6";}
+.ts-monuments-saint:before {				content: "\e0b7";}
+.ts-monuments-saint1:before {				content: "\e0b8";}
+.ts-monuments-sea:before {					content: "\e0b9";}
+.ts-monuments-segovia:before {				content: "\e0ba";}
+.ts-monuments-shah:before {					content: "\e0bb";}
+.ts-monuments-shanghai:before {				content: "\e0bc";}
+.ts-monuments-sher1:before {				content: "\e0bd";}
+.ts-monuments-shimmering:before {			content: "\e0be";}
+.ts-monuments-shipka1:before {				content: "\e0bf";}
+.ts-monuments-shrine:before {				content: "\e0c0";}
+.ts-monuments-smeatons:before {				content: "\e0c1";}
+.ts-monuments-somoni:before {				content: "\e0c2";}
+.ts-monuments-space:before {				content: "\e0c3";}
+.ts-monuments-spaniards:before {			content: "\e0c4";}
+.ts-monuments-split2:before {				content: "\e0c5";}
+.ts-monuments-spring:before {				content: "\e0c6";}
+.ts-monuments-sri1:before {					content: "\e0c7";}
+.ts-monuments-st:before {					content: "\e0c8";}
+.ts-monuments-standing48:before {			content: "\e0c9";}
+.ts-monuments-statue:before {				content: "\e0ca";}
+.ts-monuments-statue1:before {				content: "\e0cb";}
+.ts-monuments-statue3:before {				content: "\e0cc";}
+.ts-monuments-stonehenge:before {			content: "\e0cd";}
+.ts-monuments-stonehenge1:before {			content: "\e0ce";}
+.ts-monuments-sun33:before {				content: "\e0cf";}
+.ts-monuments-sydney:before {				content: "\e0d0";}
+.ts-monuments-taipei:before {				content: "\e0d1";}
+.ts-monuments-taj1:before {					content: "\e0d2";}
+.ts-monuments-tate:before {					content: "\e0d3";}
+.ts-monuments-teardrop:before {				content: "\e0d4";}
+.ts-monuments-temple2:before {				content: "\e0d5";}
+.ts-monuments-temple3:before {				content: "\e0d6";}
+.ts-monuments-temple6:before {				content: "\e0d7";}
+.ts-monuments-teotihuacan1:before {			content: "\e0d8";}
+.ts-monuments-thatbyinnyu:before {			content: "\e0d9";}
+.ts-monuments-the:before {					content: "\e0da";}
+.ts-monuments-the1:before {					content: "\e0db";}
+.ts-monuments-the19:before {				content: "\e0dc";}
+.ts-monuments-the20:before {				content: "\e0dd";}
+.ts-monuments-the21:before {				content: "\e0de";}
+.ts-monuments-the22:before {				content: "\e0df";}
+.ts-monuments-the23:before {				content: "\e0e0";}
+.ts-monuments-the26:before {				content: "\e0e1";}
+.ts-monuments-the27:before {				content: "\e0e2";}
+.ts-monuments-the28:before {				content: "\e0e3";}
+.ts-monuments-the29:before {				content: "\e0e4";}
+.ts-monuments-tiger:before {				content: "\e0e5";}
+.ts-monuments-times:before {				content: "\e0e6";}
+.ts-monuments-tokyo1:before {				content: "\e0e7";}
+.ts-monuments-tomb1:before {				content: "\e0e8";}
+.ts-monuments-torii1:before {				content: "\e0e9";}
+.ts-monuments-tower:before {				content: "\e0ea";}
+.ts-monuments-tower1:before {				content: "\e0eb";}
+.ts-monuments-tower2:before {				content: "\e0ec";}
+.ts-monuments-tower3:before {				content: "\e0ed";}
+.ts-monuments-tower6:before {				content: "\e0ee";}
+.ts-monuments-twelve:before {				content: "\e0ef";}
+.ts-monuments-two10:before {				content: "\e0f0";}
+.ts-monuments-universal3:before {			content: "\e0f1";}
+.ts-monuments-vatican1:before {				content: "\e0f2";}
+.ts-monuments-venice1:before {				content: "\e0f3";}
+.ts-monuments-vincent1:before {				content: "\e0f4";}
+.ts-monuments-voortrekker:before {			content: "\e0f5";}
+.ts-monuments-waiting:before {				content: "\e0f6";}
+.ts-monuments-washington:before {			content: "\e0f7";}
+.ts-monuments-westminster:before {			content: "\e0f8";}
+.ts-monuments-white:before {				content: "\e0f9";}
+.ts-monuments-white1:before {				content: "\e0fa";}
+.ts-monuments-white7:before {				content: "\e0fb";}
+.ts-monuments-windmills1:before {			content: "\e0fc";}
+.ts-monuments-world3:before {				content: "\e0fd";}
+.ts-monuments-zakim1:before {				content: "\e0fe";}

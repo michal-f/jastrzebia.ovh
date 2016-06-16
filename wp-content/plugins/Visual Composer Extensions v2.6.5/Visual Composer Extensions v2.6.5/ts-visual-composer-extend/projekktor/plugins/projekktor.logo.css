@@ -1,0 +1,26 @@
+.pplogo {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+
+img.pplogo.inactive {
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    -webkit-transition: opacity 1.0s linear;
+    -moz-transition: opacity 1.0s linear;
+    -o-transition: opacity 1.0s linear;
+    transition: opacity 1.0s linear;      
+}
+
+img.pplogo.active {
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    -webkit-transition: opacity 1.0s linear;
+    -moz-transition: opacity 1.0s linear;
+    -o-transition: opacity 1.0s linear;
+    transition: opacity 1.0s linear;  
+}

@@ -1,0 +1,109 @@
+		.header-shadow {
+			box-shadow:none;
+		}
+		#wrapper {
+			width:1320px;
+			margin-left:auto;
+			margin-right:auto;
+			background:#fff;
+			box-shadow:0px 0px 10px #444;
+		}
+		#back-to-top {
+			display:none;
+		}
+		@media only screen and (max-width: 1289px) and (min-width: 1030px) {
+			#wrapper {
+				width:1060px;
+			}
+			#back-to-top {
+				display:none;
+			}
+		}
+		@media only screen and (max-width: 1029px) and (min-width: 769px) {
+			#wrapper {
+				width:100%;
+			}
+			#back-to-top {
+				display:block;
+			}
+		}
+		@media only screen and (max-width: 768px) and (min-width: 481px) {
+			#wrapper {
+				width:100%;
+			}
+			#back-to-top {
+				display:block;
+			}
+		}
+		@media only screen and (max-width: 480px) {
+			#wrapper {
+				width:100%;
+			}
+			#back-to-top {
+				display:block;
+			}
+		}
+		
+				
+		body {
+						background: url(http://www.jastrzebia.ovh/wp-content/uploads/2016/06/2600_DARK_BACKGROUND_SANTORINI-STRONA-GŁÓWNA-SLAJD-1.jpg) no-repeat center center fixed;
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size:cover;
+					} 
+		
+				
+		.room-overlay-readmore, .room-overlay-checkavail, .blog-overlay-readmore, .rooms-list-item-price, .modal-footer button,
+		.blog-single #submit-button:hover, .contact-page #submit-button:hover, .reservation-page-wrap #submit-button:hover,
+		.reservation-content #reservation-step1-button, .reservation-content #reservation-step3-button, .step4-return-home, 
+		.reservation-content .ui-state-highlight, .room-reservation-select, table th, .button-alt, .color-highlight, .accordion-header.show span, #blog-page-navigation-wrap .current {
+			background-color:#008073		}
+		#blog-page-navigation-wrap .current {
+			border-color:#008073		}
+		#book-button {
+			background-color:#008073;
+			border-color:#008073		}
+		.reservation-page-wrap #room-price, .reservation-page-wrap #tabs li#current a, #room-features .icon-star, 
+		ul.list.painted span, .accordion-header a:hover, .accordion-header.show a {
+			color:#008073		}
+		.blog-single #submit-button, .contact-page #submit-button, .reservation-page-wrap #submit-button {
+			border-color:#008073;
+			color:#008073;
+		}
+		.sidebar-header {
+			border-bottom-color:#008073;
+			color:#008073;
+		}
+		.button-alt:hover {
+			outline-color:#008073;
+		}
+		.button-standard {
+			color:#008073 !important;
+			border-color:#008073		}
+		.button-standard:hover {
+			background-color:#008073		}
+		blockquote {
+			border-left-color:#008073		}
+		
+				
+		#headcontainer {
+			background-color:#254f8f		}
+		#footer-wrap {
+					border-top:0px;
+			background-color:#254f8f !important
+		}
+		footer:before {
+			content:'\a0 ';
+			display:block;
+			height:8px;
+			width:100%;
+			background-color:rgba(37, 79, 143, 0.55) !important;
+		}
+		#top-navigation-menu .sub_menu li a:hover { color: #254f8f !important }
+		#footer-wrap { margin-top:0px; }
+		#about-us-content a { background-color: #254f8f }
+		#top-navigation-menu .sub_menu { border-top-color: #254f8f }
+		#top-navigation-menu .submenu-arrow-wrap .top-submenu-arrow { border-bottom-color: #254f8f }
+		
+		
