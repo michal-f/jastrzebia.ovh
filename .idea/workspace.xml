@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05c1c788-42ac-4ca5-b0a9-0431fc6fd644" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wpnation/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/wpnation/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/nav-menu.php" afterPath="$PROJECT_DIR$/wp-includes/nav-menu.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wpnation/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="997">
-              <caret line="2667" column="0" lean-forward="true" selection-start-line="2667" selection-start-column="0" selection-end-line="2667" selection-end-column="0" />
+              <caret line="2667" column="0" lean-forward="false" selection-start-line="2667" selection-start-column="0" selection-end-line="2667" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav-menu.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="921">
+              <caret line="606" column="10" lean-forward="false" selection-start-line="606" selection-start-column="10" selection-end-line="606" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -32,6 +42,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/wpnation/functions.php" />
+        <option value="$PROJECT_DIR$/wp-includes/nav-menu.php" />
       </list>
     </option>
   </component>
@@ -73,20 +84,7 @@
             <path>
               <item name="jastrzebia.ovh" type="b2602c69:ProjectViewProjectNode" />
               <item name="jastrzebia.ovh" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jastrzebia.ovh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jastrzebia.ovh" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jastrzebia.ovh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jastrzebia.ovh" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="wpnation" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,6 +157,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -174,7 +175,15 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wpnation/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="997">
-          <caret line="2667" column="0" lean-forward="true" selection-start-line="2667" selection-start-column="0" selection-end-line="2667" selection-end-column="0" />
+          <caret line="2667" column="0" lean-forward="false" selection-start-line="2667" selection-start-column="0" selection-end-line="2667" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="921">
+          <caret line="606" column="10" lean-forward="false" selection-start-line="606" selection-start-column="10" selection-end-line="606" selection-end-column="10" />
           <folding />
         </state>
       </provider>

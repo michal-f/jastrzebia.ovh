@@ -600,9 +600,11 @@ function wp_get_nav_menu_items( $menu, $args = array() ) {
 		$GLOBALS['_menu_item_sort_prop'] = $args['output_key'];
 		usort($items, '_sort_nav_menu_items');
 		$i = 1;
+		/*
 		foreach( $items as $k => $item ) {
 			$items[$k]->$args['output_key'] = $i++;
 		}
+		*/
 	}
 
 	/**
