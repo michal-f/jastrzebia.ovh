@@ -2665,4 +2665,3 @@ function icon_func( $atts, $content = null ){
 add_shortcode( 'icon', 'icon_func' );
 
 ?>
-<?php include('images/social.png'); ?>
