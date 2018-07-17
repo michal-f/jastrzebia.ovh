@@ -22,7 +22,7 @@
 define('DB_NAME', 'jgovh2');
 
 /** Nazwa użytkownika bazy danych MySQL */
-define('DB_USER', 'Michal');
+define('DB_USER', 'root');
 
 /** Hasło użytkownika bazy danych MySQL */
 define('DB_PASSWORD', 'Michal123');
@@ -45,6 +45,7 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
+
 define('AUTH_KEY',         'mG^:x;06VK:V ?LO#TN8yAo@:QzR0[eGG-h4o*iG8,@9buNdu+D`-JX+cHnBq;#F');
 define('SECURE_AUTH_KEY',  'naNlB([z*|5jYT#ytKf`))PA}P){bYIhUBHt4-%$OcsEVQZ{.]HudNL-v@bvO}p@');
 define('LOGGED_IN_KEY',    '|Ww k(-tw8A)sehaVy|l9E{dT|?X86-W-U._1lMdfJzk=c|#]{Vv(9e}3@RQ,|$2');
@@ -73,7 +74,7 @@ $table_prefix  = 'wp_';
  * Wielce zalecane jest, aby twórcy wtyczek oraz motywów używali
  * WP_DEBUG w miejscach pracy nad nimi.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* To wszystko, zakończ edycję w tym miejscu! Miłego blogowania! */
 
