@@ -74,7 +74,7 @@ $table_prefix  = 'wp_';
  * Wielce zalecane jest, aby twórcy wtyczek oraz motywów używali
  * WP_DEBUG w miejscach pracy nad nimi.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* To wszystko, zakończ edycję w tym miejscu! Miłego blogowania! */
 

@@ -1,3 +1,20 @@
+/* #########################################################################################
+                      DISABLE RESERVATION ICONS etc !!!!!!!!!!!!!!!!!!!!
+############################################################################################ */
+.room-overlay-checkavail{
+display:none!important;
+}
+
+#top-navigation-menu > li{
+margin-top:-40px!important;
+}
+
+#top-navigation-menu{
+align-content:center!important;
+align:center!important;
+}
+/* ########################################################################################## */
+
 .blog-post-meta-wrap{
 	display: none; 
 }
