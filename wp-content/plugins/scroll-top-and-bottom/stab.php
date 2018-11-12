@@ -3,8 +3,8 @@
 Plugin Name: Scroll Top and Bottom
 Plugin URI: http://shariarbd.com/plugins/scroll-top-and-bottom/
 Description:   Scroll Top and Bottom is created to scroll to top and bottom of the site. User can go to top and bottom of the site using this tool easily. Now you can control the scrolling speed! and hide on pages, 12 different icon has been added and you can choose them from settings. <strong>Custom Button uploader added, now it's possible to set your own button</strong>. This plugin is created with jQuery and <a href="http://shariarbd.com/" target="_blank">Demo is here.</a> Plugin is created by <cite><a href="http://shariarbd.com/" title="Md. Sahriar">Md. Shariar</a>.</cite>
-Version: 2.8.5
-Author: Md. Shariar
+Version: 2.9.1
+Author: Md. Shariar Sarkar
 Author URI: http://shariarbd.com/ 
 */
 
@@ -56,6 +56,7 @@ function stab_plugin_page()
 		update_option('STAB_postview',$_POST['STAB_postview']);
 		update_option('STAB_onlyHome',$_POST['STAB_onlyHome']);
 		update_option('STAB_whichBtn',$_POST['STAB_whichBtn']);
+		update_option('STAB_postion',$_POST['STAB_postion']);
 
 		echo '<h3>Plugin has been updated.</h3>';
 	}
@@ -67,6 +68,7 @@ function stab_plugin_page()
 	$wp_STAB_postview = get_option('STAB_postview');
 	$wp_STAB_onlyHome = get_option('STAB_onlyHome');
 	$wp_STAB_whichBtn = get_option('STAB_whichBtn');
+    $wp_STAB_postion = get_option('STAB_postion');
 
 
 	echo '<div class="wrap">';
@@ -78,7 +80,11 @@ function stab_plugin_page()
 		}
 
 		.welcome-panel h3{
-			margin: 10px 0;
+			margin: 10px 0 0 0;
+		}
+
+		.welcome-panel h4{
+			margin: 20px 0 0 0;
 		}
 	</style>  
 	<form method="post" id="STAB_OPTION" class="welcome-panel">
@@ -215,6 +221,14 @@ function stab_plugin_page()
 		<input type="radio" name="STAB_whichBtn" id="STAB_whichBtn_3" value="3" <?php if($wp_STAB_whichBtn=="3") echo "checked"; else echo "";?> > <label for="STAB_whichBtn_3">Only Down Button.</label>
 		<br>
 
+		<h4>Button Positions</h4>
+		<input type="radio" name="STAB_postion" id="STAB_postion_1" value="1" <?php if($wp_STAB_postion=="1") echo "checked"; else echo "";?> > <label for="STAB_postion_1">Left</label>
+		<br>
+		<input type="radio" name="STAB_postion" id="STAB_postion_2" value="2" <?php if($wp_STAB_postion=="2") echo "checked"; else echo "";?> > <label for="STAB_postion_2">Center</label>
+		<br>
+		<input type="radio" name="STAB_postion" id="STAB_postion_3" value="3" <?php if($wp_STAB_postion=="3" or $wp_STAB_postion=="") echo "checked"; else echo "";?> > <label for="STAB_postion_3">Right</label>
+		<br>
+
 
 		
 		<div style="float:right; color:#09F; text-transform: capitalize;">
@@ -246,7 +260,7 @@ function stab_load_script() {
 	elseif (is_single() && $wp_STAB_postview =="yes") {
 		echo "<style> .scroll-btn-container { display:none!important; }  </style>  \n";
 	}
-	elseif (!is_home() && $wp_STAB_onlyHome =="yes") {
+	elseif (!is_front_page() && $wp_STAB_onlyHome =="yes") {
 		echo "<style> .scroll-btn-container { display:none!important; }  </style>  \n";
 	} 
 	else {

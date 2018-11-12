@@ -51,6 +51,8 @@ $wpua_options_page_title = apply_filters('wpua_options_page_title', $wpua_option
 
 <div class="wrap">
   <h2><?php echo $wpua_options_page_title; ?></h2>
+  <table><tr valign="top">
+    <td align="top">
   <form method="post" action="<?php echo admin_url('options.php'); ?>">
     <?php settings_fields('wpua-settings-group'); ?>
     <?php do_settings_fields('wpua-settings-group', ""); ?>
@@ -118,9 +120,9 @@ $wpua_options_page_title = apply_filters('wpua_options_page_title', $wpua_option
                 <legend class="screen-reader-text"><span>'.__('Upload Size Limit', 'wp-user-avatar').' '. __('(only for Contributors & Subscribers)', 'wp-user-avatar').'</span></legend>
                 <input name="wp_user_avatar_upload_size_limit" type="text" id="wp_user_avatar_upload_size_limit" value="'.$wpua_upload_size_limit.'" class="regular-text" />
                 <span id="wpua-readable-size">'.$wpua_upload_size_limit_with_units.'</span>
-                <span id="wpua-readable-size-error">'.sprintf(__('%s exceeds the maximum upload size for this site.'), "").'</span>
+                <span id="wpua-readable-size-error">'.sprintf(__('%s exceeds the maximum upload size for this site.','wp-user-avatar'), "").'</span>
                 <div id="wpua-slider"></div>
-                <span class="description">'.sprintf(__('Maximum upload file size: %d%s.'), esc_html(wp_max_upload_size()), esc_html(' bytes ('.$upload_size_limit_with_units.')')).'</span>
+                <span class="description">'.sprintf(__('Maximum upload file size: %d%s.','wp-user-avatar'), esc_html(wp_max_upload_size()), esc_html(' bytes ('.$upload_size_limit_with_units.')')).'</span>
               </fieldset>
               <fieldset>
                 <label for="wp_user_avatar_edit_avatar">
@@ -135,9 +137,9 @@ $wpua_options_page_title = apply_filters('wpua_options_page_title', $wpua_option
                 </label>
               </fieldset>
               <fieldset id="wpua-resize-sizes"'.$hide_resize.'>
-                <label for="wp_user_avatar_resize_w">'.__('Width').'</label>
+                <label for="wp_user_avatar_resize_w">'.__('Width','wp-user-avatar').'</label>
                 <input name="wp_user_avatar_resize_w" type="number" step="1" min="0" id="wp_user_avatar_resize_w" value="'.get_option('wp_user_avatar_resize_w').'" class="small-text" />
-                <label for="wp_user_avatar_resize_h">'.__('Height').'</label>
+                <label for="wp_user_avatar_resize_h">'.__('Height','wp-user-avatar').'</label>
                 <input name="wp_user_avatar_resize_h" type="number" step="1" min="0" id="wp_user_avatar_resize_h" value="'.get_option('wp_user_avatar_resize_h').'" class="small-text" />
                 <br />
                 <input name="wp_user_avatar_resize_crop" type="checkbox" id="wp_user_avatar_resize_crop" value="1" '.checked('1', $wpua_resize_crop, 0).' />
@@ -157,28 +159,28 @@ $wpua_options_page_title = apply_filters('wpua_options_page_title', $wpua_option
     ?>
     <table class="form-table">
       <tr valign="top">
-      <th scope="row"><?php _e('Avatar Display'); ?></th>
+      <th scope="row"><?php _e('Avatar Display','wp-user-avatar'); ?></th>
       <td>
         <fieldset>
-          <legend class="screen-reader-text"><span><?php _e('Avatar Display'); ?></span></legend>
+          <legend class="screen-reader-text"><span><?php _e('Avatar Display','wp-user-avatar'); ?></span></legend>
           <label for="show_avatars">
           <input type="checkbox" id="show_avatars" name="show_avatars" value="1" <?php checked($show_avatars, 1); ?> />
-          <?php _e('Show Avatars'); ?>
+          <?php _e('Show Avatars','wp-user-avatar'); ?>
           </label>
         </fieldset>
         </td>
       </tr>
         <tr valign="top" id="avatar-rating" <?php echo ((bool) $wpua_disable_gravatar == 1) ? 'style="display:none"' : ''?>>
-          <th scope="row"><?php _e('Maximum Rating'); ?></th>
+          <th scope="row"><?php _e('Maximum Rating','wp-user-avatar'); ?></th>
           <td>
             <fieldset>
-              <legend class="screen-reader-text"><span><?php _e('Maximum Rating'); ?></span></legend>
+              <legend class="screen-reader-text"><span><?php _e('Maximum Rating','wp-user-avatar'); ?></span></legend>
               <?php
                 $ratings = array(
-                  'G' => __('G &#8212; Suitable for all audiences'),
-                  'PG' => __('PG &#8212; Possibly offensive, usually for audiences 13 and above'),
-                  'R' => __('R &#8212; Intended for adult audiences above 17'),
-                  'X' => __('X &#8212; Even more mature than above')
+                  'G' => __('G &#8212; Suitable for all audiences','wp-user-avatar'),
+                  'PG' => __('PG &#8212; Possibly offensive, usually for audiences 13 and above','wp-user-avatar'),
+                  'R' => __('R &#8212; Intended for adult audiences above 17','wp-user-avatar'),
+                  'X' => __('X &#8212; Even more mature than above','wp-user-avatar')
                 );
                 foreach ($ratings as $key => $rating) :
                   $selected = (get_option('avatar_rating') == $key) ? 'checked="checked"' : "";
@@ -189,11 +191,11 @@ $wpua_options_page_title = apply_filters('wpua_options_page_title', $wpua_option
           </td>
         </tr>
       <tr valign="top">
-        <th scope="row"><?php _e('Default Avatar') ?></th>
+        <th scope="row"><?php _e('Default Avatar','wp-user-avatar') ?></th>
         <td class="defaultavatarpicker">
           <fieldset>
-            <legend class="screen-reader-text"><span><?php _e('Default Avatar'); ?></span></legend>
-            <?php _e('For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address.'); ?><br />
+            <legend class="screen-reader-text"><span><?php _e('Default Avatar','wp-user-avatar'); ?></span></legend>
+            <?php _e('For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address.','wp-user-avatar'); ?><br />
             <?php echo $wpua_admin->wpua_add_default_avatar(); ?>
           </fieldset>
         </td>
@@ -201,4 +203,30 @@ $wpua_options_page_title = apply_filters('wpua_options_page_title', $wpua_option
     </table>
     <?php submit_button(); ?>
   </form>
+</td>
+    <td>
+    <div id="fc-sidebar">
+    <div class="fc-box">
+    <h3>WP User Avatar Pro</h3>
+    <p><a target="_blank" href="http://codecanyon.net/item/wp-user-avatar-pro/15638832"><img width="500" src="<?php echo WPUA_URL.'images/wp-user-avatar-banner.png'; ?>" /></a></p>
+    <p><em>Introducing awesome features to enhance user experience when they upload own avatar.</em></p>
+    <p>Pro features include webcam, custom folder, amazon s3 storage, dropbox storage, cropping and priority support.</p>
+    <p><a class="button button-primary button-large" target="_blank" href="http://codecanyon.net/item/wp-user-avatar-pro/15638832">Upgrade Now »</a></p>
+  </div>
+  <div class="fc-box">
+    <h4>Looking for support?</h4>
+    <p>Use the <a target="_blank" href="http://www.flippercode.com/forums">support forums</a> on flippercode.com.</p>
+  </div>
+
+  <div class="fc-box">
+    <h4>Your Appreciation</h4>
+    <ul class="ul-square">
+      <li><a target="_blank" href="http://www.flippercode.com/product/wp-user-avatar/">Upgrade to WP User Avatar Pro</a></li>
+      <li><a target="_blank" href="https://wordpress.org/support/view/plugin-reviews/wp-user-avatar?rate=5#postform">Leave a ★★★★★ plugin review on WordPress.org</a></li>
+      <li><a target="_blank" href="https://wordpress.org/plugins/wp-user-avatar/">Vote "works" on the WordPress.org plugin page</a></li>
+    </ul>
+  </div>
+</div>
+    </td>
+  </tr></table>
 </div>

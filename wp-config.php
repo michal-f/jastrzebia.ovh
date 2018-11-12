@@ -84,3 +84,9 @@ if ( !defined('ABSPATH') )
 
 /** Ustawia zmienne WordPressa i dołączane pliki. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+define('FS_METHOD','direct');
+define("FTP_HOST", "localhost");
+define("FTP_USER", "root");
+define("FTP_PASS", "np7XKHSY9T");

@@ -1,5 +1,4 @@
 ( function( $ ) { 
-
 	// we create a copy of the WP inline edit post function
 	var $wp_inline_edit = inlineEditPost.edit;
 	
@@ -61,10 +60,11 @@
 		}
 
 	};
-
+ 
 	$( ".inline-edit-cf7_style .button-primary" ).on( "click", function() {
 		var url = window.location.href;
 		$( ".cf7-quick-edit" ).load( url + " .cf7-quick-edit >" );
 	} );
+
  
 } )( jQuery );

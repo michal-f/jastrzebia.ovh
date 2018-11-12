@@ -1,4 +1,5 @@
-		<div class="scroll-btn-container">
+		<?php $wp_STAB_postion = get_option('STAB_postion'); ?>
+		<div class="scroll-btn-container <?php if($wp_STAB_postion==1){ echo "stab-left"; } if($wp_STAB_postion==2){ echo "stab-center"; }  ?>">
 			<?php $wp_STAB_icon_Select = get_option('STAB_icon_Select');
 			$wp_STAB_scroll_speed = get_option('STAB_scroll_speed');
 			$wp_STAB_whichBtn = get_option('STAB_whichBtn');

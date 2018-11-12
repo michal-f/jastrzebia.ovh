@@ -8,7 +8,7 @@
     Author: Md. Shariar
     Donate link: http://shariarbd.com/donate/
     Requires at least: WordPress 3.0 
-    Tested up to: 4.1.1
+    Tested up to: 4.4
     Custom button upload option with other 12 deferent set of button. Also you have option to control scroll speed and hide on pages. Choose your choice to scroll top and bottom of your site. 
 
 == Description ==
@@ -42,7 +42,24 @@ Yes and also you have option to from 12 different buttons from settings.
 Yes, see at http://shariarbd.com/http://shariarbd.com/scroll-top-and-bottom/
 
 
+== Changelog ==
+= 2.9.1 =
+* update if_home() into is_front_page() function to detect home page/front page properly.
+
+= 2.9 =
+* added button position as left, center and right
+
+= 2.8.5 =
+* Added some features like "Hide on Posts", "Show only on Home page", "which button will display" etc ... 
+
+= 2.8.3 =
+* Added hide option for pages
+
+= 2.8 = 
+* Manual jQuery Loading removed and now it's loaded the default jquery library of WP. Also chanced the necessary js accordingly
+
 
 == Screenshots ==
 
 1. Settings Page of the plugin.
+

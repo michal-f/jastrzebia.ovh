@@ -2,15 +2,17 @@
 Contributors: sunny_johal, amit_kayasth
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=28M8NWPHVQNYU
 Tags: WordPress Google Fonts Plugin, Google Webfonts, Google Fonts WordPress, Typography, Webfonts, WordPress Webfonts, Fonts, WordPress Fonts, Theme Fonts, Theme Fonts Plugin
-Requires at least: 4.1
-Tested up to: 4.1
-Stable tag: 1.3.6
+Requires at least: 4.8
+Tested up to: 4.9
+Stable tag: 1.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Adds google fonts to any theme without coding and integrates with the WordPress Customizer automatically for a realtime live preview.
 
 == Description ==
+> **Our new WordPress theme is almost ready!** Want to know when we launch? Awesome! [Visit our website](http://www.titaniumthemes.com) and enter your details and we will e-mail you as soon as we are ready :)
+
 For a quick video demo please view the [vimeo screencast](https://vimeo.com/77878709).
 
 [Follow us on twitter!](https://twitter.com/titaniumthemes)
@@ -94,6 +96,29 @@ e.g.
 9. View and manage all of your custom controls in the admin area.
 
 == Changelog ==
+= 1.4.3 - WordPress 4.8 compatibility update =
+* Updated webfonts.json with the latest google fonts.
+* Updated includes class-egf-frontend.php to only output styles if there is a selector.
+
+= 1.4.2 - WordPress 4.7 compatibility update =
+* Fixed issue where the font controls weren't saving in WordPress 4.7.
+* Updated the font list.
+
+= 1.4.1 - Urgent update =
+* Fixed issue where the plugin wasn't taking effect for screen sizes under 700px
+
+= 1.4.0 - Plugin update =
+* Now automatically removes white spaces added to the api key on the settings page.
+* Started rewriting part of the code for eventual media query support.
+
+= 1.3.9 - Stylesheet Update =
+* Updated the appearance in the customizer for the new changes in WordPress 3.4
+
+= 1.3.7 - Important Update =
+* Addressed potential security issue on the plugin admin page - Hardened security and escaped any attributes passed via the URL throughout the plugin.
+* Now added support for arabic and telegu and devangari subsets.
+* Updated JSON decode when parsing fonts for servers running an older version of PHP.
+
 = 1.3.6 - Updated Stylesheet Enqueue =
 * Addressed issue on certain servers where a 400 error was being returned when making a http request to google.
 

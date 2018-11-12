@@ -3,8 +3,8 @@ Contributors: williamsba1, Messenlehner, webdevstudios, tw2113
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3084056
 Tags: map, google, posts, plot, widget, address, API, sidebar, v3
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 1.6.1
+Tested up to: 4.7
+Stable tag: 1.6.3
 License: GPLv2
 
 Add multiple addresses to a post or page.  Addresses will be plotted on a Google Map in your post/page or in the Post Google Map sidebar widget.
@@ -17,6 +17,8 @@ You can also set a custom title and description for each address saved.
 
 Custom plot markers can be upload to the /markers folder.
 
+[Pluginize](https://pluginize.com/?utm_source=post-google-map&utm_medium=text&utm_campaign=wporg) was launched in 2016 by [WebDevStudios](https://webdevstudios.com/) to promote, support, and house all of their [WordPress products](https://pluginize.com/shop/?utm_source=post-google-map&utm_medium=text&utm_campaign=wporg). Pluginize is not only creating new products for WordPress all the time, but also provides [ongoing support and development for WordPress community favorites like CPTUI](https://wordpress.org/plugins/custom-post-type-ui/), [CMB2](https://wordpress.org/plugins/cmb2/), and more.
+
 == Screenshots ==
 
 1. Google Map Shortcode displaying multiple plots on a map in a post
@@ -24,6 +26,12 @@ Custom plot markers can be upload to the /markers folder.
 3. Add new address form.  Multiple addresses can be added to each post/page
 
 == Changelog ==
+
+= 1.6.3 =
+* Update widget registration in preparation for WordPress 4.3
+
+= 1.6.2 =
+* Adding Spanish Translations and .pot file. Props Andrew Kurtis of http://www.webhostinghub.com/
 
 = 1.6.1 =
 * Fix map pin issue where multiple color selections didn't work
