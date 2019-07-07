@@ -19,17 +19,17 @@
 
 // ** Ustawienia MySQL-a - możesz uzyskać je od administratora Twojego serwera ** //
 /** Nazwa bazy danych, której używać ma WordPress */
-define('DB_NAME', 'jgovh2');
+define('DB_NAME', 'mfxplby_jastrzebiaovh');
 
 /** Nazwa użytkownika bazy danych MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'mfxplby_jastrzebiaovh');
 
 /** Hasło użytkownika bazy danych MySQL */
-define('DB_PASSWORD', 'Michal123');
+define('DB_PASSWORD', 'Mf12121212');
 
 /** Nazwa hosta serwera MySQL */
-define('DB_HOST', 'localhost:3306');
-
+/** OLD HOST define('DB_HOST', 'localhost:3306');*/
+define('DB_HOST', 'sql.mfxplby.nazwa.pl:3306');
 /** Kodowanie bazy danych używane do stworzenia tabel w bazie danych. */
 define('DB_CHARSET', 'utf8');
 
@@ -74,7 +74,7 @@ $table_prefix  = 'wp_';
  * Wielce zalecane jest, aby twórcy wtyczek oraz motywów używali
  * WP_DEBUG w miejscach pracy nad nimi.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* To wszystko, zakończ edycję w tym miejscu! Miłego blogowania! */
 
