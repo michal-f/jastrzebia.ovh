@@ -229,4 +229,21 @@ class AwesomeWeatherWidget extends WP_Widget
     }
 }
 
+/**
+* 
+*add_action( 'widgets_init', create_function('', 'return register_widget("AwesomeWeatherWidget");') );
+*
+*FIX PHP 7.2
+*/
+
+
+/**
+function lyte_register_widget() {
+register_widget('AwesomeWeatherWidget');
+}
+
+add_action('widgets_init', 'lyte_register_widget'); 
+*/
+
+
 add_action( 'widgets_init', create_function('', 'return register_widget("AwesomeWeatherWidget");') );
